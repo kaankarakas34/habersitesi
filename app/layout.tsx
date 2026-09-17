@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: 'yfvaYvF5cW9HkAbhjkQvGPSPIPkAHL_NY887at2b4ek',
+  },
 };
 
 export default function RootLayout({
@@ -56,6 +59,10 @@ export default function RootLayout({
   return (
     <html lang="tr" className="h-full scroll-smooth">
       <head>
+        <meta
+          name="google-site-verification"
+          content="yfvaYvF5cW9HkAbhjkQvGPSPIPkAHL_NY887at2b4ek"
+        />
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-EFZKQ93ZX2"
