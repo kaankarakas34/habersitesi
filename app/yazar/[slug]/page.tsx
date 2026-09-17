@@ -10,6 +10,7 @@ import {
   FileText,
 } from 'lucide-react';
 import { getAuthorBySlug, getArticlesByAuthor } from '@/lib/services/articleService';
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 
 export const dynamic = 'force-dynamic';
 
@@ -25,9 +26,34 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'Yazar Bulunamadı' };
   }
 
+  const canonicalUrl = `https://saglikturizmiradari.com/yazar/${slug}`;
+
   return {
     title: `${author.name} — Sağlık Turizmi Radarı`,
     description: author.bio,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: `${author.name} — Sağlık Turizmi Radarı`,
+      description: author.bio,
+      url: canonicalUrl,
+      siteName: 'Sağlık Turizmi Radarı',
+      locale: 'tr_TR',
+      type: 'profile',
+      images: [
+        {
+          url: author.avatar,
+          alt: author.name,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary',
+      title: `${author.name} — Sağlık Turizmi Radarı`,
+      description: author.bio,
+      images: [author.avatar],
+    },
   };
 }
 
@@ -55,6 +81,13 @@ export default async function AuthorProfilePage({ params }: PageProps) {
 
   return (
     <div className="py-8 sm:py-12 bg-white min-h-screen">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Ana Sayfa', url: 'https://saglikturizmiradari.com' },
+          { name: 'Yazarlar', url: 'https://saglikturizmiradari.com/yazarlar' },
+          { name: author.name, url: `https://saglikturizmiradari.com/yazar/${slug}` },
+        ]}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-[#5B6B79] mb-6">

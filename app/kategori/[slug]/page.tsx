@@ -11,6 +11,8 @@ import {
 } from '@/lib/services/articleService';
 import QuickNewsletterBox from '@/components/home/QuickNewsletterBox';
 
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
+
 export const dynamic = 'force-dynamic';
 
 interface CategoryPageProps {
@@ -85,9 +87,27 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     return { title: 'Kategori Bulunamadı' };
   }
 
+  const canonicalUrl = `https://saglikturizmiradari.com/kategori/${slug}`;
+
   return {
     title: `${meta.title} — Sağlık Turizmi Radarı`,
     description: meta.description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: `${meta.title} — Sağlık Turizmi Radarı`,
+      description: meta.description,
+      url: canonicalUrl,
+      siteName: 'Sağlık Turizmi Radarı',
+      locale: 'tr_TR',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary',
+      title: `${meta.title} — Sağlık Turizmi Radarı`,
+      description: meta.description,
+    },
   };
 }
 
@@ -119,6 +139,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <div className="py-8 sm:py-12 bg-white min-h-screen">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Ana Sayfa', url: 'https://saglikturizmiradari.com' },
+          { name: categoryMeta.title, url: `https://saglikturizmiradari.com/kategori/${slug}` },
+        ]}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-[#5B6B79] mb-4">

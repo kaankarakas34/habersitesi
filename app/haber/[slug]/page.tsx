@@ -20,7 +20,7 @@ import {
   getAllArticles,
 } from '@/lib/services/articleService';
 
-import { ArticleJsonLd } from '@/components/seo/JsonLd';
+import { ArticleJsonLd, BreadcrumbJsonLd, FAQPageJsonLd } from '@/components/seo/JsonLd';
 import ShareButtons from '@/components/article/ShareButtons';
 import CorrectionModal from '@/components/article/CorrectionModal';
 import MevzuatBox from '@/components/article/MevzuatBox';
@@ -46,13 +46,28 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const canonicalUrl = `https://saglikturizmiradari.com/haber/${article.slug}`;
+
   return {
     title: article.seoTitle || article.title,
     description: article.seoDescription || article.spot,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: article.title,
       description: article.spot,
-      images: [article.featuredImage],
+      url: canonicalUrl,
+      siteName: 'Sağlık Turizmi Radarı',
+      locale: 'tr_TR',
+      images: [
+        {
+          url: article.featuredImage,
+          width: 1200,
+          height: 630,
+          alt: article.title,
+        },
+      ],
       type: 'article',
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt || article.publishedAt,
@@ -106,6 +121,20 @@ export default async function ArticleDetailPage({ params }: PageProps) {
   return (
     <div className="py-6 sm:py-10 bg-white min-h-screen">
       <ArticleJsonLd article={article} author={author} />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Ana Sayfa', url: 'https://saglikturizmiradari.com' },
+          {
+            name: categoryLabels[article.category] || article.category,
+            url: `https://saglikturizmiradari.com/kategori/${article.category}`,
+          },
+          {
+            name: article.title,
+            url: `https://saglikturizmiradari.com/haber/${article.slug}`,
+          },
+        ]}
+      />
+      <FAQPageJsonLd contentHtml={article.content} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}

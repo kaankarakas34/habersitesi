@@ -6,13 +6,32 @@ export const dynamic = 'force-dynamic';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://saglikturizmiradari.com';
 
+  const policyPages = [
+    'yayin-ilkeleri',
+    'editorial-bagimsizlik',
+    'kaynak-ve-dogrulama',
+    'duzeltme-politikasi',
+    'sponsorlu-icerik',
+    'kunye',
+    'iletisim',
+    'gizlilik-politikasi',
+    'cerez-politikasi',
+    'kullanim-kosullari',
+    'kvkk',
+  ];
+
   const staticPages: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: new Date(), changeFrequency: 'hourly', priority: 1 },
+    { url: baseUrl, lastModified: new Date(), changeFrequency: 'hourly', priority: 1.0 },
     { url: `${baseUrl}/hakkimizda`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${baseUrl}/yazarlar`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.6 },
     { url: `${baseUrl}/yazar-ol`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
     { url: `${baseUrl}/etkinlikler`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${baseUrl}/arama`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.5 },
+    ...policyPages.map((slug) => ({
+      url: `${baseUrl}/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.5,
+    })),
     ...[
       'gundem', 'dunya', 'mevzuat', 'pazarlar',
       'pazarlama', 'teknoloji', 'analiz', 'roportaj', 'arastirma',

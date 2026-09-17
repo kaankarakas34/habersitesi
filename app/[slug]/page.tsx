@@ -1,4 +1,5 @@
 import React from 'react';
+import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -48,9 +49,26 @@ export async function generateMetadata({
     kvkk: 'KVKK Aydınlatma Metni',
   };
 
+  if (!titles[slug]) {
+    return { title: 'Sayfa Bulunamadı' };
+  }
+
+  const canonicalUrl = `https://saglikturizmiradari.com/${slug}`;
+
   return {
-    title: `${titles[slug] || 'Sayfa'} — Sağlık Turizmi Radarı`,
-    description: 'Sağlık Turizmi Radarı yayın, gizlilik ve editoryal politikaları.',
+    title: `${titles[slug]} — Sağlık Turizmi Radarı`,
+    description: `${titles[slug]} — Sağlık Turizmi Radarı yayın, kurumsal ve hukuki ilkeleri.`,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: `${titles[slug]} — Sağlık Turizmi Radarı`,
+      description: `${titles[slug]} — Sağlık Turizmi Radarı yayın, kurumsal ve hukuki ilkeleri.`,
+      url: canonicalUrl,
+      siteName: 'Sağlık Turizmi Radarı',
+      locale: 'tr_TR',
+      type: 'website',
+    },
   };
 }
 
@@ -326,14 +344,7 @@ export default async function PolicyDynamicPage({
   const page = content[slug];
 
   if (!page) {
-    return (
-      <div className="py-20 text-center">
-        <h1 className="text-2xl font-bold text-[#102A43]">Sayfa Bulunamadı</h1>
-        <Link href="/" className="text-[#00A6A6] mt-4 inline-block">
-          Ana Sayfaya Dön
-        </Link>
-      </div>
-    );
+    notFound();
   }
 
   return (

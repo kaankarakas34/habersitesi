@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import MainHeader from '@/components/header/MainHeader';
 import Footer from '@/components/footer/Footer';
-import { WebsiteJsonLd } from '@/components/seo/JsonLd';
+import { WebsiteJsonLd, OrganizationJsonLd } from '@/components/seo/JsonLd';
 
 export const metadata: Metadata = {
   title: {
@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     'Türkiye ve dünyadan sağlık turizmi haberleri, mevzuat değişiklikleri, hedef pazar analizleri, teknoloji ve sektör profesyonellerinin bağımsız görüşleri.',
   metadataBase: new URL('https://saglikturizmiradari.com'),
+  alternates: {
+    canonical: 'https://saglikturizmiradari.com',
+  },
   keywords: [
     'Sağlık Turizmi',
     'Sağlık Turizmi Haberleri',
@@ -53,6 +56,7 @@ export default function RootLayout({
     <html lang="tr" className="h-full scroll-smooth">
       <body className="min-h-full flex flex-col bg-[#F5F7F9] text-[#17212B] font-sans">
         <WebsiteJsonLd />
+        <OrganizationJsonLd />
         <MainHeader />
         <main className="flex-1">{children}</main>
         <Footer />
