@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Users, PenTool, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Users, PenTool, ArrowRight, ShieldCheck, ChevronRight } from 'lucide-react';
 import { getAllAuthors } from '@/lib/services/articleService';
 
 export const dynamic = 'force-dynamic';
@@ -12,30 +12,40 @@ export const metadata: Metadata = {
     'Sağlık hukuku, hastane yönetimi, akreditasyon, dijital pazarlama ve sağlık teknolojisi alanındaki bağımsız yazar ve uzmanlarımız.',
 };
 
-export default function AuthorsPage() {
+export default function AuthorsIndexPage() {
   const authors = getAllAuthors();
+
+  const getInitials = (name: string) => {
+    const clean = name.replace(/^(Dr\.|Av\.|Prof\.|Doç\.)\s*/i, '').trim().split(/\s+/);
+    if (clean.length >= 2) return (clean[0][0] + clean[clean.length - 1][0]).toUpperCase();
+    return clean[0]?.slice(0, 2).toUpperCase() || 'ST';
+  };
 
   return (
     <div className="py-8 sm:py-12 bg-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 mb-8 border-b-2 border-[#102A43]">
-          <div>
-            <h1 className="text-2xl sm:text-3xl font-black text-[#102A43] tracking-tight mb-2">
-              Yazarlarımız ve Katkıda Bulunanlar
-            </h1>
-            <p className="text-sm text-slate-600 max-w-2xl leading-relaxed">
-              Sağlık Turizmi Radarı, sektörün farklı disiplinlerinden gelen bağımsız profesyonellerin, hekimlerin ve danışmanların analizlerine yer verir.
-            </p>
-          </div>
-
-          <Link
-            href="/yazar-ol"
-            className="self-start sm:self-auto px-4 py-2.5 bg-[#00A6A6] hover:bg-[#008E8E] text-white text-xs font-bold rounded flex items-center gap-2 transition-colors"
-          >
-            <PenTool className="w-3.5 h-3.5" />
-            <span>Yazar Olmak İçin Başvur</span>
+        {/* Breadcrumb */}
+        <nav className="flex items-center gap-1.5 text-xs text-[#5B6B79] mb-4">
+          <Link href="/" className="hover:text-[#00A6A6]">
+            Ana Sayfa
           </Link>
+          <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
+          <span className="font-bold text-[#102A43]">Yazarlarımız & Uzman Kadromuz</span>
+        </nav>
+
+        {/* Header */}
+        <div className="pb-6 mb-8 border-b-2 border-[#102A43]">
+          <span className="text-xs font-bold text-[#00A6A6] uppercase tracking-wider block mb-1">
+            Editoryal Bağımsızlık ve Uzmanlık
+          </span>
+          <h1 className="text-2xl sm:text-3xl font-black text-[#102A43] tracking-tight mb-2">
+            Yazarlar ve Sektörel Analistler
+          </h1>
+          <p className="text-sm text-[#5B6B79] max-w-3xl leading-relaxed">
+            Sağlık Turizmi Radarı içerikleri; sağlık hukuku avukatları, klinik yöneticileri,
+            pazar analistleri ve bağımsız araştırmacılardan oluşan uzman kadro tarafından
+            editoryal ilkeler çerçevesinde hazırlanmaktadır.
+          </p>
         </div>
 
         {/* Authors Grid */}
@@ -47,13 +57,8 @@ export default function AuthorsPage() {
             >
               <div>
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden bg-slate-200 border-2 border-white shadow-xs shrink-0">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={author.avatar}
-                      alt={author.name}
-                      className="w-full h-full object-cover"
-                    />
+                  <div className="w-14 h-14 rounded-full bg-[#102A43] text-[#00A6A6] flex items-center justify-center font-bold text-lg border-2 border-white shadow-xs shrink-0 select-none">
+                    <span>{getInitials(author.name)}</span>
                   </div>
                   <div>
                     <h2 className="text-base font-bold text-[#102A43] hover:text-[#00A6A6] transition-colors">

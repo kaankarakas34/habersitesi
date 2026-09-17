@@ -41,18 +41,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: 'Sağlık Turizmi Radarı',
       locale: 'tr_TR',
       type: 'profile',
-      images: [
-        {
-          url: author.avatar,
-          alt: author.name,
-        },
-      ],
     },
     twitter: {
       card: 'summary',
       title: `${author.name} — Sağlık Turizmi Radarı`,
       description: author.bio,
-      images: [author.avatar],
     },
   };
 }
@@ -66,6 +59,12 @@ export default async function AuthorProfilePage({ params }: PageProps) {
   }
 
   const articles = getArticlesByAuthor(author.id);
+
+  const getInitials = (name: string) => {
+    const clean = name.replace(/^(Dr\.|Av\.|Prof\.|Doç\.)\s*/i, '').trim().split(/\s+/);
+    if (clean.length >= 2) return (clean[0][0] + clean[clean.length - 1][0]).toUpperCase();
+    return clean[0]?.slice(0, 2).toUpperCase() || 'ST';
+  };
 
   const formatDate = (isoString: string) => {
     try {
@@ -105,13 +104,8 @@ export default async function AuthorProfilePage({ params }: PageProps) {
         {/* Author Header Card */}
         <div className="bg-[#F5F7F9] border-2 border-[#102A43] rounded-md p-6 sm:p-8 mb-10 shadow-xs">
           <div className="flex flex-col sm:flex-row items-start gap-6">
-            <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden bg-slate-200 border-4 border-white shadow-md shrink-0">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={author.avatar}
-                alt={author.name}
-                className="w-full h-full object-cover"
-              />
+            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-[#102A43] text-[#00A6A6] flex items-center justify-center font-black text-2xl border-4 border-white shadow-md shrink-0 select-none">
+              <span>{getInitials(author.name)}</span>
             </div>
 
             <div className="flex-1 min-w-0">

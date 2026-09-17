@@ -106,6 +106,12 @@ export default async function ArticleDetailPage({ params }: PageProps) {
     }
   };
 
+  const getInitials = (name: string) => {
+    const clean = name.replace(/^(Dr\.|Av\.|Prof\.|Doç\.)\s*/i, '').trim().split(/\s+/);
+    if (clean.length >= 2) return (clean[0][0] + clean[clean.length - 1][0]).toUpperCase();
+    return clean[0]?.slice(0, 2).toUpperCase() || 'ST';
+  };
+
   const categoryLabels: Record<string, string> = {
     gundem: 'Gündem',
     dunya: 'Dünya Radarı',
@@ -205,13 +211,8 @@ export default async function ArticleDetailPage({ params }: PageProps) {
                     href={`/yazar/${author.slug}`}
                     className="flex items-center gap-2 group"
                   >
-                    <div className="w-8 h-8 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-[#DDE3E8]">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={author.avatar}
-                        alt={author.name}
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-8 h-8 rounded-full bg-[#102A43] text-[#00A6A6] flex items-center justify-center font-bold text-xs shrink-0 select-none">
+                      <span>{getInitials(author.name)}</span>
                     </div>
                     <div>
                       <span className="font-bold text-[#102A43] group-hover:text-[#00A6A6] block leading-tight">
@@ -346,13 +347,8 @@ export default async function ArticleDetailPage({ params }: PageProps) {
             {author && (
               <div className="my-8 p-6 bg-[#F5F7F9] rounded-md border border-[#DDE3E8]">
                 <div className="flex flex-col sm:flex-row items-start gap-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden bg-slate-200 border border-[#DDE3E8] shrink-0">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={author.avatar}
-                      alt={author.name}
-                      className="w-full h-full object-cover"
-                    />
+                  <div className="w-14 h-14 rounded-full bg-[#102A43] text-[#00A6A6] flex items-center justify-center font-black text-lg border-2 border-white shadow-xs shrink-0 select-none">
+                    <span>{getInitials(author.name)}</span>
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex flex-wrap items-baseline justify-between gap-2 mb-1">
