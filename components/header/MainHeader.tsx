@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Search, Mail, ShieldCheck, Menu } from 'lucide-react';
+import { Search, Mail, Menu } from 'lucide-react';
 import RadarLogo from '../common/RadarLogo';
 import TopBar from './TopBar';
 import Navigation from './Navigation';
@@ -44,16 +44,6 @@ export default function MainHeader() {
           >
             <Mail className="w-3.5 h-3.5" />
             <span>Bültene Katıl</span>
-          </Link>
-
-          {/* Admin / Editor Login Button */}
-          <Link
-            href="/admin"
-            className="flex items-center gap-1.5 px-3 py-2 text-xs font-bold text-[#102A43] bg-[#EAF6F8] hover:bg-[#d8eef1] border border-[#00A6A6]/30 rounded transition-colors"
-            title="Editör & Yazar Paneli"
-          >
-            <ShieldCheck className="w-4 h-4 text-[#00A6A6]" />
-            <span className="hidden lg:inline">Editör Paneli</span>
           </Link>
 
           {/* Mobile Menu Toggle Button */}

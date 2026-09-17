@@ -199,20 +199,13 @@ export default function Navigation({ mobileOpen, onMobileClose }: NavigationProp
                 ))}
               </div>
 
-              <div className="pt-4 mt-4 border-t border-[#DDE3E8] space-y-2">
+              <div className="pt-4 mt-4 border-t border-[#DDE3E8]">
                 <Link
                   href="/yazar-ol"
                   onClick={onMobileClose}
                   className="block text-center py-2.5 px-4 bg-[#00A6A6] text-white rounded font-bold text-xs hover:bg-[#008E8E] transition-colors"
                 >
                   Yazar Başvurusu Yap
-                </Link>
-                <Link
-                  href="/admin"
-                  onClick={onMobileClose}
-                  className="block text-center py-2 px-4 border border-[#102A43] text-[#102A43] rounded font-semibold text-xs hover:bg-[#F5F7F9] transition-colors"
-                >
-                  Editör / Yazar Paneli
                 </Link>
               </div>
             </div>
