@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Clock, Calendar, User, ArrowUpRight } from 'lucide-react';
 import { Article, Author } from '@/lib/types';
 
@@ -52,15 +53,16 @@ export default function HeroHeadlines({
             <article className="group relative bg-[#F5F7F9] border border-[#DDE3E8] rounded-lg overflow-hidden flex flex-col flex-1 shadow-sm hover:shadow-lg transition-all duration-300">
               {/* Image Container with 16:9 aspect */}
               <div className="relative aspect-16/10 w-full overflow-hidden bg-slate-900">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={headlineArticle.featuredImage}
                   alt={headlineArticle.title}
-                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out opacity-95 group-hover:opacity-100"
-                  loading="eager"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 700px"
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out opacity-95 group-hover:opacity-100"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" />
-                <div className="absolute top-4 left-4">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 pointer-events-none" />
+                <div className="absolute top-4 left-4 z-10">
                   <span className="px-3.5 py-1 bg-[#102A43] text-[#00A6A6] text-[11px] font-black uppercase tracking-widest rounded-full shadow-lg border border-[#00A6A6]/30 backdrop-blur-xs">
                     {categoryLabels[headlineArticle.category] || 'MANŞET DOSYASI'}
                   </span>
@@ -115,14 +117,15 @@ export default function HeroHeadlines({
                   <div>
                     {/* Small thumbnail */}
                     <div className="relative aspect-16/9 w-full rounded-md overflow-hidden bg-slate-900 mb-3.5">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                      <Image
                         src={art.featuredImage}
                         alt={art.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 250px"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
                       />
-                      <span className="absolute bottom-2 left-2 px-2 py-0.5 bg-[#102A43]/95 text-[#00A6A6] text-[10px] font-extrabold uppercase tracking-wider rounded">
+                      <span className="absolute bottom-2 left-2 z-10 px-2 py-0.5 bg-[#102A43]/95 text-[#00A6A6] text-[10px] font-extrabold uppercase tracking-wider rounded">
                         {categoryLabels[art.category] || 'HABER'}
                       </span>
                     </div>

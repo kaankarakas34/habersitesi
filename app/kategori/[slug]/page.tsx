@@ -79,6 +79,8 @@ const CATEGORY_META: Record<
   },
 };
 
+import { SITE_URL } from '@/lib/constants';
+
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const { slug } = await params;
   const meta = CATEGORY_META[slug];
@@ -87,7 +89,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     return { title: 'Kategori Bulunamadı' };
   }
 
-  const canonicalUrl = `https://saglikturizmiradari.com/kategori/${slug}`;
+  const canonicalUrl = `${SITE_URL}/kategori/${slug}`;
 
   return {
     title: `${meta.title} — Sağlık Turizmi Radarı`,

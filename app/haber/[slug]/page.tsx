@@ -32,6 +32,8 @@ import QuickNewsletterBox from '@/components/home/QuickNewsletterBox';
 
 export const dynamic = 'force-dynamic';
 
+import { SITE_URL } from '@/lib/constants';
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
@@ -46,7 +48,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const canonicalUrl = `https://saglikturizmiradari.com/haber/${article.slug}`;
+  const canonicalUrl = `${SITE_URL}/haber/${article.slug}`;
 
   return {
     title: article.seoTitle || article.title,
@@ -129,14 +131,14 @@ export default async function ArticleDetailPage({ params }: PageProps) {
       <ArticleJsonLd article={article} author={author} />
       <BreadcrumbJsonLd
         items={[
-          { name: 'Ana Sayfa', url: 'https://saglikturizmiradari.com' },
+          { name: 'Ana Sayfa', url: SITE_URL },
           {
             name: categoryLabels[article.category] || article.category,
-            url: `https://saglikturizmiradari.com/kategori/${article.category}`,
+            url: `${SITE_URL}/kategori/${article.category}`,
           },
           {
             name: article.title,
-            url: `https://saglikturizmiradari.com/haber/${article.slug}`,
+            url: `${SITE_URL}/haber/${article.slug}`,
           },
         ]}
       />

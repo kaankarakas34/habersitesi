@@ -26,7 +26,7 @@ function getDefaultData(): StorageData {
       {
         id: 'app-demo-1',
         fullName: 'Prof. Dr. Ahmet Yılmaz',
-        email: 'ahmet.yilmaz@example.com',
+        email: 'ahmet.yilmaz@saglikturizmiradari.com',
         phone: '+90 532 000 0000',
         organization: 'İstinye Sağlık Grubu',
         title: 'Ortopedi ve Travmatoloji Anabilim Dalı Başkanı',

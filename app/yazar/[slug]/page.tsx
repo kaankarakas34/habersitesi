@@ -14,6 +14,8 @@ import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 
 export const dynamic = 'force-dynamic';
 
+import { SITE_URL } from '@/lib/constants';
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
@@ -26,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'Yazar Bulunamadı' };
   }
 
-  const canonicalUrl = `https://saglikturizmiradari.com/yazar/${slug}`;
+  const canonicalUrl = `${SITE_URL}/yazar/${slug}`;
 
   return {
     title: `${author.name} — Sağlık Turizmi Radarı`,
@@ -82,9 +84,9 @@ export default async function AuthorProfilePage({ params }: PageProps) {
     <div className="py-8 sm:py-12 bg-white min-h-screen">
       <BreadcrumbJsonLd
         items={[
-          { name: 'Ana Sayfa', url: 'https://saglikturizmiradari.com' },
-          { name: 'Yazarlar', url: 'https://saglikturizmiradari.com/yazarlar' },
-          { name: author.name, url: `https://saglikturizmiradari.com/yazar/${slug}` },
+          { name: 'Ana Sayfa', url: SITE_URL },
+          { name: 'Yazarlar', url: `${SITE_URL}/yazarlar` },
+          { name: author.name, url: `${SITE_URL}/yazar/${slug}` },
         ]}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

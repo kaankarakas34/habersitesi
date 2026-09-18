@@ -4,12 +4,17 @@ import Link from 'next/link';
 import { CalendarDays, MapPin, Video, ExternalLink, ChevronRight, PlusCircle } from 'lucide-react';
 import { getAllEvents } from '@/lib/services/articleService';
 
+import { SITE_URL } from '@/lib/constants';
+
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
   title: 'Sağlık Turizmi Etkinlikleri & Fuarları 2026 — Sağlık Turizmi Radarı',
   description:
     'Türkiye ve dünyadaki medikal turizm fuarları, B2B alım heyetleri, sektörel zirveler ve online webinarlar takvimi.',
+  alternates: {
+    canonical: `${SITE_URL}/etkinlikler`,
+  },
 };
 
 export default function EventsPage() {

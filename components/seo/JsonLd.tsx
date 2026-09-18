@@ -1,5 +1,6 @@
 import React from 'react';
 import { Article, Author } from '@/lib/types';
+import { SITE_URL } from '@/lib/constants';
 
 interface ArticleJsonLdProps {
   article: Article;
@@ -10,7 +11,7 @@ interface ArticleJsonLdProps {
 export function ArticleJsonLd({
   article,
   author,
-  baseUrl = 'https://saglikturizmiradari.com',
+  baseUrl = SITE_URL,
 }: ArticleJsonLdProps) {
   const schema: Record<string, any> = {
     '@context': 'https://schema.org',
@@ -55,7 +56,7 @@ export function ArticleJsonLd({
 }
 
 export function WebsiteJsonLd({
-  baseUrl = 'https://saglikturizmiradari.com',
+  baseUrl = SITE_URL,
 }: {
   baseUrl?: string;
 }) {
@@ -82,7 +83,7 @@ export function WebsiteJsonLd({
 
 export function BreadcrumbJsonLd({
   items,
-  baseUrl = 'https://saglikturizmiradari.com',
+  baseUrl = SITE_URL,
 }: {
   items: { name: string; url?: string }[];
   baseUrl?: string;
@@ -150,7 +151,7 @@ export function FAQPageJsonLd({
 }
 
 export function OrganizationJsonLd({
-  baseUrl = 'https://saglikturizmiradari.com',
+  baseUrl = SITE_URL,
 }: {
   baseUrl?: string;
 }) {

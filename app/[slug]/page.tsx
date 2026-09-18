@@ -28,6 +28,8 @@ function PolicyPage({
   );
 }
 
+import { SITE_URL } from '@/lib/constants';
+
 export async function generateMetadata({
   params,
 }: {
@@ -53,7 +55,7 @@ export async function generateMetadata({
     return { title: 'Sayfa Bulunamadı' };
   }
 
-  const canonicalUrl = `https://saglikturizmiradari.com/${slug}`;
+  const canonicalUrl = `${SITE_URL}/${slug}`;
 
   return {
     title: `${titles[slug]} — Sağlık Turizmi Radarı`,

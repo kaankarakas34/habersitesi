@@ -5,6 +5,8 @@ import MainHeader from '@/components/header/MainHeader';
 import Footer from '@/components/footer/Footer';
 import { WebsiteJsonLd, OrganizationJsonLd } from '@/components/seo/JsonLd';
 
+import { SITE_URL } from '@/lib/constants';
+
 export const metadata: Metadata = {
   title: {
     template: '%s | Sağlık Turizmi Radarı',
@@ -12,9 +14,9 @@ export const metadata: Metadata = {
   },
   description:
     'Türkiye ve dünyadan sağlık turizmi haberleri, mevzuat değişiklikleri, hedef pazar analizleri, teknoloji ve sektör profesyonellerinin bağımsız görüşleri.',
-  metadataBase: new URL('https://saglikturizmiradari.com'),
+  metadataBase: new URL(SITE_URL),
   alternates: {
-    canonical: 'https://saglikturizmiradari.com',
+    canonical: SITE_URL,
   },
   keywords: [
     'Sağlık Turizmi',
@@ -31,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
-    url: 'https://saglikturizmiradari.com',
+    url: SITE_URL,
     siteName: 'Sağlık Turizmi Radarı',
     title: 'Sağlık Turizmi Radarı — Haber, Analiz ve Araştırma Platformu',
     description:
@@ -64,10 +66,10 @@ export default function RootLayout({
           content="yfvaYvF5cW9HkAbhjkQvGPSPIPkAHL_NY887at2b4ek"
         />
         <Script
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-EFZKQ93ZX2"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

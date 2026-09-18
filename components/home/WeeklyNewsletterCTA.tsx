@@ -7,7 +7,7 @@ import { Mail, CheckCircle, AlertCircle, ArrowRight, ShieldCheck } from 'lucide-
 export default function WeeklyNewsletterCTA() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
-  const [consent, setConsent] = useState(true);
+  const [consent, setConsent] = useState(false);
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
 
