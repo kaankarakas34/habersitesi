@@ -27,6 +27,7 @@ export type ContentStatus =
   | 'onaylandi'
   | 'planlandi'
   | 'yayimlandi'
+  | 'published'
   | 'guncellendi'
   | 'arsivlendi'
   | 'geri_cekildi';

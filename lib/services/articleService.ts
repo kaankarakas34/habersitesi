@@ -3,7 +3,7 @@ import { readStorage } from './storage';
 
 export function getAllArticles(): Article[] {
   const data = readStorage();
-  return data.articles.filter((a) => a.status === 'yayimlandi');
+  return data.articles.filter((a) => a.status === 'yayimlandi' || a.status === 'published');
 }
 
 export function getAllArticlesAdmin(): Article[] {

@@ -49,6 +49,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const canonicalUrl = `${SITE_URL}/haber/${article.slug}`;
+  const author = getAuthorById(article.authorId);
 
   return {
     title: article.seoTitle || article.title,
@@ -73,7 +74,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: 'article',
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt || article.publishedAt,
-      authors: [article.authorId],
+      authors: [author ? author.name : 'Sağlık Turizmi Radarı Editoryal'],
       tags: article.tags,
     },
     twitter: {
