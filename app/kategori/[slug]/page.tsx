@@ -17,6 +17,7 @@ export const dynamic = 'force-dynamic';
 
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;
+  searchParams?: Promise<{ tur?: string }>;
 }
 
 const CATEGORY_META: Record<
@@ -113,16 +114,29 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   };
 }
 
-export default async function CategoryPage({ params }: CategoryPageProps) {
+export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
   const { slug } = await params;
+  const { tur } = (await searchParams) || {};
   const categoryMeta = CATEGORY_META[slug];
 
   if (!categoryMeta) {
     notFound();
   }
 
-  const articles = getArticlesByCategory(slug as Category);
+  const allCategoryArticles = getArticlesByCategory(slug as Category);
   const editorPicks = getEditorPicks(3);
+
+  const haberCount = allCategoryArticles.filter((a) => a.contentType === 'haber').length;
+  const rehberCount = allCategoryArticles.filter((a) => a.contentType !== 'haber').length;
+
+  const activeFilter = tur === 'haber' ? 'haber' : tur === 'rehber' ? 'rehber' : 'all';
+
+  const articles =
+    activeFilter === 'haber'
+      ? allCategoryArticles.filter((a) => a.contentType === 'haber')
+      : activeFilter === 'rehber'
+      ? allCategoryArticles.filter((a) => a.contentType !== 'haber')
+      : allCategoryArticles;
 
   const formatDate = (isoString: string) => {
     try {
@@ -133,6 +147,46 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       }).format(new Date(isoString));
     } catch {
       return '';
+    }
+  };
+
+  const getContentTypeBadge = (type: string) => {
+    switch (type) {
+      case 'haber':
+        return {
+          label: 'HABER',
+          bg: 'bg-emerald-50 text-emerald-800 border-emerald-300 font-extrabold',
+        };
+      case 'mevzuat':
+        return {
+          label: 'MEVZUAT REHBERİ',
+          bg: 'bg-amber-50 text-amber-800 border-amber-300 font-bold',
+        };
+      case 'analiz':
+        return {
+          label: 'RADAR ANALİZ',
+          bg: 'bg-indigo-50 text-indigo-800 border-indigo-300 font-bold',
+        };
+      case 'pazar-dosyasi':
+        return {
+          label: 'PAZAR REHBERİ',
+          bg: 'bg-blue-50 text-blue-800 border-blue-300 font-bold',
+        };
+      case 'arastirma':
+        return {
+          label: 'ARAŞTIRMA & RAPOR',
+          bg: 'bg-purple-50 text-purple-800 border-purple-300 font-bold',
+        };
+      case 'roportaj':
+        return {
+          label: 'RÖPORTAJ',
+          bg: 'bg-rose-50 text-rose-800 border-rose-300 font-bold',
+        };
+      default:
+        return {
+          label: 'REHBER / DOSYA',
+          bg: 'bg-slate-100 text-slate-700 border-slate-300 font-bold',
+        };
     }
   };
 
@@ -160,16 +214,52 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         </nav>
 
         {/* Category Header */}
-        <div className="pb-6 mb-8 border-b-2 border-[#102A43]">
+        <div className="pb-6 mb-6 border-b-2 border-[#102A43]">
           <span className="text-xs font-bold text-[#00A6A6] uppercase tracking-wider block mb-1">
             {categoryMeta.subtitle}
           </span>
           <h1 className="text-2xl sm:text-3xl font-black text-[#102A43] tracking-tight mb-2">
             {categoryMeta.title}
           </h1>
-          <p className="text-sm text-slate-600 max-w-3xl leading-relaxed">
+          <p className="text-sm text-slate-600 max-w-3xl leading-relaxed mb-4">
             {categoryMeta.description}
           </p>
+
+          {/* Haber / Rehber Filter Tabs */}
+          <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-[#DDE3E8]">
+            <Link
+              href={`/kategori/${slug}`}
+              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-colors ${
+                activeFilter === 'all'
+                  ? 'bg-[#102A43] text-white shadow-xs'
+                  : 'bg-[#F5F7F9] text-slate-600 hover:bg-[#EAF6F8] hover:text-[#102A43] border border-[#DDE3E8]'
+              }`}
+            >
+              Tümü ({allCategoryArticles.length})
+            </Link>
+            <Link
+              href={`/kategori/${slug}?tur=haber`}
+              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-colors flex items-center gap-1.5 ${
+                activeFilter === 'haber'
+                  ? 'bg-emerald-700 text-white shadow-xs'
+                  : 'bg-[#F5F7F9] text-slate-600 hover:bg-emerald-50 hover:text-emerald-800 border border-[#DDE3E8]'
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full ${activeFilter === 'haber' ? 'bg-white' : 'bg-emerald-500'}`} />
+              Güncel Haberler ({haberCount})
+            </Link>
+            <Link
+              href={`/kategori/${slug}?tur=rehber`}
+              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-colors flex items-center gap-1.5 ${
+                activeFilter === 'rehber'
+                  ? 'bg-[#102A43] text-white shadow-xs'
+                  : 'bg-[#F5F7F9] text-slate-600 hover:bg-[#EAF6F8] hover:text-[#102A43] border border-[#DDE3E8]'
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full ${activeFilter === 'rehber' ? 'bg-white' : 'bg-blue-500'}`} />
+              Rehber & Analiz Yazıları ({rehberCount})
+            </Link>
+          </div>
         </div>
 
         {/* Layout: Main Articles (8 cols) + Sidebar (4 cols) */}
@@ -185,9 +275,30 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                     alt={featured.title}
                     className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
                   />
-                  <span className="absolute top-3 left-3 px-3 py-1 bg-[#102A43] text-[#00A6A6] text-xs font-bold uppercase rounded">
-                    ÖNE ÇIKAN İÇERİK
+                  <div className="absolute top-3 left-3 flex items-center gap-2">
+                    <span className="px-2.5 py-1 bg-[#102A43] text-[#00A6A6] text-xs font-bold uppercase rounded">
+                      ÖNE ÇIKAN İÇERİK
+                    </span>
+                    <span className={`px-2.5 py-1 text-xs uppercase rounded border shadow-xs ${getContentTypeBadge(featured.contentType).bg}`}>
+                      {getContentTypeBadge(featured.contentType).label}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-2 mb-2">
+                  <span className={`px-2 py-0.5 text-[11px] uppercase rounded border ${getContentTypeBadge(featured.contentType).bg}`}>
+                    {getContentTypeBadge(featured.contentType).label}
                   </span>
+                  {featured.country && (
+                    <span className="px-2 py-0.5 bg-slate-100 text-slate-700 text-[11px] font-semibold rounded border border-slate-200">
+                      {featured.country}
+                    </span>
+                  )}
+                  {featured.branch && (
+                    <span className="px-2 py-0.5 bg-slate-50 text-slate-600 text-[11px] font-medium rounded border border-slate-200">
+                      Branş: {featured.branch}
+                    </span>
+                  )}
                 </div>
 
                 <div className="flex items-center gap-3 text-xs text-[#5B6B79] mb-2">
@@ -219,7 +330,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               </article>
             ) : (
               <div className="p-8 text-center bg-[#F5F7F9] rounded border border-[#DDE3E8] text-sm text-slate-600">
-                Bu kategoride henüz yayımlanmış içerik bulunmamaktadır.
+                Bu filtrelere uygun yayımlanmış içerik bulunmamaktadır.
               </div>
             )}
 
@@ -245,7 +356,15 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                         />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2 text-xs text-[#5B6B79] mb-1.5">
+                        <div className="flex flex-wrap items-center gap-2 text-xs text-[#5B6B79] mb-1.5">
+                          <span className={`px-2 py-0.5 text-[10px] uppercase rounded border ${getContentTypeBadge(item.contentType).bg}`}>
+                            {getContentTypeBadge(item.contentType).label}
+                          </span>
+                          {item.country && (
+                            <span className="px-1.5 py-0.2 bg-slate-100 text-slate-700 text-[10px] font-medium rounded border border-slate-200">
+                              {item.country}
+                            </span>
+                          )}
                           <span>{formatDate(item.publishedAt)}</span>
                           <span>•</span>
                           <span>{item.readingTime} dk okuma</span>

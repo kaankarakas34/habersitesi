@@ -3,7 +3,9 @@ import { readStorage } from './storage';
 
 export function getAllArticles(): Article[] {
   const data = readStorage();
-  return data.articles.filter((a) => a.status === 'yayimlandi' || a.status === 'published');
+  return data.articles
+    .filter((a) => a.status === 'yayimlandi' || a.status === 'published')
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 }
 
 export function getAllArticlesAdmin(): Article[] {
@@ -31,7 +33,14 @@ export function getSecondaryHeadlines(): Article[] {
 
 export function getBreakingArticles(): Article[] {
   const articles = getAllArticles();
-  return articles.filter((a) => a.isBreaking).slice(0, 3);
+  return articles.filter((a) => a.isBreaking).slice(0, 5);
+}
+
+export function getTrendingArticles(limit = 4): Article[] {
+  const articles = getAllArticles();
+  return articles
+    .filter((a) => a.isEditorPick || a.category === 'arastirma')
+    .slice(0, limit);
 }
 
 export function getLatestArticles(limit = 10): Article[] {

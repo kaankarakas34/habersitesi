@@ -8,11 +8,14 @@ interface ResearchReportsSectionProps {
 }
 
 export default function ResearchReportsSection({ articles }: ResearchReportsSectionProps) {
-  const researchArticles = articles.filter((a) => a.category === 'arastirma').slice(0, 1);
+  const researchArticles = articles.filter(
+    (a) => a.category === 'arastirma' || a.contentType === 'arastirma'
+  );
 
   if (researchArticles.length === 0) return null;
 
   const report = researchArticles[0];
+  const companionReports = researchArticles.slice(1, 4);
   const arastirma = report.specialFields?.arastirma;
 
   return (
@@ -49,8 +52,8 @@ export default function ResearchReportsSection({ articles }: ResearchReportsSect
                 <span className="text-[10px] font-black uppercase tracking-widest text-[#00A6A6] mb-1">
                   ÖZEL SEKTÖR RAPORU
                 </span>
-                <span className="text-xs font-bold text-white leading-snug">
-                  4.200 Uluslararası Hasta Saha Verisi
+                <span className="text-xs font-bold text-white leading-snug line-clamp-2">
+                  {arastirma?.sampleInfo || 'Klinik ve Resmî Veri Takibi'}
                 </span>
               </div>
             </div>
@@ -60,7 +63,7 @@ export default function ResearchReportsSection({ articles }: ResearchReportsSect
           <div className="lg:col-span-8 space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#00A6A6]/20 text-[#00A6A6] border border-[#00A6A6]/40 rounded text-xs font-bold">
               <FileSpreadsheet className="w-3.5 h-3.5" />
-              <span>Yıllık Sektör Görünümü</span>
+              <span>{arastirma?.dateRange || '2026 Saha Verisi'}</span>
             </div>
 
             <h3 className="text-xl sm:text-2xl font-black text-white leading-tight">
@@ -116,6 +119,47 @@ export default function ResearchReportsSection({ articles }: ResearchReportsSect
             </div>
           </div>
         </div>
+
+        {/* Companion Research Grid (3 cards) */}
+        {companionReports.length > 0 && (
+          <div className="mt-8 pt-8 border-t border-[#1D3D5E]/80">
+            <div className="flex items-center justify-between mb-4">
+              <span className="text-xs font-black uppercase tracking-wider text-[#00A6A6]">
+                DİĞER GÜNCEL ARAŞTIRMA VE VERİ DOSYALARI
+              </span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              {companionReports.map((item) => (
+                <article
+                  key={item.id}
+                  className="bg-[#1D3D5E]/40 hover:bg-[#1D3D5E]/80 border border-[#1D3D5E] hover:border-[#00A6A6] rounded-md p-4 flex flex-col justify-between transition-all group"
+                >
+                  <div>
+                    <div className="flex items-center justify-between text-[11px] text-slate-400 mb-2">
+                      <span className="text-[#00A6A6] font-bold uppercase">
+                        {item.specialFields?.arastirma?.dateRange || '2026 Verisi'}
+                      </span>
+                      <span>{item.readingTime} dk okuma</span>
+                    </div>
+                    <h4 className="text-sm font-bold text-white group-hover:text-[#00A6A6] transition-colors leading-snug line-clamp-2 mb-2">
+                      <Link href={`/haber/${item.slug}`}>{item.title}</Link>
+                    </h4>
+                    <p className="text-xs text-slate-300 line-clamp-2 leading-relaxed mb-3">
+                      {item.spot}
+                    </p>
+                  </div>
+                  <Link
+                    href={`/haber/${item.slug}`}
+                    className="text-xs font-semibold text-[#00A6A6] group-hover:text-white flex items-center gap-1 transition-colors pt-2 border-t border-[#1D3D5E]"
+                  >
+                    <span>Dosyayı İncele</span>
+                    <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                  </Link>
+                </article>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );

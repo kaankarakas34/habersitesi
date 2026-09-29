@@ -14,10 +14,14 @@ const REGIONS = ['Tümü', 'Avrupa', 'Amerika', 'Orta Doğu', 'Asya', 'Afrika'] 
 export default function WorldRadarSection({ articles }: WorldRadarSectionProps) {
   const [selectedRegion, setSelectedRegion] = useState<string>('Tümü');
 
-  const filteredArticles = articles.filter((art) => {
-    if (selectedRegion === 'Tümü') return true;
-    return art.region?.toLowerCase() === selectedRegion.toLowerCase();
-  });
+  const worldArticles = articles.filter(
+    (a) => a.category === 'dunya' || a.region || (a.country && a.country !== 'Türkiye')
+  );
+
+  const filteredArticles =
+    selectedRegion === 'Tümü'
+      ? worldArticles
+      : worldArticles.filter((art) => art.region?.toLowerCase() === selectedRegion.toLowerCase());
 
   return (
     <section className="py-8 sm:py-10 bg-[#F5F7F9] border-b border-[#DDE3E8]">
@@ -36,28 +40,37 @@ export default function WorldRadarSection({ articles }: WorldRadarSectionProps) 
             </p>
           </div>
 
-          {/* Region Tabs */}
-          <div className="flex items-center gap-1 overflow-x-auto pb-1 sm:pb-0 scrollbar-none">
-            {REGIONS.map((region) => (
-              <button
-                key={region}
-                type="button"
-                onClick={() => setSelectedRegion(region)}
-                className={`px-3 py-1.5 rounded text-xs font-bold whitespace-nowrap transition-colors ${
-                  selectedRegion === region
-                    ? 'bg-[#102A43] text-white'
-                    : 'bg-white text-[#17212B] hover:bg-[#EAF6F8] hover:text-[#00A6A6] border border-[#DDE3E8]'
-                }`}
-              >
-                {region}
-              </button>
-            ))}
+          <div className="flex flex-wrap items-center gap-3">
+            {/* Region Tabs */}
+            <div className="flex items-center gap-1 overflow-x-auto pb-1 sm:pb-0 scrollbar-none">
+              {REGIONS.map((region) => (
+                <button
+                  key={region}
+                  type="button"
+                  onClick={() => setSelectedRegion(region)}
+                  className={`px-3 py-1.5 rounded text-xs font-bold whitespace-nowrap transition-colors ${
+                    selectedRegion === region
+                      ? 'bg-[#102A43] text-white'
+                      : 'bg-white text-[#17212B] hover:bg-[#EAF6F8] hover:text-[#00A6A6] border border-[#DDE3E8]'
+                  }`}
+                >
+                  {region}
+                </button>
+              ))}
+            </div>
+
+            <Link
+              href="/kategori/dunya"
+              className="hidden lg:flex items-center gap-1 text-xs font-bold text-[#00A6A6] hover:text-[#102A43] transition-colors ml-2"
+            >
+              Tümü <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
         </div>
 
         {/* World Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredArticles.slice(0, 3).map((art) => (
+          {filteredArticles.slice(0, 6).map((art) => (
             <article
               key={art.id}
               className="group bg-white rounded-md border border-[#DDE3E8] overflow-hidden flex flex-col justify-between shadow-xs hover:shadow-md transition-shadow"

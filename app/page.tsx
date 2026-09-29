@@ -5,6 +5,7 @@ import {
   getSecondaryHeadlines,
   getBreakingArticles,
   getLatestArticles,
+  getTrendingArticles,
   getEditorPicks,
   getAllAuthors,
   getAllEvents,
@@ -31,7 +32,8 @@ export default function HomePage() {
   const headlineArticle = getHeadlineArticle();
   const secondaryHeadlines = getSecondaryHeadlines();
   const breakingArticles = getBreakingArticles();
-  const latestArticles = getLatestArticles(8);
+  const latestArticles = getLatestArticles(10);
+  const trendingArticles = getTrendingArticles(4);
   const editorPicks = getEditorPicks(4);
   const authors = getAllAuthors();
   const events = getAllEvents();
@@ -41,7 +43,7 @@ export default function HomePage() {
       {/* 4.1 Son Dakika / Önemli Gelişme Bandı */}
       <BreakingTicker articles={breakingArticles} />
 
-      {/* 4.2 Manşet Alanı */}
+      {/* 4.2 Manşet Alanı (1 Ana Manşet + 4 İkincil Manşet) */}
       {headlineArticle && (
         <HeroHeadlines
           headlineArticle={headlineArticle}
@@ -54,29 +56,30 @@ export default function HomePage() {
       <LatestNewsFeed
         articles={latestArticles}
         editorPicks={editorPicks}
+        trendingArticles={trendingArticles}
         authors={authors}
       />
 
-      {/* 4.4 Dünya Radarı */}
+      {/* 4.4 Araştırma Masası & Özel Raporlar (Stratejik Veri Dosyaları) */}
+      <ResearchReportsSection articles={allArticles} />
+
+      {/* 4.5 Dünya Radarı (Küresel Sağlık Politikaları ve Hasta Hareketleri) */}
       <WorldRadarSection articles={allArticles} />
 
-      {/* 4.5 Mevzuat ve Kamu Duyuruları */}
-      <RegulationSection articles={allArticles} />
-
-      {/* 4.6 Radar Analiz */}
+      {/* 4.6 Radar Analiz: Sektörel Etki & Çıkarımlar */}
       <RadarAnalysisSection articles={allArticles} />
 
-      {/* 4.7 Pazar Dosyaları */}
+      {/* 4.7 Mevzuat ve Kamu Duyuruları */}
+      <RegulationSection articles={allArticles} />
+
+      {/* 4.8 Pazar Dosyaları */}
       <MarketDossierSection articles={allArticles} />
 
-      {/* 4.8 Pazarlama, Teknoloji ve Yapay Zekâ */}
+      {/* 4.9 Pazarlama, Teknoloji ve Yapay Zekâ */}
       <MarketingTechSection articles={allArticles} />
 
-      {/* 4.9 Röportajlar ve Görüşler */}
+      {/* 4.10 Röportajlar ve Görüşler */}
       <InterviewSection articles={allArticles} />
-
-      {/* 4.10 Araştırmalar ve Raporlar */}
-      <ResearchReportsSection articles={allArticles} />
 
       {/* 4.11 Etkinlikler Takvimi */}
       <EventsCalendarSection events={events} />

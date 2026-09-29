@@ -7,12 +7,14 @@ import QuickNewsletterBox from './QuickNewsletterBox';
 interface LatestNewsFeedProps {
   articles: Article[];
   editorPicks: Article[];
+  trendingArticles?: Article[];
   authors: Author[];
 }
 
 export default function LatestNewsFeed({
   articles,
   editorPicks,
+  trendingArticles,
 }: LatestNewsFeedProps) {
   const formatDate = (isoString: string) => {
     try {
@@ -142,7 +144,10 @@ export default function LatestNewsFeed({
               </div>
 
               <div className="space-y-4">
-                {articles.slice(0, 4).map((item, idx) => (
+                {(trendingArticles && trendingArticles.length > 0
+                  ? trendingArticles
+                  : articles.slice(4, 8)
+                ).slice(0, 4).map((item, idx) => (
                   <div key={item.id} className="flex items-start gap-3 group">
                     <span className="w-6 h-6 rounded bg-[#EAF6F8] text-[#102A43] font-black text-xs flex items-center justify-center shrink-0 border border-[#00A6A6]/30">
                       {idx + 1}

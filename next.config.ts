@@ -10,6 +10,26 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/arastirma/:slug',
+        destination: '/haber/:slug',
+      },
+      {
+        source: '/rehber/:slug',
+        destination: '/haber/:slug',
+      },
+      {
+        source: '/mevzuat/:slug',
+        destination: '/haber/:slug',
+      },
+      {
+        source: '/rapor/:slug',
+        destination: '/haber/:slug',
+      },
+    ];
+  },
 };
 
 export default nextConfig;

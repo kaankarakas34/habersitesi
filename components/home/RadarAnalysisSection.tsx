@@ -8,7 +8,9 @@ interface RadarAnalysisSectionProps {
 }
 
 export default function RadarAnalysisSection({ articles }: RadarAnalysisSectionProps) {
-  const analysisArticles = articles.filter((a) => a.category === 'analiz').slice(0, 2);
+  const analysisArticles = articles
+    .filter((a) => a.category === 'analiz' || a.contentType === 'analiz')
+    .slice(0, 2);
 
   if (analysisArticles.length === 0) return null;
 
