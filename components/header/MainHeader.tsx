@@ -30,7 +30,7 @@ export default function MainHeader() {
           <button
             type="button"
             onClick={() => setSearchOpen(true)}
-            className="flex items-center gap-2 px-3 py-2 text-xs font-semibold text-[#17212B] bg-[#F5F7F9] hover:bg-[#EAF6F8] hover:text-[#00A6A6] border border-[#DDE3E8] rounded transition-colors"
+            className="flex min-h-11 items-center gap-2 px-3 py-2 text-xs font-semibold text-[#17212B] bg-[#F5F7F9] hover:bg-[#EAF6F8] hover:text-[#007E80] border border-[#DDE3E8] rounded transition-colors"
             aria-label="Sitede Arama Yap"
           >
             <Search className="w-4 h-4 text-[#00A6A6]" />
@@ -39,8 +39,8 @@ export default function MainHeader() {
 
           {/* Newsletter Subscribe CTA */}
           <Link
-            href="#bulten"
-            className="hidden md:flex items-center gap-1.5 px-3.5 py-2 text-xs font-bold text-white bg-[#00A6A6] hover:bg-[#008E8E] rounded transition-colors shadow-xs"
+            href="/#bulten"
+            className="hidden md:flex min-h-11 items-center gap-1.5 px-3.5 py-2 text-xs font-bold text-white bg-[#007E80] hover:bg-[#00696B] rounded transition-colors shadow-xs"
           >
             <Mail className="w-3.5 h-3.5" />
             <span>Bültene Katıl</span>
@@ -50,8 +50,10 @@ export default function MainHeader() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="xl:hidden p-2 text-[#102A43] hover:bg-[#F5F7F9] rounded border border-[#DDE3E8]"
+            className="xl:hidden min-h-11 min-w-11 flex items-center justify-center p-2 text-[#102A43] hover:bg-[#F5F7F9] rounded border border-[#DDE3E8]"
             aria-label="Menüyü Aç"
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu"
           >
             <Menu className="w-5 h-5" />
           </button>

@@ -9,7 +9,7 @@ import { SITE_URL } from '@/lib/constants';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Sağlık Turizmi Etkinlikleri & Fuarları 2026 — Sağlık Turizmi Radarı',
+  title: 'Sağlık Turizmi Etkinlikleri ve Fuarları',
   description:
     'Türkiye ve dünyadaki medikal turizm fuarları, B2B alım heyetleri, sektörel zirveler ve online webinarlar takvimi.',
   alternates: {
@@ -122,3 +122,4 @@ export default function EventsPage() {
     </div>
   );
 }
+

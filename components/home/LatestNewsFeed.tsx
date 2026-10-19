@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Clock, TrendingUp, Bookmark, Sparkles, ExternalLink } from 'lucide-react';
+import { Clock, TrendingUp, Bookmark, ExternalLink } from 'lucide-react';
 import { Article, Author } from '@/lib/types';
 import QuickNewsletterBox from './QuickNewsletterBox';
 
@@ -37,6 +37,7 @@ export default function LatestNewsFeed({
     analiz: { bg: 'bg-[#102A43]', text: 'text-[#00A6A6]', label: 'Analiz' },
     roportaj: { bg: 'bg-purple-800', text: 'text-white', label: 'Röportaj' },
     arastirma: { bg: 'bg-amber-700', text: 'text-white', label: 'Araştırma' },
+    etkinlikler: { bg: 'bg-teal-800', text: 'text-white', label: 'Etkinlikler' },
   };
 
   return (
@@ -49,10 +50,10 @@ export default function LatestNewsFeed({
               <div className="flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#00A6A6]" />
                 <h2 className="text-xl font-black text-[#102A43] tracking-tight">
-                  Son Gelişmeler & Haber Akışı
+                  Son Haberler
                 </h2>
               </div>
-              <span className="text-xs font-semibold text-[#5B6B79]">Kronolojik Sıralama</span>
+              <span className="text-xs font-semibold text-[#5B6B79]">En yeni gelişmeler</span>
             </div>
 
             <div className="divide-y divide-[#DDE3E8]">
@@ -139,7 +140,7 @@ export default function LatestNewsFeed({
               <div className="flex items-center gap-2 pb-3 mb-4 border-b border-[#DDE3E8]">
                 <TrendingUp className="w-4 h-4 text-[#00A6A6]" />
                 <h3 className="text-sm font-black uppercase tracking-wider text-[#102A43]">
-                  En Çok Okunanlar
+                  Gündemdeki Haberler
                 </h3>
               </div>
 

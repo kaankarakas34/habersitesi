@@ -7,7 +7,8 @@ import { getAllAuthors } from '@/lib/services/articleService';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Yazarlar ve Katkıda Bulunanlar — Sağlık Turizmi Radarı',
+  title: 'Yazarlar ve Katkıda Bulunanlar',
+  alternates: { canonical: '/yazarlar' },
   description:
     'Sağlık hukuku, hastane yönetimi, akreditasyon, dijital pazarlama ve sağlık teknolojisi alanındaki bağımsız yazar ve uzmanlarımız.',
 };

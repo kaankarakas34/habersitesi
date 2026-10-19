@@ -53,7 +53,7 @@ export default function RegulationSection({ articles }: RegulationSectionProps) 
                   {/* Badge & Dates */}
                   <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                     <span className="px-2.5 py-1 bg-[#102A43] text-[#00A6A6] text-[10px] font-black uppercase tracking-wider rounded">
-                      YÖNETMELİK & UYUM
+                      {mevzuat ? 'YÖNETMELİK & UYUM' : 'KAMU DUYURUSU'}
                     </span>
 
                     {mevzuat?.yururlukTarihi && (
@@ -120,14 +120,14 @@ export default function RegulationSection({ articles }: RegulationSectionProps) 
                       <span>Resmî Kaynak Metni</span>
                     </a>
                   ) : (
-                    <span className="text-[#5B6B79]">Resmî Gazete Tebliği</span>
+                    <span className="text-[#5B6B79]">{art.sources.find((source) => source.isOfficial)?.name || 'Kaynaklı haber'}</span>
                   )}
 
                   <Link
                     href={`/haber/${art.slug}`}
                     className="font-bold text-[#102A43] hover:text-[#00A6A6] flex items-center gap-1"
                   >
-                    <span>Mevzuat Rehberini İncele</span>
+                    <span>{mevzuat ? 'Mevzuat Rehberini İncele' : 'Haberi Oku'}</span>
                     <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>

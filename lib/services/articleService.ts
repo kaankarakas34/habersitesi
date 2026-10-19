@@ -14,20 +14,19 @@ export function getAllArticlesAdmin(): Article[] {
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
-  const data = readStorage();
-  return data.articles.find((a) => a.slug === slug);
+  return getAllArticles().find((a) => a.slug === slug);
 }
 
 export function getHeadlineArticle(): Article | undefined {
   const articles = getAllArticles();
-  return articles.find((a) => a.isHeadline) || articles[0];
+  return articles[0];
 }
 
 export function getSecondaryHeadlines(): Article[] {
   const articles = getAllArticles();
   const headline = getHeadlineArticle();
   return articles
-    .filter((a) => a.id !== headline?.id && a.isSecondaryHeadline)
+    .filter((a) => a.id !== headline?.id)
     .slice(0, 4);
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Cpu, Megaphone, ArrowRight, Bot, Target, PhoneCall } from 'lucide-react';
+import { Cpu, ArrowRight } from 'lucide-react';
 import { Article } from '@/lib/types';
 
 interface MarketingTechSectionProps {
@@ -37,7 +37,7 @@ export default function MarketingTechSection({ articles }: MarketingTechSectionP
             </Link>
             <span className="text-slate-400">•</span>
             <Link href="/kategori/teknoloji" className="text-[#102A43] hover:text-[#00A6A6]">
-              Yapay Zekâ
+              Teknoloji
             </Link>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function MarketingTechSection({ articles }: MarketingTechSectionP
                   />
                   <div className="absolute top-3 left-3">
                     <span className="px-2.5 py-0.5 bg-[#102A43] text-white text-[10px] font-bold uppercase tracking-wider rounded">
-                      {art.category === 'teknoloji' ? 'YAPAY ZEKÂ' : 'PAZARLAMA'}
+                      {art.category === 'teknoloji' ? 'TEKNOLOJİ' : 'PAZARLAMA'}
                     </span>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function MarketingTechSection({ articles }: MarketingTechSectionP
                   href={`/haber/${art.slug}`}
                   className="font-bold text-[#00A6A6] hover:underline flex items-center gap-1"
                 >
-                  <span>Rehberi Oku</span>
+                  <span>İçeriği Oku</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>

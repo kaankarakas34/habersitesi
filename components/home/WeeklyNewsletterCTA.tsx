@@ -62,7 +62,7 @@ export default function WeeklyNewsletterCTA() {
           </div>
 
           {status === 'success' ? (
-            <div className="max-w-md mx-auto p-4 bg-[#1D3D5E] border border-[#00A6A6] rounded-md text-sm text-center flex items-center justify-center gap-2">
+            <div role="status" className="max-w-md mx-auto p-4 bg-[#1D3D5E] border border-[#00A6A6] rounded-md text-sm text-center flex items-center justify-center gap-2">
               <CheckCircle className="w-5 h-5 text-[#00A6A6]" />
               <span>{message}</span>
             </div>
@@ -71,6 +71,9 @@ export default function WeeklyNewsletterCTA() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <input
                   type="text"
+                  name="name"
+                  autoComplete="name"
+                  aria-label="Adınız soyadınız (isteğe bağlı)"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Adınız Soyadınız (İsteğe bağlı)"
@@ -79,6 +82,10 @@ export default function WeeklyNewsletterCTA() {
 
                 <input
                   type="email"
+                  name="email"
+                  autoComplete="email"
+                  spellCheck={false}
+                  aria-label="E-posta adresiniz"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Kurumsal E-posta Adresiniz *"
@@ -100,13 +107,13 @@ export default function WeeklyNewsletterCTA() {
                     <Link href="/kvkk" className="text-[#00A6A6] underline hover:text-white">
                       KVKK ve Aydınlatma Metni
                     </Link>
-                    'ni okudum, haftalık bülten gönderimini onaylıyorum.
+                    ’ni okudum, haftalık bülten gönderimini onaylıyorum.
                   </span>
                 </label>
               </div>
 
               {status === 'error' && (
-                <div className="p-2.5 bg-red-900/40 border border-red-500 rounded text-xs text-red-200 flex items-center gap-2">
+                <div role="alert" className="p-2.5 bg-red-900/40 border border-red-500 rounded text-xs text-red-200 flex items-center gap-2">
                   <AlertCircle className="w-4 h-4 shrink-0" />
                   <span>{message}</span>
                 </div>
@@ -115,15 +122,15 @@ export default function WeeklyNewsletterCTA() {
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="w-full py-3 bg-[#00A6A6] hover:bg-[#008E8E] text-white font-black text-sm rounded transition-colors flex items-center justify-center gap-2 shadow-lg"
+                className="w-full py-3 bg-[#007E80] hover:bg-[#00696B] text-white font-black text-sm rounded transition-colors flex items-center justify-center gap-2 shadow-lg"
               >
-                <span>{status === 'loading' ? 'Kaydediliyor...' : 'Haftalık Radara Abone Ol'}</span>
+                <span>{status === 'loading' ? 'Kaydediliyor…' : 'Haftalık Radara Abone Ol'}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
 
               <div className="flex items-center justify-center gap-1.5 text-[11px] text-slate-400 pt-2">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#00A6A6]" />
-                <span>Spam yok. Dilediğiniz an tek tıkla abonelikten ayrılabilirsiniz.</span>
+                <span>Verileriniz yalnızca bülten aboneliğiniz için kullanılır.</span>
               </div>
             </form>
           )}

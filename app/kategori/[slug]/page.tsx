@@ -93,7 +93,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const canonicalUrl = `${SITE_URL}/kategori/${slug}`;
 
   return {
-    title: `${meta.title} — Sağlık Turizmi Radarı`,
+    title: `${meta.title}`,
     description: meta.description,
     alternates: {
       canonical: canonicalUrl,
@@ -417,3 +417,4 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     </div>
   );
 }
+

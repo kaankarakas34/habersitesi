@@ -74,7 +74,7 @@ export default function HeroHeadlines({
                 <div>
                   <h1 className="text-2xl sm:text-3xl lg:text-3xl font-extrabold text-[#102A43] leading-tight tracking-tight group-hover:text-[#00A6A6] transition-colors mb-3">
                     <Link href={`/haber/${headlineArticle.slug}`} className="flex items-start justify-between gap-3">
-                      <span className="line-clamp-2">{headlineArticle.title}</span>
+                      <span>{headlineArticle.title}</span>
                       <ArrowUpRight className="w-6 h-6 text-[#00A6A6] shrink-0 transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </Link>
                   </h1>
@@ -108,7 +108,7 @@ export default function HeroHeadlines({
 
           {/* Secondary 4 Headlines (5 cols on desktop, 2x2 grid) */}
           <div className="lg:col-span-5 flex flex-col">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4 flex-1">
               {secondaryArticles.slice(0, 4).map((art) => (
                 <article
                   key={art.id}

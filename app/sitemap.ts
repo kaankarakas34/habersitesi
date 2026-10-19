@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllArticles, getAllAuthors } from '@/lib/services/articleService';
 import { SITE_URL } from '@/lib/constants';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_URL;
@@ -77,13 +77,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       };
     }),
-    // 2026 Özel Araştırma & Mevzuat Masası Raporları
-    { url: `${baseUrl}/arastirma/2026-turkiye-saglik-turizmi-istatistikleri`, lastModified: new Date('2026-09-20T09:30:00Z'), changeFrequency: 'weekly' as const, priority: 0.95 },
-    { url: `${baseUrl}/rehber/2026-saglik-turizmi-yetki-belgesi-takip-tablosu`, lastModified: new Date('2026-09-20T09:30:00Z'), changeFrequency: 'weekly' as const, priority: 0.95 },
-    { url: `${baseUrl}/mevzuat/2025-saglik-turizmi-yonetmeligi-degisen-18-madde`, lastModified: new Date('2026-09-20T09:30:00Z'), changeFrequency: 'weekly' as const, priority: 0.95 },
-    { url: `${baseUrl}/arastirma/turkiyedeki-yetkili-saglik-turizmi-kuruluslari-analizi`, lastModified: new Date('2026-09-20T09:30:00Z'), changeFrequency: 'weekly' as const, priority: 0.95 },
-    { url: `${baseUrl}/arastirma/saglik-turizmi-hasta-basina-tahmini-harcama`, lastModified: new Date('2026-09-20T09:30:00Z'), changeFrequency: 'weekly' as const, priority: 0.95 },
-    { url: `${baseUrl}/rapor/ingiltere-turkiye-saglik-turizmi-talep-raporu-2026`, lastModified: new Date('2026-09-20T09:30:00Z'), changeFrequency: 'weekly' as const, priority: 0.95 },
   ];
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
@@ -113,3 +106,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticPages, ...articlePages, ...authorPages];
 }
+

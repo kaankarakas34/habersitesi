@@ -71,7 +71,7 @@
       "updatedAt": "2026-10-05T04:30:00.000Z",
       "readingTime": 4,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&auto=format&fit=crop&q=80",
@@ -135,7 +135,7 @@
       "updatedAt": "2026-10-05T05:00:00.000Z",
       "readingTime": 5,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
@@ -283,7 +283,7 @@
       "updatedAt": "2026-10-05T06:30:00.000Z",
       "readingTime": 4,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=1200&auto=format&fit=crop&q=80",
@@ -348,7 +348,7 @@
       "updatedAt": "2026-10-05T07:00:00.000Z",
       "readingTime": 4,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
@@ -426,7 +426,7 @@
       "updatedAt": "2026-10-05T07:30:00.000Z",
       "readingTime": 3,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200&auto=format&fit=crop&q=80",
@@ -469,7 +469,7 @@
       "publishedAt": "2026-10-05T08:00:00.000Z",
       "updatedAt": "2026-10-05T08:00:00.000Z",
       "readingTime": 4,
-      "isHeadline": true,
+      "isHeadline": false,
       "isSecondaryHeadline": false,
       "isBreaking": true,
       "breakingBadge": "SON GELİŞME",
@@ -578,7 +578,7 @@
       "updatedAt": "2026-09-29T18:00:00.000Z",
       "readingTime": 6,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
       "imageCaption": "Genel turizm şirketi, seyahat acentası ve sağlık turizmi aracı kuruluşu arasındaki yetki ve yükümlülük ayrımı.",
@@ -717,7 +717,7 @@
       "updatedAt": "2026-09-29T17:10:00.000Z",
       "readingTime": 5,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&auto=format&fit=crop&q=80",
       "imageCaption": "İngiltere Dışişleri ve NHS rehberlerinde Türkiye'de planlı diş tedavisi kriterleri.",
@@ -789,7 +789,7 @@
       "updatedAt": "2026-09-29T17:20:00.000Z",
       "readingTime": 4,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1200&auto=format&fit=crop&q=80",
       "imageCaption": "Eurostat 2024 karşılanmamış diş bakımı ihtiyacı ve sınır ötesi sağlık hareketliliği.",
@@ -846,7 +846,7 @@
       "publishedAt": "2026-09-29T17:30:00.000Z",
       "updatedAt": "2026-09-29T17:30:00.000Z",
       "readingTime": 4,
-      "isHeadline": true,
+      "isHeadline": false,
       "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1200&auto=format&fit=crop&q=80",
@@ -932,7 +932,9 @@
       "seoDescription": "BM'de düzenlenen üst düzey toplantıda pandemiye hazırlık, sağlık sistemleri ve patojen paylaşımı görüşüldü; ilgili ekin müzakeresi sürüyor.",
       "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#00A6A6] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Toplantı Tarihi:</strong> 25 Eylül 2026 | <strong>Kurum:</strong> Birleşmiş Milletler Genel Kurulu & DSÖ | <strong>Konu:</strong> Küresel Pandemi Anlaşması & PABS\n</div>\n\n<p>Birleşmiş Milletler Genel Kurulu marjında 25 Eylül 2026 tarihinde pandemilerin önlenmesi, hazırlık ve müdahale konulu ikinci üst düzey liderler toplantısı düzenlendi. Dünya Sağlık Örgütü'nün (DSÖ) toplantı sonrası açıklamasına göre küresel liderler; salgın krizleri kapıyı çalmadan önce de epidemiyolojik gözetim, sağlık sistemlerinin dayanıklılığı ve tıbbi karşı önlemlere adil erişim için sürekli yatırım yapılması gerektiğini vurguladı.</p>\n\n<p>Zirvede, DSÖ Pandemi Anlaşması'nın en tartışmalı başlıklarından biri olan <strong>PABS (Patojen Erişimi ve Yararların Paylaşımı) Sistemi</strong> ek protokolünün müzakere süreci öne çıktı. Sistemin temel amacı; pandemi potansiyeli taşıyan yeni patojenlerin araştırma ve aşı geliştirme amacıyla ülkeler arasında zamanında paylaşılması ile bu araştırmalar sonucunda ortaya çıkacak aşı, ilaç ve tanı kitlerine gelişmekte olan ülkelerin eşit ve adil şartlarda erişebilmesi arasında bağlayıcı bir mekanizma kurmaktır.</p>\n\n<h2>Mayıs 2027 Hedefi ve Sınır Ötesi Sağlık Hareketliliği</h2>\n<p>DSÖ yönetimine göre PABS ek protokolünün Mayıs 2027 Dünya Sağlık Asamblesi'nde nihai olarak kabul edilmesi, üye ülkelerin Pandemi Anlaşması'nı kendi ulusal parlamentolarında onaylama sürecine geçebilmesi için vazgeçilmez bir ön koşuldur. Dolayısıyla bu üst düzey toplantı, anlaşmanın veya patojen paylaşım protokolünün tamamlandığı ya da küresel olarak yürürlüğe girdiği anlamına gelmemektedir; müzakere süreci devam etmektedir.</p>\n\n<p>Uluslararası hasta hareketliliği ve sağlık turizmi sektörü açısından güçlü küresel salgın gözetimi, sınır ötesi seyahat güvenliği ve sağlık hizmetlerinin kesintisiz sürdürülebilirliği ile doğrudan ilişkilidir. Ancak mevcut aşamada uluslararası seyahat veya sınır geçişlerine dair yeni bir kısıtlama veya zorunlu kural getirilmiş değildir; duyurunun özü siyasi taahhütlerin yenilenmesi ve diplomatik müzakerelerin devam etmesidir.</p>\n",
       "isBreaking": true,
-      "breakingBadge": "RADAR"
+      "breakingBadge": "RADAR",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-11",
@@ -970,7 +972,9 @@
       ],
       "seoTitle": "FDA Sevabertinib Onayı: HER2 Mutasyonlu Akciğer Kanseri (ABD)",
       "seoDescription": "FDA, belirli HER2 mutasyonları taşıyan ileri evre küçük hücreli dışı akciğer kanserinde sevabertinib için hızlandırılmış onayın kapsamını genişletti.",
-      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#C62828] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Onay Tarihi:</strong> 9 Eylül 2026 | <strong>Kurum:</strong> ABD FDA | <strong>Ruhsat Bölgesi:</strong> Amerika Birleşik Devletleri | <strong>Branş:</strong> Göğüs Onkolojisi\n</div>\n\n<p>ABD Gıda ve İlaç Dairesi (FDA), 9 Eylül 2026 tarihinde sevabertinib etken maddeli hedefe yönelik ilaç için daha önce verdiği hızlandırılmış onayın endikasyon kapsamını genişletti. Yeni karar; tümöründe HER2 (ERBB2) tirozin kinaz alanını aktive eden mutasyon saptanan, lokal ileri veya metastatik, skuamöz dışı küçük hücreli dışı akciğer kanseri (KHDAK) tanılı yetişkin hastaları kapsıyor.</p>\n\n<p>Önceki FDA kararında hastaların daha önce en az bir basamak sistemik tedavi görmüş olması şartı bulunuyordu. Genişletilen bu yeni kararla birlikte sevabertinib, <strong>daha önce sistemik tedavi almamış (birinci basamak)</strong> uygun hastaların kullanımına da açılmış oldu.</p>\n\n<h2>SOHO-01 Çalışması ve Güvenlik Uyarıları</h2>\n<p>FDA incelemesine temel oluşturan çok merkezli SOHO-01 klinik çalışmasının daha önce tedavi görmemiş 69 hastayı içeren kohortunda:</p>\n<ul>\n  <li>Nesnel yanıt oranı (ORR) <strong>%75</strong> olarak rapor edildi.</li>\n  <li>Yanıtların çoğunda tümör boyutlarında klinik olarak anlamlı küçülme izlendi.</li>\n</ul>\n\n<p>Çalışma tek kollu olarak yürütüldüğü için elde edilen bu oran, standart kemo-immünoterapiye karşı doğrudan bir üstünlük kanıtı olarak yorumlanmamalıdır. Ayrıca ilacın resmî ürün bilgisi; şiddetli diyare (ishal), hepatotoksisite (karaciğer enzim yüksekliği), interstisyel akciğer hastalığı (akciğer iltihabı) ve sol ventrikül ejeksiyon fraksiyonunda düşüş gibi kalp ve solunum risklerine dair önemli uyarılar içermektedir.</p>\n\n<h2>Moleküler Testlerin Önemi ve Türkiye Erişimi</h2>\n<p>Karar, akciğer kanserinde yeni nesil dizileme (NGS) gibi kapsamlı moleküler testlerin önemini bir kez daha ortaya koymaktadır. Akciğer kanserinde yalnızca genel \"HER2 pozitifliği\" değil, mutasyonun spesifik ekzon ve amino asit yapısı tedavi yanıtını belirler. FDA, değerlendirme sürecinde İngiltere düzenleyicisi MHRA ile Project Orbis kapsamında iş birliği yaptığını, diğer uluslararası otoritelerin incelemelerinin sürdüğünü kaydetti.</p>\n\n<p><strong>Ruhsat Hatırlatması:</strong> Bu genişletilmiş onay kararı ABD bağlamındadır. İlacın Türkiye'de birinci basamakta ruhsatlandığı veya geri ödemede olduğu anlamına gelmez. Onkolojik tedavi protokolleri yalnızca sorumlu medikal onkoloğun değerlendirmesiyle yürütülmelidir.</p>\n"
+      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#C62828] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Onay Tarihi:</strong> 9 Eylül 2026 | <strong>Kurum:</strong> ABD FDA | <strong>Ruhsat Bölgesi:</strong> Amerika Birleşik Devletleri | <strong>Branş:</strong> Göğüs Onkolojisi\n</div>\n\n<p>ABD Gıda ve İlaç Dairesi (FDA), 9 Eylül 2026 tarihinde sevabertinib etken maddeli hedefe yönelik ilaç için daha önce verdiği hızlandırılmış onayın endikasyon kapsamını genişletti. Yeni karar; tümöründe HER2 (ERBB2) tirozin kinaz alanını aktive eden mutasyon saptanan, lokal ileri veya metastatik, skuamöz dışı küçük hücreli dışı akciğer kanseri (KHDAK) tanılı yetişkin hastaları kapsıyor.</p>\n\n<p>Önceki FDA kararında hastaların daha önce en az bir basamak sistemik tedavi görmüş olması şartı bulunuyordu. Genişletilen bu yeni kararla birlikte sevabertinib, <strong>daha önce sistemik tedavi almamış (birinci basamak)</strong> uygun hastaların kullanımına da açılmış oldu.</p>\n\n<h2>SOHO-01 Çalışması ve Güvenlik Uyarıları</h2>\n<p>FDA incelemesine temel oluşturan çok merkezli SOHO-01 klinik çalışmasının daha önce tedavi görmemiş 69 hastayı içeren kohortunda:</p>\n<ul>\n  <li>Nesnel yanıt oranı (ORR) <strong>%75</strong> olarak rapor edildi.</li>\n  <li>Yanıtların çoğunda tümör boyutlarında klinik olarak anlamlı küçülme izlendi.</li>\n</ul>\n\n<p>Çalışma tek kollu olarak yürütüldüğü için elde edilen bu oran, standart kemo-immünoterapiye karşı doğrudan bir üstünlük kanıtı olarak yorumlanmamalıdır. Ayrıca ilacın resmî ürün bilgisi; şiddetli diyare (ishal), hepatotoksisite (karaciğer enzim yüksekliği), interstisyel akciğer hastalığı (akciğer iltihabı) ve sol ventrikül ejeksiyon fraksiyonunda düşüş gibi kalp ve solunum risklerine dair önemli uyarılar içermektedir.</p>\n\n<h2>Moleküler Testlerin Önemi ve Türkiye Erişimi</h2>\n<p>Karar, akciğer kanserinde yeni nesil dizileme (NGS) gibi kapsamlı moleküler testlerin önemini bir kez daha ortaya koymaktadır. Akciğer kanserinde yalnızca genel \"HER2 pozitifliği\" değil, mutasyonun spesifik ekzon ve amino asit yapısı tedavi yanıtını belirler. FDA, değerlendirme sürecinde İngiltere düzenleyicisi MHRA ile Project Orbis kapsamında iş birliği yaptığını, diğer uluslararası otoritelerin incelemelerinin sürdüğünü kaydetti.</p>\n\n<p><strong>Ruhsat Hatırlatması:</strong> Bu genişletilmiş onay kararı ABD bağlamındadır. İlacın Türkiye'de birinci basamakta ruhsatlandığı veya geri ödemede olduğu anlamına gelmez. Onkolojik tedavi protokolleri yalnızca sorumlu medikal onkoloğun değerlendirmesiyle yürütülmelidir.</p>\n",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-10",
@@ -1007,7 +1011,9 @@
       ],
       "seoTitle": "EMA Damar İçi Demir İlaçları Düşük Fosfat ve Kemik Güvenliği İncelemesi",
       "seoDescription": "EMA, damar içi demir tedavilerinde düşük fosfat ve buna bağlı kemik sorunları hakkındaki güvenlik incelemesini başlattı.",
-      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#C62828] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak İnceleme Tarihi:</strong> 4 Eylül 2026 | <strong>Kurum:</strong> Avrupa İlaç Ajansı (EMA) PRAC | <strong>Bölge:</strong> Avrupa Birliği | <strong>Konu:</strong> İlaç Güvenliği ve Farmakovijilans\n</div>\n\n<p>Avrupa İlaç Ajansı'nın (EMA) farmakovijilans ve ilaç güvenliği komitesi PRAC, damar yoluyla (enjeksiyon veya infüzyon) uygulanan demir preparatlarının kanda fosfat düşüklüğü (hipofosfatemi) ve buna bağlı kemik problemleri (osteomalazi, kemik ağrıları) riski açısından kapsamlı bir güvenlik incelemesine alındığını duyurdu. EMA'nın 4 Eylül 2026 tarihli toplantı özetine göre inceleme, yalnızca tek bir markayla sınırlı olmayıp Avrupa pazarındaki tüm intravenöz demir ürünlerini kapsamaktadır. Ağızdan (oral) alınan demir takviyeleri bu incelemenin dışındadır.</p>\n\n<h2>Hipofosfatemi Riski ve İncelemenin Gerekçesi</h2>\n<p>Kandaki fosfat düzeyinin uzun süreli veya şiddetli düşüşü, kemik dokusunun mineralizasyonunu bozarak kemik yumuşaması, kırık riskinde artış ve kas güçsüzlüğüne yol açabilmektedir. EMA, ferrik karboksimaltoz gibi moleküllerde hipofosfateminin bilinen bir yan etki olduğunu, ancak mevcut ürün bilgilerindeki risk azaltma uyarılarının klinik pratikteki yeterliliğini değerlendirmek üzere yeni farmakovijilans verileri ışığında bu geniş kapsamlı incelemenin başlatıldığını açıkladı.</p>\n\n<p>Klinik pratikteki en önemli zorluk, hipofosfateminin neden olduğu halsizlik, kemik ve kas ağrısı gibi belirtilerin altta yatan demir eksikliği anemisi şikâyetleriyle kolayca karışabilmesi ve bu nedenle teşhisin gecikebilmesidir.</p>\n\n<h2>Hastalar ve Klinisyenler İçin Ne Anlama Geliyor?</h2>\n<p>Bu resmi incelemenin başlatılmış olması, EMA'nın damar içi demir ilaçlarını yasakladığı veya tedavinin kesin olarak tehlikeli olduğu anlamına gelmemektedir. PRAC inceleme süresince yarar-risk dengesini, risk altındaki hasta gruplarını ve prospektüslerde yapılması muhtemel ek uyarıları belirleyecektir. Özellikle tekrarlayan yüksek doz damar içi demir tedavisi alan hastaların tedaviyi kendi başlarına bırakmamaları, ancak yeni gelişen kas ve kemik ağrısı gibi şikâyetlerini mutlaka hekimleriyle paylaşarak fosfat düzeylerini takip ettirmeleri tavsiye edilmektedir.</p>\n"
+      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#C62828] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak İnceleme Tarihi:</strong> 4 Eylül 2026 | <strong>Kurum:</strong> Avrupa İlaç Ajansı (EMA) PRAC | <strong>Bölge:</strong> Avrupa Birliği | <strong>Konu:</strong> İlaç Güvenliği ve Farmakovijilans\n</div>\n\n<p>Avrupa İlaç Ajansı'nın (EMA) farmakovijilans ve ilaç güvenliği komitesi PRAC, damar yoluyla (enjeksiyon veya infüzyon) uygulanan demir preparatlarının kanda fosfat düşüklüğü (hipofosfatemi) ve buna bağlı kemik problemleri (osteomalazi, kemik ağrıları) riski açısından kapsamlı bir güvenlik incelemesine alındığını duyurdu. EMA'nın 4 Eylül 2026 tarihli toplantı özetine göre inceleme, yalnızca tek bir markayla sınırlı olmayıp Avrupa pazarındaki tüm intravenöz demir ürünlerini kapsamaktadır. Ağızdan (oral) alınan demir takviyeleri bu incelemenin dışındadır.</p>\n\n<h2>Hipofosfatemi Riski ve İncelemenin Gerekçesi</h2>\n<p>Kandaki fosfat düzeyinin uzun süreli veya şiddetli düşüşü, kemik dokusunun mineralizasyonunu bozarak kemik yumuşaması, kırık riskinde artış ve kas güçsüzlüğüne yol açabilmektedir. EMA, ferrik karboksimaltoz gibi moleküllerde hipofosfateminin bilinen bir yan etki olduğunu, ancak mevcut ürün bilgilerindeki risk azaltma uyarılarının klinik pratikteki yeterliliğini değerlendirmek üzere yeni farmakovijilans verileri ışığında bu geniş kapsamlı incelemenin başlatıldığını açıkladı.</p>\n\n<p>Klinik pratikteki en önemli zorluk, hipofosfateminin neden olduğu halsizlik, kemik ve kas ağrısı gibi belirtilerin altta yatan demir eksikliği anemisi şikâyetleriyle kolayca karışabilmesi ve bu nedenle teşhisin gecikebilmesidir.</p>\n\n<h2>Hastalar ve Klinisyenler İçin Ne Anlama Geliyor?</h2>\n<p>Bu resmi incelemenin başlatılmış olması, EMA'nın damar içi demir ilaçlarını yasakladığı veya tedavinin kesin olarak tehlikeli olduğu anlamına gelmemektedir. PRAC inceleme süresince yarar-risk dengesini, risk altındaki hasta gruplarını ve prospektüslerde yapılması muhtemel ek uyarıları belirleyecektir. Özellikle tekrarlayan yüksek doz damar içi demir tedavisi alan hastaların tedaviyi kendi başlarına bırakmamaları, ancak yeni gelişen kas ve kemik ağrısı gibi şikâyetlerini mutlaka hekimleriyle paylaşarak fosfat düzeylerini takip ettirmeleri tavsiye edilmektedir.</p>\n",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-09",
@@ -1042,7 +1048,9 @@
       ],
       "seoTitle": "DSÖ Doğum Kontrol Seçenekleri Yeni Rehberi 2026",
       "seoDescription": "DSÖ, doğum kontrol yöntemlerine erişim ve kullanım seçenekleri hakkında yeni rehberini duyurdu; öneriler kişiye özel değerlendirme gerektiriyor.",
-      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#00A6A6] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Duyuru Tarihi:</strong> 23 Eylül 2026 | <strong>Kurum:</strong> Dünya Sağlık Örgütü (WHO) | <strong>Alan:</strong> Üreme Sağlığı ve Kontrasepsiyon Kılavuzu\n</div>\n\n<p>Dünya Sağlık Örgütü (DSÖ), modern doğum kontrol yöntemlerine erişim, kullanım güvenliği ve yeni bilimsel kanıtlar hakkında hazırladığı kapsamlı küresel rehberi 23 Eylül 2026 tarihinde kamuoyuna açıkladı. DSÖ raporuna göre dünya genelinde gebeliği ertelemek veya önlemek istediği halde güvenli ve etkili bir kontraseptif yönteme erişemeyen kadın sayısı yaklaşık <strong>164 milyon</strong> düzeyindedir.</p>\n\n<p>Yeni rehber, mevcut yöntemlerin kullanım protokollerine dair güncellenmiş kanıtları ve gelecekte klinik kullanıma girmesi hedeflenen seçenekleri bir araya getiriyor. Örgütün öne çıkardığı başlıca bilimsel değerlendirmeler şunlardır:</p>\n<ul>\n  <li>Kombine oral kontraseptiflerin (doğum kontrol hapları) uygun hekim kontrolü altında geleneksel döngüsel kullanım yerine daha uzun süreli veya kesintisiz rejime tabi tutulabileceğine dair klinik kanıtlar sunuldu.</li>\n  <li>Bazı progestin salgılayan implantların etkin kullanım süresinin beş yıla kadar güvenle uzatılabileceğine ilişkin veriler değerlendirildi.</li>\n  <li>Korunmasız ilişkiden sonraki belirli zaman pencerelerinde ek acil kontrasepsiyon alternatifi olarak mifepriston seçeneğine yer verildi.</li>\n  <li>Erkeklere yönelik geliştirilmekte olan kontraseptif yöntemler için uluslararası standartları belirleyen Hedef Ürün Profili (TPP) yayımlandı.</li>\n</ul>\n\n<h2>Uluslararası Rehber ve Türkiye Klinik Uygulaması</h2>\n<p>Bu rehber DSÖ'nün küresel bilimsel tavsiye çerçevesidir; herhangi bir ilacın veya tıbbi yöntemin Türkiye'deki ruhsatını, reçetelendirme şartlarını veya geri ödeme durumunu doğrudan değiştirmez. Yaş, kardiyovasküler risk faktörleri, sigara kullanımı, eşlik eden kronik hastalıklar ve ilaç etkileşimleri nedeniyle her birey için en uygun yöntem ancak kadın hastalıkları ve doğum uzmanı ile birlikte kararlaştırılmalıdır. Kadın sağlığı ve üreme tıbbı alanında faaliyet gösteren sağlık turizmi merkezleri açısından rehber, uluslararası hasta bilgilendirme dokümanlarını güncel tıp literatürüyle uyumlaştırma fırsatı sunmaktadır.</p>\n"
+      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#00A6A6] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Duyuru Tarihi:</strong> 23 Eylül 2026 | <strong>Kurum:</strong> Dünya Sağlık Örgütü (WHO) | <strong>Alan:</strong> Üreme Sağlığı ve Kontrasepsiyon Kılavuzu\n</div>\n\n<p>Dünya Sağlık Örgütü (DSÖ), modern doğum kontrol yöntemlerine erişim, kullanım güvenliği ve yeni bilimsel kanıtlar hakkında hazırladığı kapsamlı küresel rehberi 23 Eylül 2026 tarihinde kamuoyuna açıkladı. DSÖ raporuna göre dünya genelinde gebeliği ertelemek veya önlemek istediği halde güvenli ve etkili bir kontraseptif yönteme erişemeyen kadın sayısı yaklaşık <strong>164 milyon</strong> düzeyindedir.</p>\n\n<p>Yeni rehber, mevcut yöntemlerin kullanım protokollerine dair güncellenmiş kanıtları ve gelecekte klinik kullanıma girmesi hedeflenen seçenekleri bir araya getiriyor. Örgütün öne çıkardığı başlıca bilimsel değerlendirmeler şunlardır:</p>\n<ul>\n  <li>Kombine oral kontraseptiflerin (doğum kontrol hapları) uygun hekim kontrolü altında geleneksel döngüsel kullanım yerine daha uzun süreli veya kesintisiz rejime tabi tutulabileceğine dair klinik kanıtlar sunuldu.</li>\n  <li>Bazı progestin salgılayan implantların etkin kullanım süresinin beş yıla kadar güvenle uzatılabileceğine ilişkin veriler değerlendirildi.</li>\n  <li>Korunmasız ilişkiden sonraki belirli zaman pencerelerinde ek acil kontrasepsiyon alternatifi olarak mifepriston seçeneğine yer verildi.</li>\n  <li>Erkeklere yönelik geliştirilmekte olan kontraseptif yöntemler için uluslararası standartları belirleyen Hedef Ürün Profili (TPP) yayımlandı.</li>\n</ul>\n\n<h2>Uluslararası Rehber ve Türkiye Klinik Uygulaması</h2>\n<p>Bu rehber DSÖ'nün küresel bilimsel tavsiye çerçevesidir; herhangi bir ilacın veya tıbbi yöntemin Türkiye'deki ruhsatını, reçetelendirme şartlarını veya geri ödeme durumunu doğrudan değiştirmez. Yaş, kardiyovasküler risk faktörleri, sigara kullanımı, eşlik eden kronik hastalıklar ve ilaç etkileşimleri nedeniyle her birey için en uygun yöntem ancak kadın hastalıkları ve doğum uzmanı ile birlikte kararlaştırılmalıdır. Kadın sağlığı ve üreme tıbbı alanında faaliyet gösteren sağlık turizmi merkezleri açısından rehber, uluslararası hasta bilgilendirme dokümanlarını güncel tıp literatürüyle uyumlaştırma fırsatı sunmaktadır.</p>\n",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-08",
@@ -1079,7 +1087,9 @@
       ],
       "seoTitle": "USHAŞ, Kamu Hastaneleri ve İnnova Dijital Dönüşüm Görüşmesi",
       "seoDescription": "USHAŞ ve Kamu Hastaneleri Genel Müdürlüğü temsilcileri, İnnova ile hastane teknolojileri ve sağlık verisi yönetimini görüştü.",
-      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#102A43] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Görüşme Tarihi:</strong> 15 Eylül 2026 | <strong>Kurumlar:</strong> USHAŞ & Kamu Hastaneleri GM & İnnova | <strong>Konu:</strong> Sağlıkta Bilişim ve Dijital Dönüşüm\n</div>\n\n<p>USHAŞ Genel Müdürü Serdar Şenol ile Sağlık Bakanlığı Kamu Hastaneleri Genel Müdürü Muhammed Emin Demirkol, Türk Telekom iştiraki İnnova'nın Genel Müdürü Huzeyfe Yılmaz'a kurumsal bir çalışma ziyareti gerçekleştirdi. USHAŞ'ın 15 Eylül 2026 tarihli resmî açıklamasına göre görüşmede; sağlık hizmetlerinin dijital dönüşümü, hastane bilişim teknolojisi altyapılarının modernizasyonu ve sağlık verilerinin güvenli yönetimi kapsamlı olarak değerlendirildi.</p>\n\n<p>Toplantıda ayrıca İnnova'nın akıllı kurum teknolojileri ve dijital entegrasyon alanında yürüttüğü ACEP projesinin sağlık sektöründeki kullanım potansiyeli ve kamu sağlık tesislerine uyarlanabilirliği ele alındı. Kurumsal duyuruda yeni bir yazılımın devreye alındığına, resmî bir ihale sözleşmesi imzalandığına ya da belirli bir pilot hastanede zorunlu uygulamanın başladığına ilişkin bir hüküm yer almamaktadır.</p>\n\n<h2>Uluslararası Hasta Süreçlerinde Dijital Altyapının Önemi</h2>\n<p>Sağlık turizmi ve sınır ötesi hasta koordinasyonu açısından dijital dönüşüm, yalnızca online randevu altyapısından ibaret değildir. Yabancı hastaların tıbbi kayıtlarının (epikriz, radyoloji ve patoloji raporları) sınır ötesinde KVKK ve GDPR uyumlu güvenli transferi, çok dilli konsültasyon arayüzleri, yapay zekâ tabanlı ön değerlendirme ve ülkesine dönen hastaların uzaktan izlenmesi kritik basamaklardır.</p>\n\n<p>Kamu ve teknoloji paydaşları arasındaki bu istişareler, kurumlar arası veri koordinasyonuna ivme kazandırabilir; fakat somut sektörel etki için uygulama pilotları, siber güvenlik protokolleri ve mevzuat uyum ayrıntıları beklenmelidir.</p>\n"
+      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#102A43] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Görüşme Tarihi:</strong> 15 Eylül 2026 | <strong>Kurumlar:</strong> USHAŞ & Kamu Hastaneleri GM & İnnova | <strong>Konu:</strong> Sağlıkta Bilişim ve Dijital Dönüşüm\n</div>\n\n<p>USHAŞ Genel Müdürü Serdar Şenol ile Sağlık Bakanlığı Kamu Hastaneleri Genel Müdürü Muhammed Emin Demirkol, Türk Telekom iştiraki İnnova'nın Genel Müdürü Huzeyfe Yılmaz'a kurumsal bir çalışma ziyareti gerçekleştirdi. USHAŞ'ın 15 Eylül 2026 tarihli resmî açıklamasına göre görüşmede; sağlık hizmetlerinin dijital dönüşümü, hastane bilişim teknolojisi altyapılarının modernizasyonu ve sağlık verilerinin güvenli yönetimi kapsamlı olarak değerlendirildi.</p>\n\n<p>Toplantıda ayrıca İnnova'nın akıllı kurum teknolojileri ve dijital entegrasyon alanında yürüttüğü ACEP projesinin sağlık sektöründeki kullanım potansiyeli ve kamu sağlık tesislerine uyarlanabilirliği ele alındı. Kurumsal duyuruda yeni bir yazılımın devreye alındığına, resmî bir ihale sözleşmesi imzalandığına ya da belirli bir pilot hastanede zorunlu uygulamanın başladığına ilişkin bir hüküm yer almamaktadır.</p>\n\n<h2>Uluslararası Hasta Süreçlerinde Dijital Altyapının Önemi</h2>\n<p>Sağlık turizmi ve sınır ötesi hasta koordinasyonu açısından dijital dönüşüm, yalnızca online randevu altyapısından ibaret değildir. Yabancı hastaların tıbbi kayıtlarının (epikriz, radyoloji ve patoloji raporları) sınır ötesinde KVKK ve GDPR uyumlu güvenli transferi, çok dilli konsültasyon arayüzleri, yapay zekâ tabanlı ön değerlendirme ve ülkesine dönen hastaların uzaktan izlenmesi kritik basamaklardır.</p>\n\n<p>Kamu ve teknoloji paydaşları arasındaki bu istişareler, kurumlar arası veri koordinasyonuna ivme kazandırabilir; fakat somut sektörel etki için uygulama pilotları, siber güvenlik protokolleri ve mevzuat uyum ayrıntıları beklenmelidir.</p>\n",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-07",
@@ -1114,7 +1124,9 @@
       ],
       "seoTitle": "USHAŞ KKTC Hastane Projeleri Değerlendirme Toplantısı 2026",
       "seoDescription": "USHAŞ, Kuzey Kıbrıs Türk Cumhuriyeti'ndeki sözleşmeli hastane yapım projelerinin mevcut durumunu ve sonraki adımları görüştü.",
-      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#102A43] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Toplantı Tarihi:</strong> 14 Eylül 2026 | <strong>Kurum:</strong> USHAŞ | <strong>Bölge:</strong> KKTC & Doğu Akdeniz | <strong>Konu:</strong> Sağlık Altyapısı ve Hastane Yatırımları\n</div>\n\n<p>Uluslararası Sağlık Hizmetleri A.Ş. (USHAŞ), Kuzey Kıbrıs Türk Cumhuriyeti'ndeki hastane yapım projelerine ilişkin kapsamlı bir değerlendirme toplantısı gerçekleştirildiğini 14 Eylül 2026 tarihinde duyurdu. USHAŞ'ın TOBB Ofisi'nde yapılan toplantıya Genel Müdür Serdar Şenol başkanlık etti.</p>\n\n<p>Kurum tarafından yapılan bilgilendirmede; sözleşmeleri USHAŞ tarafından üstlenilen sağlık tesisleri yapım projelerinin sahadaki ilerleme düzeyleri, inşaat süreçlerinin güncel durumu ve önümüzdeki dönemde atılacak stratejik adımların masaya yatırıldığı bildirildi. USHAŞ açıklaması, projeler tamamlandığında bu tesislerin KKTC tarihindeki en büyük sağlık yatırımları arasında yer alacağını ifade ediyor.</p>\n\n<h2>Hastanelerin Hizmete Giriş Takvimi ve Sektörel Yansımalar</h2>\n<p>Resmî duyuruda hangi hastanelerin tam olarak hangi tarihte hasta kabulüne başlayacağı, kesinleşmiş yatak ve yoğun bakım kapasiteleri ya da bu toplantı vesilesiyle yeni bir ihale sürecinin başlatılıp başlatılmadığına dair ayrıntılı teknik bilgiler yer almamaktadır. Dolayısıyla bu gelişme bir açılış ya da kesin tamamlanma ilanı olarak değil, kurumsal proje takip toplantısı olarak okunmalıdır.</p>\n\n<p>Doğu Akdeniz bölgesinde sağlık altyapısının modernleşmesi; hem KKTC vatandaşlarının ileri tetkik ve tedaviye erişimini güçlendirmesi hem de Türkiye ile kurulacak hasta sevk ve ortak uzmanlık zinciri açısından dikkatle izlenmektedir. Söz konusu yatırımların bölgesel sağlık turizmi hareketliliğine etkisi ise hastanelerin klinik branşları, uluslararası hasta kabul modelleri ve akreditasyon standartları ilan edildiğinde somutluk kazanacaktır.</p>\n"
+      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#102A43] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Toplantı Tarihi:</strong> 14 Eylül 2026 | <strong>Kurum:</strong> USHAŞ | <strong>Bölge:</strong> KKTC & Doğu Akdeniz | <strong>Konu:</strong> Sağlık Altyapısı ve Hastane Yatırımları\n</div>\n\n<p>Uluslararası Sağlık Hizmetleri A.Ş. (USHAŞ), Kuzey Kıbrıs Türk Cumhuriyeti'ndeki hastane yapım projelerine ilişkin kapsamlı bir değerlendirme toplantısı gerçekleştirildiğini 14 Eylül 2026 tarihinde duyurdu. USHAŞ'ın TOBB Ofisi'nde yapılan toplantıya Genel Müdür Serdar Şenol başkanlık etti.</p>\n\n<p>Kurum tarafından yapılan bilgilendirmede; sözleşmeleri USHAŞ tarafından üstlenilen sağlık tesisleri yapım projelerinin sahadaki ilerleme düzeyleri, inşaat süreçlerinin güncel durumu ve önümüzdeki dönemde atılacak stratejik adımların masaya yatırıldığı bildirildi. USHAŞ açıklaması, projeler tamamlandığında bu tesislerin KKTC tarihindeki en büyük sağlık yatırımları arasında yer alacağını ifade ediyor.</p>\n\n<h2>Hastanelerin Hizmete Giriş Takvimi ve Sektörel Yansımalar</h2>\n<p>Resmî duyuruda hangi hastanelerin tam olarak hangi tarihte hasta kabulüne başlayacağı, kesinleşmiş yatak ve yoğun bakım kapasiteleri ya da bu toplantı vesilesiyle yeni bir ihale sürecinin başlatılıp başlatılmadığına dair ayrıntılı teknik bilgiler yer almamaktadır. Dolayısıyla bu gelişme bir açılış ya da kesin tamamlanma ilanı olarak değil, kurumsal proje takip toplantısı olarak okunmalıdır.</p>\n\n<p>Doğu Akdeniz bölgesinde sağlık altyapısının modernleşmesi; hem KKTC vatandaşlarının ileri tetkik ve tedaviye erişimini güçlendirmesi hem de Türkiye ile kurulacak hasta sevk ve ortak uzmanlık zinciri açısından dikkatle izlenmektedir. Söz konusu yatırımların bölgesel sağlık turizmi hareketliliğine etkisi ise hastanelerin klinik branşları, uluslararası hasta kabul modelleri ve akreditasyon standartları ilan edildiğinde somutluk kazanacaktır.</p>\n",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-06",
@@ -1152,7 +1164,9 @@
       ],
       "seoTitle": "İngiltere Sağlıkta Yapay Zekâ Düzenleme Komisyonu Raporu 2026",
       "seoDescription": "İngiltere'deki bağımsız komisyon, sağlık hizmetlerinde yapay zekâ için güvenlik, insan denetimi ve şeffaflık eksenli düzenleme önerilerini açıkladı.",
-      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#00A6A6] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Duyuru Tarihi:</strong> 10 Eylül 2026 | <strong>Kurum:</strong> İngiltere MHRA / Bağımsız Hekim Komisyonu | <strong>Ülke:</strong> Birleşik Krallık | <strong>Alan:</strong> Yapay Zekâ ve Sağlık Regülasyonu\n</div>\n\n<p>İngiltere İlaç ve Sağlık Ürünleri Düzenleme Kurumu (MHRA) koordinasyonunda ve NHS hekimlerinin liderliğinde kurulan bağımsız yapay zekâ komisyonu, sağlık hizmetlerinde yapay zekânın güvenli entegrasyonuna ilişkin kapsamlı düzenleme çerçevesi önerilerini 10 Eylül 2026'da kamuoyuyla paylaştı. Hazırlanan yol haritası, inovatif yapay zekâ çözümlerine erişimi hızlandırırken hasta güvenliğini ve hekimin nihai klinik denetimini güvence altına almayı hedefliyor.</p>\n\n<p>MHRA açıklamasına göre komisyon, bir yıllık çalışma boyunca hastalar, hekimler, sağlık kurumu yöneticileri, yazılım geliştiricileri ve sivil toplum temsilcileri dahil 12 binden fazla paydaşın görüşünü topladı. Raporun ana bulgusu, kamuoyunun sağlıkta yapay zekâya desteğinin ancak <strong>katı güvenlik standartları</strong>, <strong>anlamlı insan gözetimi (human-in-the-loop)</strong> ve <strong>hastaya karşı tam şeffaflık</strong> sağlandığı takdirde sürdürülebileceğini gösteriyor.</p>\n\n<h2>NHS İçindeki Uygulamalar ve Tavsiyeler</h2>\n<p>Kurum, Birleşik Krallık Ulusal Sağlık Sistemi (NHS) bünyesinde yapay zekânın hâlihazırda inme tespiti, cilt kanseri taraması ve hekimlerin idari iş yükünü hafifleten sesli not alma/transkripsiyon araçlarında kullanıldığını belirtti. Komisyonun düzenleyici otoriteye sunduğu başlıca tavsiyeler şunlardır:</p>\n<ul>\n  <li>Yapay zekâ algoritmalarının klinik karar destek düzeyleri açıkça derecelendirilmeli ve hasta dosyalarında kayıt altına alınmalıdır.</li>\n  <li>Son klinik teşhis ve tedavi kararı her zaman yetkili bir sağlık uzmanının onayına bağlı kalmalıdır.</li>\n  <li>Hatalı sonuç veya algoritma sapması (bias) durumlarında sorumluluk zinciri ve tazmin yolları şeffaf biçimde tanımlanmalıdır.</li>\n</ul>\n\n<p><strong>Yasal Çerçeve Notu:</strong> Yayımlanan bu metin yürürlüğe girmiş bağlayıcı bir Birleşik Krallık kanunu değil, düzenleyici kurumlara iletilen komisyon tavsiyeleridir. Uluslararası hastalara uzaktan konsültasyon, tele-tıp veya otomatik hasta iletişimi sunan Türk sağlık turizmi kuruluşları açısından çıkarım açıktır: Algoritmanın nerede tavsiye verdiği, nihai hekim onayı ve veri güvenliği hasta haklarına uygun şekilde belgelenmelidir.</p>\n"
+      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#00A6A6] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Duyuru Tarihi:</strong> 10 Eylül 2026 | <strong>Kurum:</strong> İngiltere MHRA / Bağımsız Hekim Komisyonu | <strong>Ülke:</strong> Birleşik Krallık | <strong>Alan:</strong> Yapay Zekâ ve Sağlık Regülasyonu\n</div>\n\n<p>İngiltere İlaç ve Sağlık Ürünleri Düzenleme Kurumu (MHRA) koordinasyonunda ve NHS hekimlerinin liderliğinde kurulan bağımsız yapay zekâ komisyonu, sağlık hizmetlerinde yapay zekânın güvenli entegrasyonuna ilişkin kapsamlı düzenleme çerçevesi önerilerini 10 Eylül 2026'da kamuoyuyla paylaştı. Hazırlanan yol haritası, inovatif yapay zekâ çözümlerine erişimi hızlandırırken hasta güvenliğini ve hekimin nihai klinik denetimini güvence altına almayı hedefliyor.</p>\n\n<p>MHRA açıklamasına göre komisyon, bir yıllık çalışma boyunca hastalar, hekimler, sağlık kurumu yöneticileri, yazılım geliştiricileri ve sivil toplum temsilcileri dahil 12 binden fazla paydaşın görüşünü topladı. Raporun ana bulgusu, kamuoyunun sağlıkta yapay zekâya desteğinin ancak <strong>katı güvenlik standartları</strong>, <strong>anlamlı insan gözetimi (human-in-the-loop)</strong> ve <strong>hastaya karşı tam şeffaflık</strong> sağlandığı takdirde sürdürülebileceğini gösteriyor.</p>\n\n<h2>NHS İçindeki Uygulamalar ve Tavsiyeler</h2>\n<p>Kurum, Birleşik Krallık Ulusal Sağlık Sistemi (NHS) bünyesinde yapay zekânın hâlihazırda inme tespiti, cilt kanseri taraması ve hekimlerin idari iş yükünü hafifleten sesli not alma/transkripsiyon araçlarında kullanıldığını belirtti. Komisyonun düzenleyici otoriteye sunduğu başlıca tavsiyeler şunlardır:</p>\n<ul>\n  <li>Yapay zekâ algoritmalarının klinik karar destek düzeyleri açıkça derecelendirilmeli ve hasta dosyalarında kayıt altına alınmalıdır.</li>\n  <li>Son klinik teşhis ve tedavi kararı her zaman yetkili bir sağlık uzmanının onayına bağlı kalmalıdır.</li>\n  <li>Hatalı sonuç veya algoritma sapması (bias) durumlarında sorumluluk zinciri ve tazmin yolları şeffaf biçimde tanımlanmalıdır.</li>\n</ul>\n\n<p><strong>Yasal Çerçeve Notu:</strong> Yayımlanan bu metin yürürlüğe girmiş bağlayıcı bir Birleşik Krallık kanunu değil, düzenleyici kurumlara iletilen komisyon tavsiyeleridir. Uluslararası hastalara uzaktan konsültasyon, tele-tıp veya otomatik hasta iletişimi sunan Türk sağlık turizmi kuruluşları açısından çıkarım açıktır: Algoritmanın nerede tavsiye verdiği, nihai hekim onayı ve veri güvenliği hasta haklarına uygun şekilde belgelenmelidir.</p>\n",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-05",
@@ -1190,7 +1204,9 @@
       ],
       "seoTitle": "FDA Lirafugratinib Onayı: FGFR2 Safra Yolu Kanseri (ABD)",
       "seoDescription": "FDA, önceki tedavileri almış ve FGFR2 gen değişimi bulunan ileri evre safra yolu kanseri hastaları için lirafugratinibi onayladı.",
-      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#C62828] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Onay Tarihi:</strong> 23 Eylül 2026 | <strong>Kurum:</strong> ABD FDA | <strong>Ruhsat Bölgesi:</strong> Amerika Birleşik Devletleri | <strong>Branş:</strong> Tıbbi Onkoloji\n</div>\n\n<p>ABD Gıda ve İlaç Dairesi (FDA), daha önce sistemik tedavi görmüş, cerrahi olarak çıkarılamayan lokal ileri veya metastatik kolanjiyokarsinom (safra yolu kanseri) tanılı yetişkin hastalar için <strong>lirafugratinib</strong> etken maddeli ilacı 23 Eylül 2026 tarihinde onayladı. Onay kararı tüm safra yolu kanseri olgularını kapsamamaktadır; tedaviden yararlanabilmek için tümör dokusunda doğrulanmış bir <em>FGFR2 gen füzyonu</em> veya diğer <em>FGFR2 yeniden düzenlenmesi (rearrangement)</em> bulunması şarttır.</p>\n\n<h2>REFOCUS Çalışması Sonuçları ve Güvenlik Profili</h2>\n<p>FDA kararında değerlendirilen tek kollu REFOCUS klinik çalışmasında, daha önce başka bir FGFR inhibitörü almamış 116 hasta yer aldı. Bağımsız merkezi inceleme komitesinin değerlendirmelerine göre:</p>\n<ul>\n  <li>Nesnel yanıt oranı (ORR) <strong>%46</strong> olarak bildirildi.</li>\n  <li>Ortanca yanıt süresi (DoR) ise <strong>11,8 ay</strong> olarak tespit edildi.</li>\n</ul>\n\n<p>Çalışma tek kollu tasarlandığı için bu yüzdeler doğrudan diğer tedavilere kıyasla bir üstünlük kanıtı olarak sunulamaz. FDA ayrıca ilacın güvenlik profilinde; gözle ilgili toksisiteler (retina dekolmanı, kuru göz), kan fosfat düzeyinde yükselme (hiperfosfatemi) ve yumuşak dokularda kalsiyum/mineral birikimi gibi ciddi risklere dikkat çekmekte ve düzenli oftalmolojik izlem önermektedir.</p>\n\n<h2>Kişiselleştirilmiş Onkoloji ve Hasta Hakları</h2>\n<p>Sağlık turizmi ve sınır ötesi onkoloji hizmetleri açısından bu onay, ileri evre gastrointestinal kanserlerde moleküler profillemenin vazgeçilmez önemini ortaya koymaktadır. Yalnızca bir ilacın adını duyarak tedavi planı oluşturulamaz; genetik testin kalitesi, daha önce uygulanan protokoller ve hastanın ülkesine döndükten sonraki takip altyapısı kritik öneme sahiptir.</p>\n\n<p><strong>Önemli Not:</strong> Bu onay yalnızca Amerika Birleşik Devletleri yetki alanındadır. İlacın Türkiye'deki ruhsat durumu, tedarik yolları ve SGK kapsamı FDA duyurusundan tamamen bağımsız olup ulusal mevzuat çerçevesinde değerlendirilmelidir. Bu metin kişisel tıbbi tavsiye içermez.</p>\n"
+      "content": "\n<div class=\"p-3 bg-slate-50 border-l-4 border-[#C62828] text-xs text-slate-600 mb-6 rounded-r\">\n  <strong>Kaynak Onay Tarihi:</strong> 23 Eylül 2026 | <strong>Kurum:</strong> ABD FDA | <strong>Ruhsat Bölgesi:</strong> Amerika Birleşik Devletleri | <strong>Branş:</strong> Tıbbi Onkoloji\n</div>\n\n<p>ABD Gıda ve İlaç Dairesi (FDA), daha önce sistemik tedavi görmüş, cerrahi olarak çıkarılamayan lokal ileri veya metastatik kolanjiyokarsinom (safra yolu kanseri) tanılı yetişkin hastalar için <strong>lirafugratinib</strong> etken maddeli ilacı 23 Eylül 2026 tarihinde onayladı. Onay kararı tüm safra yolu kanseri olgularını kapsamamaktadır; tedaviden yararlanabilmek için tümör dokusunda doğrulanmış bir <em>FGFR2 gen füzyonu</em> veya diğer <em>FGFR2 yeniden düzenlenmesi (rearrangement)</em> bulunması şarttır.</p>\n\n<h2>REFOCUS Çalışması Sonuçları ve Güvenlik Profili</h2>\n<p>FDA kararında değerlendirilen tek kollu REFOCUS klinik çalışmasında, daha önce başka bir FGFR inhibitörü almamış 116 hasta yer aldı. Bağımsız merkezi inceleme komitesinin değerlendirmelerine göre:</p>\n<ul>\n  <li>Nesnel yanıt oranı (ORR) <strong>%46</strong> olarak bildirildi.</li>\n  <li>Ortanca yanıt süresi (DoR) ise <strong>11,8 ay</strong> olarak tespit edildi.</li>\n</ul>\n\n<p>Çalışma tek kollu tasarlandığı için bu yüzdeler doğrudan diğer tedavilere kıyasla bir üstünlük kanıtı olarak sunulamaz. FDA ayrıca ilacın güvenlik profilinde; gözle ilgili toksisiteler (retina dekolmanı, kuru göz), kan fosfat düzeyinde yükselme (hiperfosfatemi) ve yumuşak dokularda kalsiyum/mineral birikimi gibi ciddi risklere dikkat çekmekte ve düzenli oftalmolojik izlem önermektedir.</p>\n\n<h2>Kişiselleştirilmiş Onkoloji ve Hasta Hakları</h2>\n<p>Sağlık turizmi ve sınır ötesi onkoloji hizmetleri açısından bu onay, ileri evre gastrointestinal kanserlerde moleküler profillemenin vazgeçilmez önemini ortaya koymaktadır. Yalnızca bir ilacın adını duyarak tedavi planı oluşturulamaz; genetik testin kalitesi, daha önce uygulanan protokoller ve hastanın ülkesine döndükten sonraki takip altyapısı kritik öneme sahiptir.</p>\n\n<p><strong>Önemli Not:</strong> Bu onay yalnızca Amerika Birleşik Devletleri yetki alanındadır. İlacın Türkiye'deki ruhsat durumu, tedarik yolları ve SGK kapsamı FDA duyurusundan tamamen bağımsız olup ulusal mevzuat çerçevesinde değerlendirilmelidir. Bu metin kişisel tıbbi tavsiye içermez.</p>\n",
+      "isHeadline": false,
+      "isSecondaryHeadline": false
     },
     {
       "id": "art-radar-2026-09-04",
@@ -1208,7 +1224,7 @@
       "updatedAt": "2026-09-29T15:30:00.000Z",
       "readingTime": 4,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1200&auto=format&fit=crop&q=80",
       "imageCaption": "FDA onayı, belirli ESR1 mutasyonuna sahip metastatik meme kanseri hastalarında hedefe yönelik kombinasyon tedavisini kapsıyor.",
@@ -1247,7 +1263,7 @@
       "updatedAt": "2026-09-29T16:00:00.000Z",
       "readingTime": 4,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&auto=format&fit=crop&q=80",
       "imageCaption": "DSÖ'nün tıbbi cihaz ön yeterlilik programı yapay zekâ tabanlı tüberküloz tarama algoritmalarını kapsayacak şekilde genişletildi.",
@@ -1286,7 +1302,7 @@
       "updatedAt": "2026-09-29T16:30:00.000Z",
       "readingTime": 3,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1200&auto=format&fit=crop&q=80",
       "imageCaption": "TÜRSAB Sağlık Turizmi İhtisas Komitesi Genel Merkez toplantısında 2027 fuar vizyonu ve itibar yönetimi ele alındı.",
@@ -1326,7 +1342,7 @@
       "updatedAt": "2026-09-29T17:00:00.000Z",
       "readingTime": 3,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": true,
       "breakingBadge": "SON GELİŞME",
       "isEditorPick": true,
@@ -1702,7 +1718,7 @@
       "updatedAt": "2026-09-20T09:30:00.000Z",
       "readingTime": 6,
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isEditorPick": true,
       "featuredImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=80",
       "imageCaption": "Türkiye sağlık turizmi 2026 veri ve gösterge paneli görünümü.",
@@ -1899,7 +1915,7 @@
       "readingTime": 10,
       "authorId": "dr-zeynep-kaya",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "tags": [
@@ -2106,7 +2122,7 @@
       "readingTime": 9,
       "authorId": "av-elif-demir",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "breakingBadge": "MEVZUAT DEĞİŞİKLİĞİ",
       "isEditorPick": true,
@@ -2168,7 +2184,7 @@
       "readingTime": 7,
       "authorId": "editorial",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "tags": [
@@ -2315,7 +2331,7 @@
       "readingTime": 6,
       "authorId": "dr-selim-yilmaz",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "tags": [
@@ -2745,7 +2761,7 @@
       "readingTime": 6,
       "authorId": "murat-aksoy",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "isEditorPick": true,
       "tags": [
@@ -3029,7 +3045,7 @@
       "readingTime": 10,
       "authorId": "dr-selim-yilmaz",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "breakingBadge": "RADAR",
       "isEditorPick": false,
@@ -3082,7 +3098,7 @@
       "readingTime": 10,
       "authorId": "dr-selim-yilmaz",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "breakingBadge": "RADAR",
       "isEditorPick": false,
@@ -3135,7 +3151,7 @@
       "readingTime": 9,
       "authorId": "editorial",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "breakingBadge": "RADAR",
       "isEditorPick": false,
@@ -3188,7 +3204,7 @@
       "readingTime": 9,
       "authorId": "murat-aksoy",
       "isHeadline": false,
-      "isSecondaryHeadline": true,
+      "isSecondaryHeadline": false,
       "isBreaking": false,
       "breakingBadge": "RADAR",
       "isEditorPick": false,
@@ -9787,6 +9803,1221 @@
       ],
       "seoTitle": "Sağlık Turizmi Markaları İçin Güven Endeksi Nasıl Oluşturulu",
       "seoDescription": "Sağlık Turizmi Markaları İçin Güven Endeksi Nasıl Oluşturulur? sağlık turizmi firmaları hakkında kapsam, süreç, dikkat edilmesi gereken noktalar, resmî kaynak."
+    },
+    {
+      "id": "art-radar-2026-10-12-saglik-turizmi-yetki-belgesi-listeleri-5-ekim-2026",
+      "slug": "saglik-turizmi-yetki-belgesi-listeleri-5-ekim-2026",
+      "title": "Sağlık Turizmi Yetki Belgesi Listeleri 5 Ekim'de Güncellendi: Kurumlar Ne Kontrol Etmeli?",
+      "spot": "Sağlık Bakanlığı Sağlık Turizmi Daire Başkanlığı, uluslararası sağlık turizmi yetki belgesine sahip sağlık tesislerinin listelerini 5 Ekim 2026'da güncelledi. Resmî sayfada hastaneler, tıp merkezleri, muayenehaneler ve diğer sağlık tesisleri için ayrı listelere bağlantılar bulunuyor. Yetkili aracı kuruluşlara HealthTürkiye üzerinden erişim sağlanıyor.",
+      "content": "<p><strong>Gündem:</strong> Sağlık turizmi yetki belgesi listeleri güncellendi — 5 Ekim</p>\n<p><strong>Ne oldu?</strong> Sağlık Bakanlığı Sağlık Turizmi Daire Başkanlığı, uluslararası sağlık turizmi yetki belgesine sahip sağlık tesislerinin listelerini 5 Ekim 2026'da güncelledi. Resmî sayfada hastaneler, tıp merkezleri, muayenehaneler ve diğer sağlık tesisleri için ayrı listelere bağlantılar bulunuyor. Yetkili aracı kuruluşlara HealthTürkiye üzerinden erişim sağlanıyor.</p>\n<p><strong>Neden önemli?</strong> Klinikleri, aracı kuruluşları ve yabancı hastaları ilgilendiren temel doğrulama kaynağı bu listeler. Güncelleme, kendiliğinden yeni yönetmelik çıkarıldığı veya belirli sayıda kuruluşa ilk kez belge verildiği anlamına gelmiyor. Net artış/azalış için eski ve yeni listelerin satır bazında karşılaştırılması gerekiyor.</p>\n<p><strong>İzlenecek veri:</strong> Yeni eklenen, listeden çıkan ve adı/ili değişen tesisler; il ve kuruluş türü bazında dağılım.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://shgmturizmdb.saglik.gov.tr/TR-121294/yetki-belgesi-listeleri-guncellenmistir.html\" target=\"_blank\" rel=\"noopener noreferrer\">Sağlık Turizmi Daire Başkanlığı — güncelleme</a> · <a href=\"https://shgmturizmdb.saglik.gov.tr/TR-76664/yetkili-saglik-tesisleri.html\" target=\"_blank\" rel=\"noopener noreferrer\">Yetkili sağlık tesisleri</a> · <a href=\"https://healthturkiye.gov.tr/tr/agency\" target=\"_blank\" rel=\"noopener noreferrer\">HealthTürkiye yetkili acenteler</a></p>",
+      "category": "mevzuat",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Türkiye"
+      ],
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "sources": [
+        {
+          "name": "Sağlık Turizmi Daire Başkanlığı — güncelleme",
+          "url": "https://shgmturizmdb.saglik.gov.tr/TR-121294/yetki-belgesi-listeleri-guncellenmistir.html",
+          "isOfficial": true
+        },
+        {
+          "name": "Yetkili sağlık tesisleri",
+          "url": "https://shgmturizmdb.saglik.gov.tr/TR-76664/yetkili-saglik-tesisleri.html",
+          "isOfficial": true
+        },
+        {
+          "name": "HealthTürkiye yetkili acenteler",
+          "url": "https://healthturkiye.gov.tr/tr/agency",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "Sağlık Turizmi Yetki Belgesi Listeleri 5 Ekim'de Güncellendi: Kurumlar Ne Kontrol Etmeli?",
+      "seoDescription": "Sağlık Bakanlığı Sağlık Turizmi Daire Başkanlığı, uluslararası sağlık turizmi yetki belgesine sahip sağlık tesislerinin listelerini 5 Ekim 2026'da güncelledi. R",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": true
+    },
+    {
+      "id": "art-radar-2026-10-12-34-ozel-hastane-lisansi-13-ekim-2026-artirmasi",
+      "slug": "34-ozel-hastane-lisansi-13-ekim-2026-artirmasi",
+      "title": "11 İlde 34 Özel Hastane Lisansı: 13 Ekim Artırması Öncesi Yatırım Haritası",
+      "spot": "Sağlık Hizmetleri Genel Müdürlüğünün daha önce duyurduğu 2026 özel hastane planlama artırması kapsamında uzmanlık kadrolarına ilişkin II. kısım için 6 Ekim, ilave yatak lisanslarına ilişkin III. kısım için 8 Ekim artırma tarihi öngörülmüştü. Yeni özel hastane lisanslarına ilişkin IV. kısım başvuruları 9 Ekim saat 23.59'da sona erdi; artırma 13 Ekim'e planlandı. Planlama 11 ilde 34 yeni özel hastane lisansını kapsıyor.",
+      "content": "<p><strong>Gündem:</strong> Özel hastane planlama artırmalarında kritik hafta — 6, 8 ve 9 Ekim</p>\n<p><strong>Ne oldu?</strong> Sağlık Hizmetleri Genel Müdürlüğünün daha önce duyurduğu 2026 özel hastane planlama artırması kapsamında uzmanlık kadrolarına ilişkin II. kısım için 6 Ekim, ilave yatak lisanslarına ilişkin III. kısım için 8 Ekim artırma tarihi öngörülmüştü. Yeni özel hastane lisanslarına ilişkin IV. kısım başvuruları 9 Ekim saat 23.59'da sona erdi; artırma 13 Ekim'e planlandı. Planlama 11 ilde 34 yeni özel hastane lisansını kapsıyor.</p>\n<p><strong>Neden önemli?</strong> Sağlık yatırımlarının coğrafi dağılımını etkileyebilecek büyük bir lisanslama süreci. Ancak lisansların artırmaya çıkarılması, yeni hastanelerin açıldığı ya da tüm lisansların satıldığı anlamına gelmiyor. Nihai alıcı ve bedeller için sonuç duyuruları beklenmeli.</p>\n<p><strong>İzlenecek veri:</strong> İstanbul, Ankara, İzmir, Antalya, Bursa ve Muğla başta olmak üzere lisansların hangi illerde ve hangi uzmanlık alanlarında değerlendirildiği; kesinleşen sonuçlar.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://shgm.saglik.gov.tr/TR-120098/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani.html\" target=\"_blank\" rel=\"noopener noreferrer\">SHGM ana ilanı</a> · <a href=\"https://shgm.saglik.gov.tr/TR-120914/2026-yili-ozel-hastaneler-planlama-artirma-isi-iv-kisim-illerde-acilmasi-planlanan-ozel-hastane-lisanslari.html\" target=\"_blank\" rel=\"noopener noreferrer\">SHGM IV. kısım duyurusu</a> · <a href=\"https://ozelhastaneler.org.tr/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani/\" target=\"_blank\" rel=\"noopener noreferrer\">Özel Hastaneler Platformu takvimi</a></p>",
+      "category": "gundem",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Türkiye"
+      ],
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "sources": [
+        {
+          "name": "SHGM ana ilanı",
+          "url": "https://shgm.saglik.gov.tr/TR-120098/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani.html",
+          "isOfficial": true
+        },
+        {
+          "name": "SHGM IV. kısım duyurusu",
+          "url": "https://shgm.saglik.gov.tr/TR-120914/2026-yili-ozel-hastaneler-planlama-artirma-isi-iv-kisim-illerde-acilmasi-planlanan-ozel-hastane-lisanslari.html",
+          "isOfficial": true
+        },
+        {
+          "name": "Özel Hastaneler Platformu takvimi",
+          "url": "https://ozelhastaneler.org.tr/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "11 İlde 34 Özel Hastane Lisansı: 13 Ekim Artırması Öncesi Yatırım Haritası",
+      "seoDescription": "Sağlık Hizmetleri Genel Müdürlüğünün daha önce duyurduğu 2026 özel hastane planlama artırması kapsamında uzmanlık kadrolarına ilişkin II. kısım için 6 Ekim, ila",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": true
+    },
+    {
+      "id": "art-radar-2026-10-12-kamu-saglik-hizmetleri-fiyat-tarifesi-5-ekim-duyurusu",
+      "slug": "kamu-saglik-hizmetleri-fiyat-tarifesi-5-ekim-duyurusu",
+      "title": "Kamu Sağlık Hizmetleri Fiyat Tarifesinde Hangi Belge Geçerli? 5 Ekim Duyurusunun Anlamı",
+      "spot": "Sağlık Turizmi Daire Başkanlığı 5 Ekim'de kamu sağlık hizmetleri fiyat tarifesine ilişkin bir duyuru yayımladı. Duyurunun kendi metni, yeni tarifenin 16 Şubat 2026 tarihli makam oluru ile yürürlüğe konduğunu belirtiyor.",
+      "content": "<p><strong>Gündem:</strong> Kamu sağlık hizmetleri fiyat tarifesi duyurusu — 5 Ekim</p>\n<p><strong>Ne oldu?</strong> Sağlık Turizmi Daire Başkanlığı 5 Ekim'de kamu sağlık hizmetleri fiyat tarifesine ilişkin bir duyuru yayımladı. Duyurunun kendi metni, yeni tarifenin <strong>16 Şubat 2026 tarihli makam oluru</strong> ile yürürlüğe konduğunu belirtiyor.</p>\n<p><strong>Neden önemli?</strong> 5 Ekim'deki sayfa yayını yeni bir Ekim zammı veya aynı gün yürürlüğe giren yeni bir tarife gibi haberleştirilmemeli. Kamu sağlık hizmetlerinde fiyatlandırma yapan kurumlar için yürürlükteki belgeyi teyit etme vesilesi.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://shgmturizmdb.saglik.gov.tr/TR-119401/kamu-saglik-hizmetleri-fiyat-tarifesinde-degisiklik-yapilmistir.html\" target=\"_blank\" rel=\"noopener noreferrer\">Sağlık Turizmi Daire Başkanlığı fiyat tarifesi duyurusu</a></p>",
+      "category": "mevzuat",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Türkiye"
+      ],
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "sources": [
+        {
+          "name": "Sağlık Turizmi Daire Başkanlığı fiyat tarifesi duyurusu",
+          "url": "https://shgmturizmdb.saglik.gov.tr/TR-119401/kamu-saglik-hizmetleri-fiyat-tarifesinde-degisiklik-yapilmistir.html",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "Kamu Sağlık Hizmetleri Fiyat Tarifesinde Hangi Belge Geçerli? 5 Ekim Duyurusunun Anlamı",
+      "seoDescription": "Sağlık Turizmi Daire Başkanlığı 5 Ekim'de kamu sağlık hizmetleri fiyat tarifesine ilişkin bir duyuru yayımladı. Duyurunun kendi metni, yeni tarifenin 16 Şubat 2",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false
+    },
+    {
+      "id": "art-radar-2026-10-12-ushas-muayenehaneler-dernegi-6-ekim-2026-gorusmesi",
+      "slug": "ushas-muayenehaneler-dernegi-6-ekim-2026-gorusmesi",
+      "title": "Sağlık Turizminde Muayenehanelerin Rolü Büyüyebilir mi? USHAŞ Görüşmesinin Ardından Sorular",
+      "spot": "Muayenehaneler Derneği heyeti USHAŞ yönetimiyle görüştü. Kurumsal açıklamaya göre görüşmede muayenehanelerin sağlık turizmi ekosistemindeki iş birliği imkânları ve Türkiye'nin uluslararası konumu ele alındı.",
+      "content": "<p><strong>Gündem:</strong> USHAŞ ve Muayenehaneler Derneği görüştü — 6 Ekim</p>\n<p><strong>Ne oldu?</strong> Muayenehaneler Derneği heyeti USHAŞ yönetimiyle görüştü. Kurumsal açıklamaya göre görüşmede muayenehanelerin sağlık turizmi ekosistemindeki iş birliği imkânları ve Türkiye'nin uluslararası konumu ele alındı.</p>\n<p><strong>Neden önemli?</strong> Sağlık turizmi yalnızca büyük hastanelerden oluşmuyor; bağımsız hekimlerin yetkilendirme, hasta koordinasyonu ve kalite süreçleri de önem taşıyor. Bununla birlikte açıklama yeni protokol veya kural değişikliği duyurmuyor.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://www.ushas.gov.tr/muayenehaneler-dernegi-heyetinden-ushas-genel-muduru-av-serdar-senola-ziyaret/\" target=\"_blank\" rel=\"noopener noreferrer\">USHAŞ 6 Ekim açıklaması</a> — Bağlantı açılmazsa <a href=\"https://www.ushas.gov.tr/\" target=\"_blank\" rel=\"noopener noreferrer\">USHAŞ haberler sayfası</a> üzerinden 6 Ekim başlığına gidiniz.</p>\n<p><strong>Mevzuat kontrolü:</strong> Tarama döneminde sağlık turizmi yetkilendirme rejimini değiştiren yeni bir Resmî Gazete yönetmeliği doğrulanmadı. Bu, tüm mevzuat başlıklarının eksiksiz ve hukuken bağlayıcı taramasının yerine geçmez. Mevcut temel düzenleme 26 Nisan 2025 tarihli <a href=\"https://resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik</a>. İlgili yönetmeliğin TÜSKA/sertifikasyon geçiş yükümlülükleri için <strong>31 Aralık 2026</strong> tarihi ayrıca takip edilmeli.</p>",
+      "category": "gundem",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Türkiye"
+      ],
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "sources": [
+        {
+          "name": "USHAŞ 6 Ekim açıklaması",
+          "url": "https://www.ushas.gov.tr/muayenehaneler-dernegi-heyetinden-ushas-genel-muduru-av-serdar-senola-ziyaret/",
+          "isOfficial": true
+        },
+        {
+          "name": "USHAŞ haberler sayfası",
+          "url": "https://www.ushas.gov.tr/",
+          "isOfficial": true
+        },
+        {
+          "name": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+          "url": "https://resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "Sağlık Turizminde Muayenehanelerin Rolü Büyüyebilir mi? USHAŞ Görüşmesinin Ardından Sorular",
+      "seoDescription": "Muayenehaneler Derneği heyeti USHAŞ yönetimiyle görüştü. Kurumsal açıklamaya göre görüşmede muayenehanelerin sağlık turizmi ekosistemindeki iş birliği imkânları",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false
+    },
+    {
+      "id": "art-radar-2026-10-12-mersin-irak-hasta-yonlendirme-protokolu",
+      "slug": "mersin-irak-hasta-yonlendirme-protokolu",
+      "title": "Irak'tan Mersin'e Sağlık Turizmi İçin Kurumsal Yönlendirme Modeli: Yeni Protokol Ne Getiriyor?",
+      "spot": "TISİAD öncülüğündeki temaslarda Irak'taki Anwar Sheikha Medical City heyeti Adana ve Mersin'de sağlık kuruluşlarını ziyaret etti. Haber kaynaklarına göre Özel Mersin Yenişehir Hastanesi ile hasta yönlendirme amaçlı iş birliği protokolü imzalandı. Fun Tour, iş birliğinin turizm/organizasyon tarafında yer alıyor.",
+      "content": "<p><strong>Gündem:</strong> Mersin–Irak arasında hasta yönlendirme protokolü — 8–9 Ekim</p>\n<p><strong>Ne oldu?</strong> TISİAD öncülüğündeki temaslarda Irak'taki Anwar Sheikha Medical City heyeti Adana ve Mersin'de sağlık kuruluşlarını ziyaret etti. Haber kaynaklarına göre Özel Mersin Yenişehir Hastanesi ile hasta yönlendirme amaçlı iş birliği protokolü imzalandı. Fun Tour, iş birliğinin turizm/organizasyon tarafında yer alıyor.</p>\n<p><strong>Neden önemli?</strong> Bu, soyut tanıtım söyleminden farklı olarak isimleri belli kurumlar arasında açıklanmış bir iş birliği. Türkiye'nin Irak pazarında yalnızca dijital reklam değil, kaynak ülkedeki sağlık kurumları üzerinden yönlendirme ağı kurma ihtimalini gösteriyor. Henüz sevk edilen hasta sayısı veya anlaşmanın mali hacmi açıklanmış değil.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://www.turizmnews.com/mersin-saglik-turizminde-irak-pazarina-aciliyor/41084/\" target=\"_blank\" rel=\"noopener noreferrer\">Turizm News — 8 Ekim</a> · <a href=\"https://www.turizmnews.com/fun-tour-dan-saglik-turizminde-irak-acilimi/41096/\" target=\"_blank\" rel=\"noopener noreferrer\">Turizm News — Fun Tour, 9 Ekim</a></p>",
+      "category": "pazarlar",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Irak"
+      ],
+      "country": "Irak",
+      "region": "Orta Doğu",
+      "sources": [
+        {
+          "name": "Turizm News — 8 Ekim",
+          "url": "https://www.turizmnews.com/mersin-saglik-turizminde-irak-pazarina-aciliyor/41084/",
+          "isOfficial": false
+        },
+        {
+          "name": "Turizm News — Fun Tour, 9 Ekim",
+          "url": "https://www.turizmnews.com/fun-tour-dan-saglik-turizminde-irak-acilimi/41096/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Irak'tan Mersin'e Sağlık Turizmi İçin Kurumsal Yönlendirme Modeli: Yeni Protokol Ne Getiriyor?",
+      "seoDescription": "TISİAD öncülüğündeki temaslarda Irak'taki Anwar Sheikha Medical City heyeti Adana ve Mersin'de sağlık kuruluşlarını ziyaret etti. Haber kaynaklarına göre Özel M",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": true
+    },
+    {
+      "id": "art-radar-2026-10-12-ktu-farabi-robotik-urolojik-cerrahi-trabzon",
+      "slug": "ktu-farabi-robotik-urolojik-cerrahi-trabzon",
+      "title": "Robotik Cerrahi Trabzon'un Uluslararası Hasta Potansiyelini Artırabilir mi?",
+      "spot": "Trabzon'daki KTÜ Farabi Hastanesinin üroloji kliniğinde robotik cerrahi sistemi kullanıldığı ve hekimlerin, sistemin devreye alınmasından sonra başvurularda artış gözlemlediklerini bildirdiği haberleştirildi. Uygulamanın yaklaşık iki aydır kullanıldığı belirtiliyor; cihazın 6 Ekim'de kurulduğu söylenmemeli.",
+      "content": "<p><strong>Gündem:</strong> KTÜ Farabi Hastanesinde robotik ürolojik cerrahi — 6 Ekim haberi</p>\n<p><strong>Ne oldu?</strong> Trabzon'daki KTÜ Farabi Hastanesinin üroloji kliniğinde robotik cerrahi sistemi kullanıldığı ve hekimlerin, sistemin devreye alınmasından sonra başvurularda artış gözlemlediklerini bildirdiği haberleştirildi. Uygulamanın yaklaşık iki aydır kullanıldığı belirtiliyor; cihazın 6 Ekim'de kurulduğu söylenmemeli.</p>\n<p><strong>Neden önemli?</strong> İleri cerrahi kapasitesinin İstanbul/Ankara dışındaki merkezlerde güçlenmesi, bölgesel sevk akışını ve uzun vadede uluslararası hasta potansiyelini etkileyebilir. Artan başvuruların kaçının yabancı hastalardan geldiği açıklanmadığı için doğrudan sağlık turizmi büyümesi kanıtı değildir.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://haberton.com/dogu-karadenizde-robotik-cerrahi-donemi-hasta-basvurularinda-artis-oldu/\" target=\"_blank\" rel=\"noopener noreferrer\">Haberton — 6 Ekim</a></p>",
+      "category": "teknoloji",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Türkiye"
+      ],
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "sources": [
+        {
+          "name": "Haberton — 6 Ekim",
+          "url": "https://haberton.com/dogu-karadenizde-robotik-cerrahi-donemi-hasta-basvurularinda-artis-oldu/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Robotik Cerrahi Trabzon'un Uluslararası Hasta Potansiyelini Artırabilir mi?",
+      "seoDescription": "Trabzon'daki KTÜ Farabi Hastanesinin üroloji kliniğinde robotik cerrahi sistemi kullanıldığı ve hekimlerin, sistemin devreye alınmasından sonra başvurularda art",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false
+    },
+    {
+      "id": "art-radar-2026-10-12-samsun-ikiztepe-saglik-zirvesi-15-18-ekim-2026",
+      "slug": "samsun-ikiztepe-saglik-zirvesi-15-18-ekim-2026",
+      "title": "Samsun Medikal Üretim ve Sağlık Turizmini Aynı Zirvede Buluşturuyor: 15–18 Ekim Gündemi",
+      "spot": "Samsun'da III. Uluslararası İkiztepe Sağlık Zirvesi ve Kuzey Anadolu Sağlık ve Medikal Fuarı'nın lansmanı yapıldı. Güncel 5 Ekim tanıtım haberlerinde etkinlik tarihi 15–18 Ekim 2026 olarak veriliyor. Bazı daha eski etkinlik takvimlerinde 8–10 Ekim tarihi kaldığından yayınlarda güncel takvim esas alınmalı.",
+      "content": "<p><strong>Gündem:</strong> Samsun sağlık zirvesi için tanıtım yapıldı — 5 Ekim</p>\n<p><strong>Ne oldu?</strong> Samsun'da III. Uluslararası İkiztepe Sağlık Zirvesi ve Kuzey Anadolu Sağlık ve Medikal Fuarı'nın lansmanı yapıldı. Güncel 5 Ekim tanıtım haberlerinde etkinlik tarihi <strong>15–18 Ekim 2026</strong> olarak veriliyor. Bazı daha eski etkinlik takvimlerinde 8–10 Ekim tarihi kaldığından yayınlarda güncel takvim esas alınmalı.</p>\n<p><strong>Neden önemli?</strong> Samsun'un medikal cihaz üretimi, sağlık hizmeti ve sağlık turizmi tanıtımını birleştiren bir platform oluşturma çabası. Zirveden sonra somut anlaşma, yabancı alıcı ve yatırım rakamları takip edilmeli.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://www.canligaste.com/samsun-iii-uluslararasi-ikiztepe-saglik-zirvesi-ve-saglik-fuari-na-ev-sahipligi-yapacak/920633/\" target=\"_blank\" rel=\"noopener noreferrer\">Anadolu Ajansı aktarımı — 5 Ekim</a> · <a href=\"https://www.medikalkume.com/announcements/the-healthcare-world-is-gathering-in-samsun\" target=\"_blank\" rel=\"noopener noreferrer\">OSTİM Medikal Sanayi Kümelenmesi</a></p>",
+      "category": "etkinlikler",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Türkiye"
+      ],
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "sources": [
+        {
+          "name": "Anadolu Ajansı aktarımı — 5 Ekim",
+          "url": "https://www.canligaste.com/samsun-iii-uluslararasi-ikiztepe-saglik-zirvesi-ve-saglik-fuari-na-ev-sahipligi-yapacak/920633/",
+          "isOfficial": false
+        },
+        {
+          "name": "OSTİM Medikal Sanayi Kümelenmesi",
+          "url": "https://www.medikalkume.com/announcements/the-healthcare-world-is-gathering-in-samsun",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Samsun Medikal Üretim ve Sağlık Turizmini Aynı Zirvede Buluşturuyor: 15–18 Ekim Gündemi",
+      "seoDescription": "Samsun'da III. Uluslararası İkiztepe Sağlık Zirvesi ve Kuzey Anadolu Sağlık ve Medikal Fuarı'nın lansmanı yapıldı. Güncel 5 Ekim tanıtım haberlerinde etkinlik t",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false
+    },
+    {
+      "id": "art-radar-2026-10-12-tayland-450-baht-ziyaretci-ucreti-sigorta-taslagi",
+      "slug": "tayland-450-baht-ziyaretci-ucreti-sigorta-taslagi",
+      "title": "Tayland'ın 450 Bahtlık Ziyaretçi Ücreti Taslağı: Sağlık Sigortası ve Medikal Turizm İçin Ne Anlama Geliyor?",
+      "spot": "Tayland Turizm ve Spor Bakanlığı 6 Ekim'deki toplantıda yabancı ziyaretçilerden 450 baht alınmasını öngören taslağı değerlendirdi. Tasarı, uygun ziyaretçiler için sigorta kapsamı ve turizm altyapısı finansmanını içeriyor. Henüz yürürlüğe girmiş bir vergi değil; turizm politika kurulu ve kabine değerlendirmesi gerekiyor. Haberde kamu hastanelerinin yabancı hastalardan tahsil edemediği bazı sağlık giderlerine de dikkat çekiliyor; bu maliyetlerin tamamı sağlık turistlerinden kaynaklanmıyor.",
+      "content": "<p><strong>Gündem:</strong> Tayland yabancı ziyaretçiler için sigortalı giriş ücreti taslağını tartışıyor — 6–7 Ekim</p>\n<p><strong>Ne oldu?</strong> Tayland Turizm ve Spor Bakanlığı 6 Ekim'deki toplantıda yabancı ziyaretçilerden 450 baht alınmasını öngören taslağı değerlendirdi. Tasarı, uygun ziyaretçiler için sigorta kapsamı ve turizm altyapısı finansmanını içeriyor. <strong>Henüz yürürlüğe girmiş bir vergi değil;</strong> turizm politika kurulu ve kabine değerlendirmesi gerekiyor. Haberde kamu hastanelerinin yabancı hastalardan tahsil edemediği bazı sağlık giderlerine de dikkat çekiliyor; bu maliyetlerin tamamı sağlık turistlerinden kaynaklanmıyor.</p>\n<p><strong>Neden önemli?</strong> Sağlık turizmi destinasyonlarının, yabancı ziyaretçi güvenliği ile kamu sağlık finansmanını aynı politika çerçevesinde tartışması. Tedavi amacıyla seyahat eden hastaların hangi sigorta kapsamına gireceği ayrıca incelenmeli.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://www.nationthailand.com/news/40071948\" target=\"_blank\" rel=\"noopener noreferrer\">The Nation Thailand — 7 Ekim</a></p>",
+      "category": "dunya",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Tayland"
+      ],
+      "country": "Tayland",
+      "region": "Asya",
+      "sources": [
+        {
+          "name": "The Nation Thailand — 7 Ekim",
+          "url": "https://www.nationthailand.com/news/40071948",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Tayland'ın 450 Bahtlık Ziyaretçi Ücreti Taslağı: Sağlık Sigortası ve Medikal Turizm İçin Ne Anlama Geliyor?",
+      "seoDescription": "Tayland Turizm ve Spor Bakanlığı 6 Ekim'deki toplantıda yabancı ziyaretçilerden 450 baht alınmasını öngören taslağı değerlendirdi. Tasarı, uygun ziyaretçiler iç",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": true
+    },
+    {
+      "id": "art-radar-2026-10-12-sarawak-saglik-turizmi-konaklama-doga-modeli",
+      "slug": "sarawak-saglik-turizmi-konaklama-doga-modeli",
+      "title": "Sarawak Sağlık Turizmini Doğa ve Konaklamayla Birleştirmek İstiyor: Modelin Fırsatları ve Sınırları",
+      "spot": "Sarawak Başbakanı, Kuching'de sağlık hizmeti alan hastaların uygun koşullarda otel konaklaması ve doğa destinasyonlarıyla bütünleşen bir ziyaret deneyiminden yararlanabileceğini dile getirdi. Aynı gün yerel haberlerde özel hastanelerin kapasite artışına ilişkin açıklamalar yer aldı. Bu, henüz faaliyete geçmiş bir medikal rehabilitasyon programı veya resmî hastane-otel protokolü değil.",
+      "content": "<p><strong>Gündem:</strong> Malezya'nın Sarawak eyaleti tedavi sonrası konaklamayı destinasyon stratejisine bağlıyor — 6 Ekim</p>\n<p><strong>Ne oldu?</strong> Sarawak Başbakanı, Kuching'de sağlık hizmeti alan hastaların uygun koşullarda otel konaklaması ve doğa destinasyonlarıyla bütünleşen bir ziyaret deneyiminden yararlanabileceğini dile getirdi. Aynı gün yerel haberlerde özel hastanelerin kapasite artışına ilişkin açıklamalar yer aldı. Bu, henüz faaliyete geçmiş bir medikal rehabilitasyon programı veya resmî hastane-otel protokolü değil.</p>\n<p><strong>Neden önemli?</strong> Uluslararası hasta yolculuğunda konaklama ve refakatçi ekonomisinin öneminin artması. Ancak cerrahi sonrası seyahat ve aktivite ancak hastanın klinik durumuna uygun hekim önerisiyle planlanmalı.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://dayakdaily.com/recover-in-nature-premier-sees-sematan-lundu-telok-melano-as-medical-tourism-draw/\" target=\"_blank\" rel=\"noopener noreferrer\">DayakDaily — 6 Ekim</a> · <a href=\"https://sarawakdaily.com/kuching-private-hospitals-boost-medical-tourism/\" target=\"_blank\" rel=\"noopener noreferrer\">Sarawak Daily — 6 Ekim</a></p>",
+      "category": "dunya",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Malezya"
+      ],
+      "country": "Malezya",
+      "region": "Asya",
+      "sources": [
+        {
+          "name": "DayakDaily — 6 Ekim",
+          "url": "https://dayakdaily.com/recover-in-nature-premier-sees-sematan-lundu-telok-melano-as-medical-tourism-draw/",
+          "isOfficial": false
+        },
+        {
+          "name": "Sarawak Daily — 6 Ekim",
+          "url": "https://sarawakdaily.com/kuching-private-hospitals-boost-medical-tourism/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Sarawak Sağlık Turizmini Doğa ve Konaklamayla Birleştirmek İstiyor: Modelin Fırsatları ve Sınırları",
+      "seoDescription": "Sarawak Başbakanı, Kuching'de sağlık hizmeti alan hastaların uygun koşullarda otel konaklaması ve doğa destinasyonlarıyla bütünleşen bir ziyaret deneyiminden ya",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": true
+    },
+    {
+      "id": "art-radar-2026-10-12-laos-183-ruhsatsiz-estetik-merkezi-denetim",
+      "slug": "laos-183-ruhsatsiz-estetik-merkezi-denetim",
+      "title": "Laos'ta 183 Ruhsatsız Estetik Merkezi: Uluslararası Hastalar Klinik Yetkisini Nasıl Doğrulamalı?",
+      "spot": "Laos Sağlık Bakanı, 7 Ekim'de parlamentoda yaptığı açıklamada tıbbi işlem gerçekleştirdiği halde lisansı bulunmayan 183 güzellik merkezinin tespit edildiğini bildirdi. Sağlık Bakanlığı ülke çapında denetimlerin yenilenmesini istedi.",
+      "content": "<p><strong>Gündem:</strong> Laos'ta 183 ruhsatsız estetik merkezinin tespit edildiği açıklandı — 7–9 Ekim</p>\n<p><strong>Ne oldu?</strong> Laos Sağlık Bakanı, 7 Ekim'de parlamentoda yaptığı açıklamada tıbbi işlem gerçekleştirdiği halde lisansı bulunmayan 183 güzellik merkezinin tespit edildiğini bildirdi. Sağlık Bakanlığı ülke çapında denetimlerin yenilenmesini istedi.</p>\n<p><strong>Neden önemli?</strong> Estetik ve medikal turizmde ruhsat, reklam, tıbbi yetki ve hasta güvenliği arasındaki ilişkinin küresel önemini gösteriyor. Bu sayı Türkiye'ye ait değil; karşılaştırma için farklı ülkelerdeki lisans ve denetim standartları ayrı araştırılmalı.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://laotiantimes.com/2026/10/09/health-ministry-finds-more-than-180-illegal-beauty-centers-orders-nationwide-re-inspection/\" target=\"_blank\" rel=\"noopener noreferrer\">Laotian Times — 9 Ekim</a></p>",
+      "category": "dunya",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Laos"
+      ],
+      "country": "Laos",
+      "region": "Asya",
+      "sources": [
+        {
+          "name": "Laotian Times — 9 Ekim",
+          "url": "https://laotiantimes.com/2026/10/09/health-ministry-finds-more-than-180-illegal-beauty-centers-orders-nationwide-re-inspection/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Laos'ta 183 Ruhsatsız Estetik Merkezi: Uluslararası Hastalar Klinik Yetkisini Nasıl Doğrulamalı?",
+      "seoDescription": "Laos Sağlık Bakanı, 7 Ekim'de parlamentoda yaptığı açıklamada tıbbi işlem gerçekleştirdiği halde lisansı bulunmayan 183 güzellik merkezinin tespit edildiğini bi",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false
+    },
+    {
+      "id": "art-radar-2026-10-12-vietnam-nutifood-geleneksel-tip-hastanesi-is-birligi",
+      "slug": "vietnam-nutifood-geleneksel-tip-hastanesi-is-birligi",
+      "title": "Vietnam'da Hastane–Beslenme Şirketi İş Birliği: Geleneksel Sağlık Ürünlerinde Yeni Ar-Ge Yaklaşımı",
+      "spot": "Nutifood ile Ho Chi Minh City Traditional Medicine Hospital, Vietnam'a özgü şifalı bitkilerden beslenme çözümleri geliştirmeye yönelik mutabakat imzaladı. İş birliği doğrudan yabancı hasta çekme anlaşması olarak sunulmuyor.",
+      "content": "<p><strong>Gündem:</strong> Vietnam'da geleneksel tıp hastanesi ve gıda şirketi ortaklığı — 9 Ekim</p>\n<p><strong>Ne oldu?</strong> Nutifood ile Ho Chi Minh City Traditional Medicine Hospital, Vietnam'a özgü şifalı bitkilerden beslenme çözümleri geliştirmeye yönelik mutabakat imzaladı. İş birliği doğrudan yabancı hasta çekme anlaşması olarak sunulmuyor.</p>\n<p><strong>Neden önemli?</strong> Geleneksel tıp, beslenme ve araştırma-geliştirme faaliyetlerinin sağlık ekonomisinde kesiştiği bir örnek. Klinik etkinlik iddiaları, ürün onayları ve sağlık turizmi bağlantısı ayrıca doğrulanmalı.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://www.vietnam.vn/en/nutifood-hop-tac-benh-vien-y-hoc-co-truyen-tp-hcm-phat-trien-giai-phap-dinh-duong-tu-duoc-lieu-viet\" target=\"_blank\" rel=\"noopener noreferrer\">Vietnam.vn — 9 Ekim</a></p>",
+      "category": "dunya",
+      "contentType": "haber",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 1,
+      "featuredImage": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026",
+        "Vietnam"
+      ],
+      "country": "Vietnam",
+      "region": "Asya",
+      "sources": [
+        {
+          "name": "Vietnam.vn — 9 Ekim",
+          "url": "https://www.vietnam.vn/en/nutifood-hop-tac-benh-vien-y-hoc-co-truyen-tp-hcm-phat-trien-giai-phap-dinh-duong-tu-duoc-lieu-viet",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Vietnam'da Hastane–Beslenme Şirketi İş Birliği: Geleneksel Sağlık Ürünlerinde Yeni Ar-Ge Yaklaşımı",
+      "seoDescription": "Nutifood ile Ho Chi Minh City Traditional Medicine Hospital, Vietnam'a özgü şifalı bitkilerden beslenme çözümleri geliştirmeye yönelik mutabakat imzaladı. İş bi",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false
+    },
+    {
+      "id": "art-radar-2026-10-12-saglik-turizmi-radari-5-11-ekim-2026",
+      "slug": "saglik-turizmi-radari-5-11-ekim-2026",
+      "title": "Sağlık Turizmi Radarı | 5–11 Ekim 2026",
+      "spot": "Yetki listeleri, özel hastane lisans takvimi, Mersin–Irak iş birliği ve dünyadan sağlık turizmi gelişmeleri: haftanın kaynaklı özeti.",
+      "content": "<h2>Sağlık Turizmi Radarı | 5–11 Ekim 2026</h2>\n<p><strong>Haftanın ana gündemi:</strong> Türkiye'de sağlık turizmi yetki listelerinin güncellenmesi ve özel hastane lisans takviminin kritik aşamaya gelmesi; Mersin–Irak arasında somut hasta yönlendirme iş birliği; Malezya ve Tayland'da sağlık turizmini hasta güvenliği, sigorta ve konaklamayla bütünleştiren yaklaşımlar.</p>\n<blockquote><strong>Yayın standardı:</strong> Haber tarihi ile olay tarihi ayrıdır. Duyuru, başvuru, plan ve imzalanmış anlaşma; fiilen açılmış tesis, kesinleşmiş lisans veya gerçekleşmiş hasta sevki gibi sunulmaz. Yabancı basın haberleri ile resmî istatistikler ayrı değerlendirilir. Buradaki haber açıları özgün yayın önerileridir, kaynak metinlerin kopyası değildir.</blockquote>\n<h2>Türkiye: Resmî duyurular ve mevzuat</h2>\n<h3>1) Sağlık turizmi yetki belgesi listeleri güncellendi — 5 Ekim</h3>\n<p><strong>Ne oldu?</strong> Sağlık Bakanlığı Sağlık Turizmi Daire Başkanlığı, uluslararası sağlık turizmi yetki belgesine sahip sağlık tesislerinin listelerini 5 Ekim 2026'da güncelledi. Resmî sayfada hastaneler, tıp merkezleri, muayenehaneler ve diğer sağlık tesisleri için ayrı listelere bağlantılar bulunuyor. Yetkili aracı kuruluşlara HealthTürkiye üzerinden erişim sağlanıyor.</p>\n<p><strong>Neden önemli?</strong> Klinikleri, aracı kuruluşları ve yabancı hastaları ilgilendiren temel doğrulama kaynağı bu listeler. Güncelleme, kendiliğinden yeni yönetmelik çıkarıldığı veya belirli sayıda kuruluşa ilk kez belge verildiği anlamına gelmiyor. Net artış/azalış için eski ve yeni listelerin satır bazında karşılaştırılması gerekiyor.</p>\n\n<p><strong>İzlenecek veri:</strong> Yeni eklenen, listeden çıkan ve adı/ili değişen tesisler; il ve kuruluş türü bazında dağılım.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://shgmturizmdb.saglik.gov.tr/TR-121294/yetki-belgesi-listeleri-guncellenmistir.html\" target=\"_blank\" rel=\"noopener noreferrer\">Sağlık Turizmi Daire Başkanlığı — güncelleme</a> · <a href=\"https://shgmturizmdb.saglik.gov.tr/TR-76664/yetkili-saglik-tesisleri.html\" target=\"_blank\" rel=\"noopener noreferrer\">Yetkili sağlık tesisleri</a> · <a href=\"https://healthturkiye.gov.tr/tr/agency\" target=\"_blank\" rel=\"noopener noreferrer\">HealthTürkiye yetkili acenteler</a></p>\n<h3>2) Özel hastane planlama artırmalarında kritik hafta — 6, 8 ve 9 Ekim</h3>\n<p><strong>Ne oldu?</strong> Sağlık Hizmetleri Genel Müdürlüğünün daha önce duyurduğu 2026 özel hastane planlama artırması kapsamında uzmanlık kadrolarına ilişkin II. kısım için 6 Ekim, ilave yatak lisanslarına ilişkin III. kısım için 8 Ekim artırma tarihi öngörülmüştü. Yeni özel hastane lisanslarına ilişkin IV. kısım başvuruları 9 Ekim saat 23.59'da sona erdi; artırma 13 Ekim'e planlandı. Planlama 11 ilde 34 yeni özel hastane lisansını kapsıyor.</p>\n<p><strong>Neden önemli?</strong> Sağlık yatırımlarının coğrafi dağılımını etkileyebilecek büyük bir lisanslama süreci. Ancak lisansların artırmaya çıkarılması, yeni hastanelerin açıldığı ya da tüm lisansların satıldığı anlamına gelmiyor. Nihai alıcı ve bedeller için sonuç duyuruları beklenmeli.</p>\n\n<p><strong>İzlenecek veri:</strong> İstanbul, Ankara, İzmir, Antalya, Bursa ve Muğla başta olmak üzere lisansların hangi illerde ve hangi uzmanlık alanlarında değerlendirildiği; kesinleşen sonuçlar.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://shgm.saglik.gov.tr/TR-120098/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani.html\" target=\"_blank\" rel=\"noopener noreferrer\">SHGM ana ilanı</a> · <a href=\"https://shgm.saglik.gov.tr/TR-120914/2026-yili-ozel-hastaneler-planlama-artirma-isi-iv-kisim-illerde-acilmasi-planlanan-ozel-hastane-lisanslari.html\" target=\"_blank\" rel=\"noopener noreferrer\">SHGM IV. kısım duyurusu</a> · <a href=\"https://ozelhastaneler.org.tr/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani/\" target=\"_blank\" rel=\"noopener noreferrer\">Özel Hastaneler Platformu takvimi</a></p>\n<h3>3) Kamu sağlık hizmetleri fiyat tarifesi duyurusu — 5 Ekim</h3>\n<p><strong>Ne oldu?</strong> Sağlık Turizmi Daire Başkanlığı 5 Ekim'de kamu sağlık hizmetleri fiyat tarifesine ilişkin bir duyuru yayımladı. Duyurunun kendi metni, yeni tarifenin <strong>16 Şubat 2026 tarihli makam oluru</strong> ile yürürlüğe konduğunu belirtiyor.</p>\n<p><strong>Neden önemli?</strong> 5 Ekim'deki sayfa yayını yeni bir Ekim zammı veya aynı gün yürürlüğe giren yeni bir tarife gibi haberleştirilmemeli. Kamu sağlık hizmetlerinde fiyatlandırma yapan kurumlar için yürürlükteki belgeyi teyit etme vesilesi.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://shgmturizmdb.saglik.gov.tr/TR-119401/kamu-saglik-hizmetleri-fiyat-tarifesinde-degisiklik-yapilmistir.html\" target=\"_blank\" rel=\"noopener noreferrer\">Sağlık Turizmi Daire Başkanlığı fiyat tarifesi duyurusu</a></p>\n<h3>4) USHAŞ ve Muayenehaneler Derneği görüştü — 6 Ekim</h3>\n<p><strong>Ne oldu?</strong> Muayenehaneler Derneği heyeti USHAŞ yönetimiyle görüştü. Kurumsal açıklamaya göre görüşmede muayenehanelerin sağlık turizmi ekosistemindeki iş birliği imkânları ve Türkiye'nin uluslararası konumu ele alındı.</p>\n<p><strong>Neden önemli?</strong> Sağlık turizmi yalnızca büyük hastanelerden oluşmuyor; bağımsız hekimlerin yetkilendirme, hasta koordinasyonu ve kalite süreçleri de önem taşıyor. Bununla birlikte açıklama yeni protokol veya kural değişikliği duyurmuyor.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://www.ushas.gov.tr/muayenehaneler-dernegi-heyetinden-ushas-genel-muduru-av-serdar-senola-ziyaret/\" target=\"_blank\" rel=\"noopener noreferrer\">USHAŞ 6 Ekim açıklaması</a> — Bağlantı açılmazsa <a href=\"https://www.ushas.gov.tr/\" target=\"_blank\" rel=\"noopener noreferrer\">USHAŞ haberler sayfası</a> üzerinden 6 Ekim başlığına gidiniz.</p>\n<p><strong>Mevzuat kontrolü:</strong> Tarama döneminde sağlık turizmi yetkilendirme rejimini değiştiren yeni bir Resmî Gazete yönetmeliği doğrulanmadı. Bu, tüm mevzuat başlıklarının eksiksiz ve hukuken bağlayıcı taramasının yerine geçmez. Mevcut temel düzenleme 26 Nisan 2025 tarihli <a href=\"https://resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik</a>. İlgili yönetmeliğin TÜSKA/sertifikasyon geçiş yükümlülükleri için <strong>31 Aralık 2026</strong> tarihi ayrıca takip edilmeli.</p>\n<h2>Türkiye: Şirketler, hastaneler ve yeni hizmetler</h2>\n<h3>5) Mersin–Irak arasında hasta yönlendirme protokolü — 8–9 Ekim</h3>\n<p><strong>Ne oldu?</strong> TISİAD öncülüğündeki temaslarda Irak'taki Anwar Sheikha Medical City heyeti Adana ve Mersin'de sağlık kuruluşlarını ziyaret etti. Haber kaynaklarına göre Özel Mersin Yenişehir Hastanesi ile hasta yönlendirme amaçlı iş birliği protokolü imzalandı. Fun Tour, iş birliğinin turizm/organizasyon tarafında yer alıyor.</p>\n<p><strong>Neden önemli?</strong> Bu, soyut tanıtım söyleminden farklı olarak isimleri belli kurumlar arasında açıklanmış bir iş birliği. Türkiye'nin Irak pazarında yalnızca dijital reklam değil, kaynak ülkedeki sağlık kurumları üzerinden yönlendirme ağı kurma ihtimalini gösteriyor. Henüz sevk edilen hasta sayısı veya anlaşmanın mali hacmi açıklanmış değil.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://www.turizmnews.com/mersin-saglik-turizminde-irak-pazarina-aciliyor/41084/\" target=\"_blank\" rel=\"noopener noreferrer\">Turizm News — 8 Ekim</a> · <a href=\"https://www.turizmnews.com/fun-tour-dan-saglik-turizminde-irak-acilimi/41096/\" target=\"_blank\" rel=\"noopener noreferrer\">Turizm News — Fun Tour, 9 Ekim</a></p>\n<h3>6) KTÜ Farabi Hastanesinde robotik ürolojik cerrahi — 6 Ekim haberi</h3>\n<p><strong>Ne oldu?</strong> Trabzon'daki KTÜ Farabi Hastanesinin üroloji kliniğinde robotik cerrahi sistemi kullanıldığı ve hekimlerin, sistemin devreye alınmasından sonra başvurularda artış gözlemlediklerini bildirdiği haberleştirildi. Uygulamanın yaklaşık iki aydır kullanıldığı belirtiliyor; cihazın 6 Ekim'de kurulduğu söylenmemeli.</p>\n<p><strong>Neden önemli?</strong> İleri cerrahi kapasitesinin İstanbul/Ankara dışındaki merkezlerde güçlenmesi, bölgesel sevk akışını ve uzun vadede uluslararası hasta potansiyelini etkileyebilir. Artan başvuruların kaçının yabancı hastalardan geldiği açıklanmadığı için doğrudan sağlık turizmi büyümesi kanıtı değildir.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://haberton.com/dogu-karadenizde-robotik-cerrahi-donemi-hasta-basvurularinda-artis-oldu/\" target=\"_blank\" rel=\"noopener noreferrer\">Haberton — 6 Ekim</a></p>\n<h3>7) Samsun sağlık zirvesi için tanıtım yapıldı — 5 Ekim</h3>\n<p><strong>Ne oldu?</strong> Samsun'da III. Uluslararası İkiztepe Sağlık Zirvesi ve Kuzey Anadolu Sağlık ve Medikal Fuarı'nın lansmanı yapıldı. Güncel 5 Ekim tanıtım haberlerinde etkinlik tarihi <strong>15–18 Ekim 2026</strong> olarak veriliyor. Bazı daha eski etkinlik takvimlerinde 8–10 Ekim tarihi kaldığından yayınlarda güncel takvim esas alınmalı.</p>\n<p><strong>Neden önemli?</strong> Samsun'un medikal cihaz üretimi, sağlık hizmeti ve sağlık turizmi tanıtımını birleştiren bir platform oluşturma çabası. Zirveden sonra somut anlaşma, yabancı alıcı ve yatırım rakamları takip edilmeli.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://www.canligaste.com/samsun-iii-uluslararasi-ikiztepe-saglik-zirvesi-ve-saglik-fuari-na-ev-sahipligi-yapacak/920633/\" target=\"_blank\" rel=\"noopener noreferrer\">Anadolu Ajansı aktarımı — 5 Ekim</a> · <a href=\"https://www.medikalkume.com/announcements/the-healthcare-world-is-gathering-in-samsun\" target=\"_blank\" rel=\"noopener noreferrer\">OSTİM Medikal Sanayi Kümelenmesi</a></p>\n<h2>Küresel sağlık turizmi ve sağlık sektörü</h2>\n<h3>8) Tayland yabancı ziyaretçiler için sigortalı giriş ücreti taslağını tartışıyor — 6–7 Ekim</h3>\n<p><strong>Ne oldu?</strong> Tayland Turizm ve Spor Bakanlığı 6 Ekim'deki toplantıda yabancı ziyaretçilerden 450 baht alınmasını öngören taslağı değerlendirdi. Tasarı, uygun ziyaretçiler için sigorta kapsamı ve turizm altyapısı finansmanını içeriyor. <strong>Henüz yürürlüğe girmiş bir vergi değil;</strong> turizm politika kurulu ve kabine değerlendirmesi gerekiyor. Haberde kamu hastanelerinin yabancı hastalardan tahsil edemediği bazı sağlık giderlerine de dikkat çekiliyor; bu maliyetlerin tamamı sağlık turistlerinden kaynaklanmıyor.</p>\n<p><strong>Neden önemli?</strong> Sağlık turizmi destinasyonlarının, yabancı ziyaretçi güvenliği ile kamu sağlık finansmanını aynı politika çerçevesinde tartışması. Tedavi amacıyla seyahat eden hastaların hangi sigorta kapsamına gireceği ayrıca incelenmeli.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://www.nationthailand.com/news/40071948\" target=\"_blank\" rel=\"noopener noreferrer\">The Nation Thailand — 7 Ekim</a></p>\n<h3>9) Malezya'nın Sarawak eyaleti tedavi sonrası konaklamayı destinasyon stratejisine bağlıyor — 6 Ekim</h3>\n<p><strong>Ne oldu?</strong> Sarawak Başbakanı, Kuching'de sağlık hizmeti alan hastaların uygun koşullarda otel konaklaması ve doğa destinasyonlarıyla bütünleşen bir ziyaret deneyiminden yararlanabileceğini dile getirdi. Aynı gün yerel haberlerde özel hastanelerin kapasite artışına ilişkin açıklamalar yer aldı. Bu, henüz faaliyete geçmiş bir medikal rehabilitasyon programı veya resmî hastane-otel protokolü değil.</p>\n<p><strong>Neden önemli?</strong> Uluslararası hasta yolculuğunda konaklama ve refakatçi ekonomisinin öneminin artması. Ancak cerrahi sonrası seyahat ve aktivite ancak hastanın klinik durumuna uygun hekim önerisiyle planlanmalı.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://dayakdaily.com/recover-in-nature-premier-sees-sematan-lundu-telok-melano-as-medical-tourism-draw/\" target=\"_blank\" rel=\"noopener noreferrer\">DayakDaily — 6 Ekim</a> · <a href=\"https://sarawakdaily.com/kuching-private-hospitals-boost-medical-tourism/\" target=\"_blank\" rel=\"noopener noreferrer\">Sarawak Daily — 6 Ekim</a></p>\n<h3>10) Laos'ta 183 ruhsatsız estetik merkezinin tespit edildiği açıklandı — 7–9 Ekim</h3>\n<p><strong>Ne oldu?</strong> Laos Sağlık Bakanı, 7 Ekim'de parlamentoda yaptığı açıklamada tıbbi işlem gerçekleştirdiği halde lisansı bulunmayan 183 güzellik merkezinin tespit edildiğini bildirdi. Sağlık Bakanlığı ülke çapında denetimlerin yenilenmesini istedi.</p>\n<p><strong>Neden önemli?</strong> Estetik ve medikal turizmde ruhsat, reklam, tıbbi yetki ve hasta güvenliği arasındaki ilişkinin küresel önemini gösteriyor. Bu sayı Türkiye'ye ait değil; karşılaştırma için farklı ülkelerdeki lisans ve denetim standartları ayrı araştırılmalı.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://laotiantimes.com/2026/10/09/health-ministry-finds-more-than-180-illegal-beauty-centers-orders-nationwide-re-inspection/\" target=\"_blank\" rel=\"noopener noreferrer\">Laotian Times — 9 Ekim</a></p>\n<h3>11) Vietnam'da geleneksel tıp hastanesi ve gıda şirketi ortaklığı — 9 Ekim</h3>\n<p><strong>Ne oldu?</strong> Nutifood ile Ho Chi Minh City Traditional Medicine Hospital, Vietnam'a özgü şifalı bitkilerden beslenme çözümleri geliştirmeye yönelik mutabakat imzaladı. İş birliği doğrudan yabancı hasta çekme anlaşması olarak sunulmuyor.</p>\n<p><strong>Neden önemli?</strong> Geleneksel tıp, beslenme ve araştırma-geliştirme faaliyetlerinin sağlık ekonomisinde kesiştiği bir örnek. Klinik etkinlik iddiaları, ürün onayları ve sağlık turizmi bağlantısı ayrıca doğrulanmalı.</p>\n\n<p><strong>Kaynak:</strong> <a href=\"https://www.vietnam.vn/en/nutifood-hop-tac-benh-vien-y-hoc-co-truyen-tp-hcm-phat-trien-giai-phap-dinh-duong-tu-duoc-lieu-viet\" target=\"_blank\" rel=\"noopener noreferrer\">Vietnam.vn — 9 Ekim</a></p>\n<h2>Türkiye'nin yabancı basındaki görünürlüğü</h2>\n<p><strong>6 Ekim — olumlu/ekonomik çerçeve:</strong> Travel And Tour World, Türkiye'nin 2025 sağlık turizmi gelirini yaklaşık 3,02 milyar dolar ve ziyaretçi sayısını yaklaşık 1,40 milyon olarak ele alan bir analiz yayımladı. Yayında HealthTürkiye, fiyat avantajı, kalite ve hasta koordinasyonu öne çıkarıldı. Bu rakamlar USHAŞ'ın resmî veri sayfasındaki 2025 toplamıyla örtüşüyor. Yayının “dünya birincisi” gibi iddialara temkinli yaklaşması ayrıca dikkat çekiyor.</p>\n<p><strong>7 Ekim — rekabet/veri çerçevesi:</strong> Medical Tourism Watch, Türkiye'yi Kazakistan, Güney Kore ve Özbekistan ile kıyaslayan bir analiz yayımladı. İçeriğin önemli uyarısı, ülkelerin yabancı hasta sayılarının farklı tanımlarla tutulduğu ve doğrudan sıralama yapılamayacağı.</p>\n<p><strong>Bu haftanın medya yorumu:</strong> İncelenen örneklerde Türkiye, yalnızca estetik ve düşük fiyat değil; kurumsal sağlık sistemi, ölçek ve kalite tartışması içinde de anılıyor. Ancak iki haberden hareketle tüm yabancı basının olumluya döndüğü sonucu çıkarılamaz. Sistematik görünürlük endeksi için daha geniş örneklem gerekir.</p>\n<p><strong>Kaynak:</strong> <a href=\"https://www.travelandtourworld.com/news/article/d47a6glctzuu/\" target=\"_blank\" rel=\"noopener noreferrer\">Travel And Tour World — 6 Ekim</a> · <a href=\"https://medicaltourismwatch.com/kazakhstan-medical-tourism-comparison/\" target=\"_blank\" rel=\"noopener noreferrer\">Medical Tourism Watch — 7 Ekim</a> · <a href=\"https://www.ushas.gov.tr/saglik-turizmi-verileri/\" target=\"_blank\" rel=\"noopener noreferrer\">USHAŞ resmî istatistikler</a></p>\n<h2>Önümüzdeki günlerin takvimi (henüz gerçekleşmiş haber değildir)</h2>\n<ul><li><strong>12–13 Ekim:</strong> Sarawak/Kuching'de Borneo Global MediTourism Congress &amp; Expo. Kaynak: <a href=\"https://borneoglobalmeditourism.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Organizatör</a>.</li><li><strong>13 Ekim:</strong> Türkiye'de IV. kısım yeni özel hastane lisansları artırması. Kaynak: <a href=\"https://shgm.saglik.gov.tr/TR-120914/2026-yili-ozel-hastaneler-planlama-artirma-isi-iv-kisim-illerde-acilmasi-planlanan-ozel-hastane-lisanslari.html\" target=\"_blank\" rel=\"noopener noreferrer\">SHGM</a>.</li><li><strong>15–18 Ekim:</strong> Samsun III. Uluslararası İkiztepe Sağlık Zirvesi ve Kuzey Anadolu Sağlık ve Medikal Fuarı. Kaynak: <a href=\"https://www.canligaste.com/samsun-iii-uluslararasi-ikiztepe-saglik-zirvesi-ve-saglik-fuari-na-ev-sahipligi-yapacak/920633/\" target=\"_blank\" rel=\"noopener noreferrer\">Güncel lansman</a>.</li><li><strong>31 Aralık 2026:</strong> Sağlık turizmi yönetmeliğinde belirli tesisler için TÜSKA akreditasyonu/sertifikasyon geçiş yükümlülüğü son tarihi. Kaynak: <a href=\"https://resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Resmî Gazete</a>.</li></ul>",
+      "category": "analiz",
+      "contentType": "analiz",
+      "status": "yayimlandi",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-12T06:00:00.000Z",
+      "updatedAt": "2026-10-12T06:00:00.000Z",
+      "readingTime": 9,
+      "featuredImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Temsili görsel.",
+      "imageSource": "Unsplash",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "5–11 Ekim 2026"
+      ],
+      "sources": [
+        {
+          "name": "Sağlık Turizmi Daire Başkanlığı — güncelleme",
+          "url": "https://shgmturizmdb.saglik.gov.tr/TR-121294/yetki-belgesi-listeleri-guncellenmistir.html",
+          "isOfficial": true
+        },
+        {
+          "name": "Yetkili sağlık tesisleri",
+          "url": "https://shgmturizmdb.saglik.gov.tr/TR-76664/yetkili-saglik-tesisleri.html",
+          "isOfficial": true
+        },
+        {
+          "name": "HealthTürkiye yetkili acenteler",
+          "url": "https://healthturkiye.gov.tr/tr/agency",
+          "isOfficial": true
+        },
+        {
+          "name": "SHGM ana ilanı",
+          "url": "https://shgm.saglik.gov.tr/TR-120098/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani.html",
+          "isOfficial": true
+        },
+        {
+          "name": "SHGM IV. kısım duyurusu",
+          "url": "https://shgm.saglik.gov.tr/TR-120914/2026-yili-ozel-hastaneler-planlama-artirma-isi-iv-kisim-illerde-acilmasi-planlanan-ozel-hastane-lisanslari.html",
+          "isOfficial": true
+        },
+        {
+          "name": "Özel Hastaneler Platformu takvimi",
+          "url": "https://ozelhastaneler.org.tr/2026-yili-ozel-hastaneler-planlama-artirma-isi-ilani/",
+          "isOfficial": false
+        },
+        {
+          "name": "Sağlık Turizmi Daire Başkanlığı fiyat tarifesi duyurusu",
+          "url": "https://shgmturizmdb.saglik.gov.tr/TR-119401/kamu-saglik-hizmetleri-fiyat-tarifesinde-degisiklik-yapilmistir.html",
+          "isOfficial": true
+        },
+        {
+          "name": "USHAŞ 6 Ekim açıklaması",
+          "url": "https://www.ushas.gov.tr/muayenehaneler-dernegi-heyetinden-ushas-genel-muduru-av-serdar-senola-ziyaret/",
+          "isOfficial": true
+        },
+        {
+          "name": "USHAŞ haberler sayfası",
+          "url": "https://www.ushas.gov.tr/",
+          "isOfficial": true
+        },
+        {
+          "name": "Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik",
+          "url": "https://resmigazete.gov.tr/eskiler/2025/04/20250426-2.htm",
+          "isOfficial": true
+        },
+        {
+          "name": "Turizm News — 8 Ekim",
+          "url": "https://www.turizmnews.com/mersin-saglik-turizminde-irak-pazarina-aciliyor/41084/",
+          "isOfficial": false
+        },
+        {
+          "name": "Turizm News — Fun Tour, 9 Ekim",
+          "url": "https://www.turizmnews.com/fun-tour-dan-saglik-turizminde-irak-acilimi/41096/",
+          "isOfficial": false
+        },
+        {
+          "name": "Haberton — 6 Ekim",
+          "url": "https://haberton.com/dogu-karadenizde-robotik-cerrahi-donemi-hasta-basvurularinda-artis-oldu/",
+          "isOfficial": false
+        },
+        {
+          "name": "Anadolu Ajansı aktarımı — 5 Ekim",
+          "url": "https://www.canligaste.com/samsun-iii-uluslararasi-ikiztepe-saglik-zirvesi-ve-saglik-fuari-na-ev-sahipligi-yapacak/920633/",
+          "isOfficial": false
+        },
+        {
+          "name": "OSTİM Medikal Sanayi Kümelenmesi",
+          "url": "https://www.medikalkume.com/announcements/the-healthcare-world-is-gathering-in-samsun",
+          "isOfficial": false
+        },
+        {
+          "name": "The Nation Thailand — 7 Ekim",
+          "url": "https://www.nationthailand.com/news/40071948",
+          "isOfficial": false
+        },
+        {
+          "name": "DayakDaily — 6 Ekim",
+          "url": "https://dayakdaily.com/recover-in-nature-premier-sees-sematan-lundu-telok-melano-as-medical-tourism-draw/",
+          "isOfficial": false
+        },
+        {
+          "name": "Sarawak Daily — 6 Ekim",
+          "url": "https://sarawakdaily.com/kuching-private-hospitals-boost-medical-tourism/",
+          "isOfficial": false
+        },
+        {
+          "name": "Laotian Times — 9 Ekim",
+          "url": "https://laotiantimes.com/2026/10/09/health-ministry-finds-more-than-180-illegal-beauty-centers-orders-nationwide-re-inspection/",
+          "isOfficial": false
+        },
+        {
+          "name": "Vietnam.vn — 9 Ekim",
+          "url": "https://www.vietnam.vn/en/nutifood-hop-tac-benh-vien-y-hoc-co-truyen-tp-hcm-phat-trien-giai-phap-dinh-duong-tu-duoc-lieu-viet",
+          "isOfficial": false
+        },
+        {
+          "name": "Travel And Tour World — 6 Ekim",
+          "url": "https://www.travelandtourworld.com/news/article/d47a6glctzuu/",
+          "isOfficial": false
+        },
+        {
+          "name": "Medical Tourism Watch — 7 Ekim",
+          "url": "https://medicaltourismwatch.com/kazakhstan-medical-tourism-comparison/",
+          "isOfficial": false
+        },
+        {
+          "name": "USHAŞ resmî istatistikler",
+          "url": "https://www.ushas.gov.tr/saglik-turizmi-verileri/",
+          "isOfficial": true
+        },
+        {
+          "name": "Organizatör",
+          "url": "https://borneoglobalmeditourism.com/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Sağlık Turizmi Radarı | 5–11 Ekim 2026",
+      "seoDescription": "Yetki listeleri, özel hastane lisans takvimi, Mersin–Irak iş birliği ve dünyadan sağlık turizmi gelişmeleri: haftanın kaynaklı özeti.",
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false
+    },
+    {
+      "id": "art-radar-2026-10-19-turkiye-termal-saglik-turizminde-kuzey-avrupaya-aciliyor-pamukkale-tanitim-modeli",
+      "slug": "turkiye-termal-saglik-turizminde-kuzey-avrupaya-aciliyor-pamukkale-tanitim-modeli",
+      "title": "Türkiye Termal Sağlık Turizminde Kuzey Avrupa'ya Açılıyor: Pamukkale'nin Yeni Tanıtım Modeli",
+      "spot": "TGA koordinasyonunda İsveç, Norveç, Danimarka ve Finlandiya'dan gelen sekiz kişilik İskandinav basın heyeti, Pamukkale Üniversitesi Termal Rehabilitasyon Merkezi'ni (PAÜTERM) ziyaret etti.",
+      "category": "pazarlar",
+      "contentType": "haber",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "kaan-karakas",
+      "publishedAt": "2026-10-19T09:00:00.000Z",
+      "readingTime": 4,
+      "isHeadline": true,
+      "isSecondaryHeadline": false,
+      "isEditorPick": true,
+      "featuredImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Pamukkale termal kaynakları ve modern hidroterapi/rehabilitasyon altyapısı.",
+      "imageSource": "Pamukkale Üniversitesi / TGA",
+      "tags": [
+        "Pamukkale",
+        "Termal Sağlık Turizmi",
+        "PAÜTERM",
+        "İskandinav Pazarı",
+        "Rehabilitasyon",
+        "TGA"
+      ],
+      "sources": [
+        {
+          "name": "Pamukkale Üniversitesi Resmî Açıklaması",
+          "url": "https://haber.pau.edu.tr/Haber/pamukkale-termal-rehabilitasyon-merkezi-pautermnin-saglik-turizmi-potansiyeli-iskandinav-basin-heyetine-tanitildi",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "Pamukkale Termal Sağlık Turizminde İskandinav Pazarına Açılıyor",
+      "seoDescription": "TGA koordinasyonunda İskandinav basın heyeti PAÜTERM'i ziyaret etti. Türkiye'nin termal rehabilitasyon ve kuzey pazarı stratejisi.",
+      "content": "\n<div class=\"p-4 bg-teal-50 border-l-4 border-[#00A6A6] text-xs text-slate-700 mb-6 rounded-r\">\n  <strong>Gündem Özeti:</strong> Türkiye Turizm Tanıtım ve Geliştirme Ajansı (TGA) koordinasyonunda 15–17 Ekim Denizli programı kapsamında Kuzey Avrupa basını PAÜTERM tesislerinde ağırlandı.\n</div>\n\n<p>Türkiye'nin sağlık turizminde klasik cerrahi ve estetik odaklı pazarlamanın ötesine geçerek medikal rehabilitasyon ve termal sağlık alanında Kuzey Avrupa pazarına odaklanan yeni tanıtım hamlesi Pamukkale'de somutlaştı. Türkiye Turizm Tanıtım ve Geliştirme Ajansı (TGA) koordinasyonunda Denizli'de düzenlenen 15–17 Ekim tanıtım programı kapsamında İsveç, Norveç, Danimarka ve Finlandiya'dan sekiz basın mensubu, 16 Ekim'de Pamukkale Üniversitesi Termal Rehabilitasyon Merkezi'ni (PAÜTERM) yerinde inceledi.</p>\n\n<h2>Robotik rehabilitasyon, hidroterapi ve üç dilde hasta koordinasyonu</h2>\n<p>Ziyaret sırasında Pamukkale Üniversitesi yönetimi ve PAÜTERM uzmanları; Karahayıt bölgesinin zengin kırmızı su termal kaynaklarını, ileri teknoloji robotik yürüme ve uzuv rehabilitasyon sistemlerini, hidroterapi havuzlarını ve yabancı hastalar için sunulan İngilizce, Almanca ve Rusça dillerindeki uluslararası hasta koordinasyon süreçlerini heyete tanıttı.</p>\n\n<p>Kuzey Avrupa ülkelerinde özellikle romatizmal hastalıklar, nörolojik rehabilitasyon, ortopedik cerrahi sonrası toparlanma ve ileri yaş sağlıklı yaşam (wellness) hizmetlerine yönelik kamu ve özel sigorta destekli seyahat talebi yüksek seviyede bulunuyor. PAÜTERM heyeti, merkezin yalnızca bir kaplıca tesisi değil, üniversite hastanesi güvencesinde multidisipliner bir tıp ve rehabilitasyon üssü olduğunu vurguladı.</p>\n\n<h2>Neden önemli? Destinasyon diplomasisi ve hasta kazanım zinciri</h2>\n<p>Bu ziyaret, kamu kurumları (TGA), üniversite tıp fakültesi hastanesi altyapısı, yerel destinasyon yönetimi ve uluslararası basın mensuplarının aynı hasta kazanım zincirinde bir araya gelmesi açısından stratejik bir örnek teşkil ediyor.</p>\n\n<blockquote>\n  <strong>Editoryal Not ve Doğrulama Ayrımı:</strong> İskandinav basın heyetinin Pamukkale ziyareti, o ülkelerin resmî yayın organlarında şimdiden olumlu haberler yayımlandığı veya hasta sevkiyatının garanti edildiği anlamına gelmez. Ziyaret sonrasında Kuzey Avrupa medyasında yayımlanacak içerikler, sigorta geri ödeme sistemlerinin Türkiye protokollerine bakışı ve hasta hareketliliği somut verilerle takip edilmelidir.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T09:00:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-turkiyede-telepatoloji-icin-yeni-yonerge-uluslararasi-ikinci-gorus-hizmetleri",
+      "slug": "turkiyede-telepatoloji-icin-yeni-yonerge-uluslararasi-ikinci-gorus-hizmetleri",
+      "title": "Türkiye'de Telepatoloji İçin Yeni Yönerge: Uluslararası İkinci Görüş Hizmetleri Açısından Ne Değişebilir?",
+      "spot": "Sağlık Bakanlığı Sağlık Hizmetleri Genel Müdürlüğü, 14 Ekim tarihli Bakanlık oluru ile hazırlanan Dijital Patoloji ve Telepatoloji Uygulamaları Hakkında Yönerge'yi 16 Ekim'de resmen yayımladı.",
+      "category": "mevzuat",
+      "contentType": "mevzuat",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "av-elif-demir",
+      "publishedAt": "2026-10-19T08:55:00.000Z",
+      "readingTime": 5,
+      "isHeadline": false,
+      "isSecondaryHeadline": true,
+      "isEditorPick": true,
+      "featuredImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Dijital patoloji tarama sistemleri ve uzaktan konsültasyon altyapısı.",
+      "imageSource": "T.C. Sağlık Bakanlığı SHGM",
+      "tags": [
+        "Telepatoloji",
+        "Dijital Patoloji",
+        "Sağlık Bakanlığı",
+        "Mevzuat",
+        "İkinci Görüş",
+        "Konsültasyon",
+        "Sağlık Bilişimi"
+      ],
+      "sources": [
+        {
+          "name": "SHGM Resmî Duyuru ve Yönerge Ekleri",
+          "url": "https://shgm.saglik.gov.tr/TR-121585/dijital-patoloji-ve-telepatoloji-uygulamalari-hakkinda-yonerge.html",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "Dijital Patoloji ve Telepatoloji Yönergesi Yayımlandı: Sağlık Turizmine Etkisi",
+      "seoDescription": "Sağlık Bakanlığı telepatoloji yönergesini 16 Ekim'de yayımladı. Uluslararası ikinci görüş ve sınır ötesi konsültasyon açısından getirdikleri.",
+      "content": "\n<div class=\"p-4 bg-blue-50 border-l-4 border-[#102A43] text-xs text-slate-700 mb-6 rounded-r\">\n  <strong>Resmî Düzenleme:</strong> T.C. Sağlık Bakanlığı Sağlık Hizmetleri Genel Müdürlüğü (SHGM), 14 Ekim 2026 tarihli Makam Oluru ile yürürlüğe giren yönergeyi 16 Ekim 2026 tarihinde ilan etti.\n</div>\n\n<p>Sağlık Hizmetleri Genel Müdürlüğü, patoloji laboratuvarlarında dijital görüntüleme, dijital arşivleme ve uzaktan konsültasyon standartlarını belirleyen <strong>Dijital Patoloji ve Telepatoloji Uygulamaları Hakkında Yönerge</strong>yi 16 Ekim 2026 tarihi itibarıyla yayımladı ve yönerge eklerini sağlık tesislerinin erişimine açtı.</p>\n\n<h2>Yönergenin getirdiği temel teknik standartlar</h2>\n<p>Yeni yönerge ile birlikte sağlık tesislerinde preparatların taranması, dijital ortama aktarılması, güvenli veri depolama standartları, hekim yetkilendirmesi ve patoloji uzmanları arasında uzaktan konsültasyon (telepatoloji) süreçlerinin yasal çerçevesi netleştirildi. Düzenleme, patoloji preparatlarının yüksek çözünürlüklü dijital sistemlerle taranarak fiziki sevk zorunluluğu olmaksızın uzman incelemesine sunulmasını hedefliyor.</p>\n\n<h2>Uluslararası ikinci görüş ve sağlık turizmi açısından ne anlama geliyor?</h2>\n<p>Dijital patoloji ve telepatoloji altyapısı, uluslararası sağlık hizmetlerinde kritik bir dönüm noktası olarak değerlendiriliyor. Yurt dışındaki hastaların doku örneklerinin fiziki olarak gümrük ve kargo süreçleriyle Türkiye'ye getirilmesi yerine dijital slaytlar üzerinden hızlı ikinci görüş (second opinion) ve onkolojik tanı konsültasyonu verilmesi teorik olarak mümkün hale geliyor.</p>\n\n<blockquote>\n  <strong>Hukuki ve Editoryal Ayrım:</strong> <em>Bu düzenleme, doğrudan yeni bir sağlık turizmi yönetmeliği değildir.</em> Yönergenin kişisel sağlık verilerinin sınır ötesi aktarımı (KVKK), sınır ötesi hekim sorumluluğu ve uluslararası akreditasyon izinleri ayrıntılı olarak incelenmeden, yurt dışından doğrudan tanı koyulabileceği veya otomatik yabancı hasta kabul edilebileceği varsayılmamalıdır.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:55:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-34-yeni-ozel-hastane-lisansinda-sonuc-bekleniyor-yatirim-haritasi",
+      "slug": "34-yeni-ozel-hastane-lisansinda-sonuc-bekleniyor-yatirim-haritasi",
+      "title": "34 Yeni Özel Hastane Lisansında Sonuç Bekleniyor: Yatırım Haritası Nasıl Şekillenecek?",
+      "spot": "Sağlık Bakanlığı'nın 11 ilde 34 yeni özel hastane açılmasına imkan veren IV. kısım açık artırma takviminde 13 Ekim aşaması geride kaldı; sektör resmî sonuç listesini bekliyor.",
+      "category": "gundem",
+      "contentType": "haber",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-19T08:50:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": true,
+      "isEditorPick": true,
+      "featuredImage": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Türkiye genelinde özel sağlık yatırımları ve hastane kapasite planlaması.",
+      "imageSource": "Sağlık Bakanlığı / SHGM",
+      "tags": [
+        "Özel Hastane Lisansları",
+        "Sağlık Yatırımları",
+        "SHGM",
+        "Açık Artırma",
+        "Sağlık Turizmi Kapasitesi"
+      ],
+      "sources": [
+        {
+          "name": "Sağlık Bakanlığı Duyurular Arşivi",
+          "url": "https://www.saglik.gov.tr/TR,11693/duyurular.html",
+          "isOfficial": true
+        },
+        {
+          "name": "SHGM Özel Hastaneler Planlama Duyurusu",
+          "url": "https://shgm.saglik.gov.tr/TR-120914/2026-yili-ozel-hastaneler-planlama-artirma-isi-iv-kisim-illerde-acilmasi-planlanan-ozel-hastane-lisanslari.html",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "34 Yeni Özel Hastane Lisansı Sonuçları Bekleniyor",
+      "seoDescription": "11 ilde 34 yeni özel hastane lisansı için 13 Ekim takvimi geride kaldı. Yatırımcıların ve tahsislerin durumu.",
+      "content": "\n<div class=\"p-4 bg-amber-50 border-l-4 border-amber-600 text-xs text-slate-700 mb-6 rounded-r\">\n  <strong>Süreç Takibi:</strong> 11 ilde 34 yeni özel hastane lisansına ilişkin IV. kısım açık artırma takvimi 13 Ekim 2026 olarak ilan edilmişti.\n</div>\n\n<p>Sağlık Bakanlığı Sağlık Hizmetleri Genel Müdürlüğü tarafından yürütülen 2026 yılı özel hastaneler planlama artırma sürecinde en kritik aşamalardan biri olan IV. kısım lisans artırma tarihi olan 13 Ekim geride kaldı. 11 ilde planlanan toplam 34 yeni özel hastane lisansı için başvuruların ardından gözler Bakanlığın açıklayacağı resmî sonuç listesine çevrildi.</p>\n\n<h2>Yatırımcı ilgisi hangi şehirlere yöneldi?</h2>\n<p>Söz konusu planlama; başta İstanbul, Ankara, İzmir, Antalya, Bursa ve Muğla olmak üzere sağlık turizmi potansiyeli yüksek büyükşehirleri ve kıyı destinasyonlarını yakından ilgilendiriyor. Sağlık yatırımcıları, özellikle yabancı hasta hareketliliğinin yoğun olduğu bölgelerdeki ruhsat ve yatak kapasitelerini genişletmeyi hedefliyor.</p>\n\n<blockquote>\n  <strong>Editoryal Güvenlik ve Doğrulama Notu:</strong> 19 Ekim sabahı itibarıyla yapılan resmî taramalarda, kazanan yatırımcıları, kesin tahsisleri ve oluşan nihai lisans bedellerini içeren teyitli bir sonuç ilanı henüz yayımlanmamıştır. Bu aşamada \"34 yeni özel hastane kesin olarak açıldı\" ya da \"lisansların tümü satıldı\" yönündeki haberler doğrulanmamış kabul edilmelidir. Kesin tahsisler resmî tutanaklarla ilan edildiğinde şehir bazlı analiz güncellenecektir.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:50:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-curemeabroad-40-fiziksel-danisma-merkezi-hedefi",
+      "slug": "curemeabroad-40-fiziksel-danisma-merkezi-hedefi",
+      "title": "Sağlık Turizmi Acentaları Dijital Reklamdan Fiziksel Danışma Merkezlerine mi Geçiyor?",
+      "spot": "Hindistan merkezli medikal seyahat platformu CureMeAbroad, Avustralya, ABD ve İngiltere'de 40'tan fazla deneyim ve danışma merkezi açma hedefini duyurdu.",
+      "category": "dunya",
+      "contentType": "haber",
+      "country": "Hindistan",
+      "region": "Asya",
+      "authorId": "dr-selim-yilmaz",
+      "publishedAt": "2026-10-19T08:45:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Uluslararası hasta danışma ve konsültasyon merkezi modeli.",
+      "imageSource": "CureMeAbroad Media / PR",
+      "tags": [
+        "CureMeAbroad",
+        "Hasta Kazanımı",
+        "Medikal Seyahat",
+        "Avustralya",
+        "Fiziksel Merkezler",
+        "Dijital Sağlık"
+      ],
+      "sources": [
+        {
+          "name": "Passionate in Marketing — Brisbane MOU Duyurusu",
+          "url": "https://www.passionateinmarketing.com/curemeabroad-signs-mou-to-launch-first-australian-experience-centre-in-brisbane-eyes-40-centres-globally/",
+          "isOfficial": false
+        },
+        {
+          "name": "MedSpark AI Sektörel Analizi",
+          "url": "https://medspark.ai/2026/10/16/curemeabroad-plans-40-clinics-to-sell-patients-on-treatment-abroad/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "CureMeAbroad 40 Fiziksel Deneyim Merkezi Planlıyor",
+      "seoDescription": "Sağlık turizminde hibrit model: CureMeAbroad Avustralya ve ABD'de fiziksel hasta danışma merkezleri açıyor.",
+      "content": "\n<p>Küresel sağlık turizmi pazarında dijital reklam maliyetlerinin artması ve hasta güveninin yüz yüze temasla pekiştirilmesi ihtiyacı, sektörde yeni iş modellerini öne çıkarıyor. Hindistan merkezli yapay zekâ destekli medikal seyahat platformu <strong>CureMeAbroad</strong>, Avustralya, Amerika Birleşik Devletleri ve Birleşik Krallık gibi kilit kaynak pazarlarda 40'tan fazla fiziksel \"deneyim ve danışma merkezi\" açmayı hedefleyen bir dizi mutabakat zaptı (MoU) imzaladığını duyurdu.</p>\n\n<h2>İlk merkez Brisbane'de: Hibrit hasta kazanım modeli</h2>\n<p>Şirketin açıklamasına göre ilk deneyim merkezi 15 Ekim tarihinde Avustralya'nın Brisbane kentinde faaliyete geçirildi. Merkezlerde hastalara sanal hekim görüşmeleri, tedavi planlaması, ikinci uzman görüşü ve tedavi sonrası takip organizasyonu yüz yüze danışmanlar eşliğinde sunulacak.</p>\n\n<p>CureMeAbroad yetkilileri, platform bünyesinde Türkiye, Hindistan, Tayland ve Birleşik Arap Emirlikleri gibi popüler medikal destinasyonlarda 400'den fazla akredite hastane ortağının bulunduğunu ifade etti.</p>\n\n<blockquote>\n  <strong>Doğrulama ve Sektörel Çerçeve:</strong> Söz konusu açıklama bir şirket hedefi ve niyet beyanıdır. 40 merkezin tamamı fiilen açılmış değildir; Brisbane dışındaki merkezler planlama aşamasındadır. Ayrıca Türkiye'deki anlaşmalı hastanelerin tam listesi ve akreditasyon kapsamı henüz bağımsız kaynaklarca doğrulanmamıştır.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:45:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-samsunun-ikili-hedefi-medikal-cihaz-uretimi-ve-uluslararasi-saglik-merkezi",
+      "slug": "samsunun-ikili-hedefi-medikal-cihaz-uretimi-ve-uluslararasi-saglik-merkezi",
+      "title": "Samsun'un İkili Hedefi: Medikal Cihaz Üretimi ve Uluslararası Sağlık Merkezi Olmak",
+      "spot": "Samsun'da düzenlenen III. Uluslararası İkiztepe Sağlık Zirvesi ve Kuzey Anadolu Sağlık ve Medikal Fuarı, tıbbi cihaz sanayisi ile sağlık turizmini aynı masada topladı.",
+      "category": "etkinlikler",
+      "contentType": "haber",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "kaan-karakas",
+      "publishedAt": "2026-10-19T08:40:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "III. Uluslararası İkiztepe Sağlık Zirvesi ve Medikal Fuarı açılışı.",
+      "imageSource": "Ondokuz Mayıs Üniversitesi",
+      "tags": [
+        "Samsun",
+        "İkiztepe Sağlık Zirvesi",
+        "Medikal Cihaz",
+        "OMÜ",
+        "Sağlık Turizmi",
+        "AR-GE"
+      ],
+      "sources": [
+        {
+          "name": "Ondokuz Mayıs Üniversitesi Rektörlük Haberi",
+          "url": "https://www.omu.edu.tr/tr/icerik/rektorluk/rektor-aydin-uluslararasi-3-samsun-ikiztepe-saglik-zirvesi-ve-medikal-fuarinin",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "Samsun İkiztepe Sağlık Zirvesi: Medikal Üretim ve Sağlık Turizmi",
+      "seoDescription": "Samsun'da III. Uluslararası İkiztepe Sağlık Zirvesi ve Medikal Fuarı açıldı. Tıbbi cihaz ve sağlık turizmi ihracatı.",
+      "content": "\n<p>Karadeniz'in medikal sanayi üssü konumundaki Samsun, 15–18 Ekim 2026 tarihlerinde <strong>III. Uluslararası İkiztepe Sağlık Zirvesi ve Kuzey Anadolu Sağlık ve Medikal Fuarı</strong>na ev sahipliği yaptı. Ondokuz Mayıs Üniversitesi (OMÜ), kamu kurumları ve medikal sanayi kümelenmelerinin katılımıyla gerçekleşen etkinlikte tıbbi cihaz üretimi, cerrahi alet sanayisi, sağlık teknolojilerinde AR-GE ve sağlık turizmi ekseninde uluslararası iş birlikleri masaya yatırıldı.</p>\n\n<h2>Cerrahi el aletlerinden hasta kabulüne entegre ekosistem</h2>\n<p>Zirvenin açılışında konuşan OMÜ Rektörü Prof. Dr. Fatih Aydın, Samsun'un cerrahi el aletleri üretimindeki küresel deneyimini üniversite hastanesinin klinik gücüyle birleştirdiklerini ve Karadeniz havzasında önemli bir uluslararası sağlık merkezi olma yolunda ilerlediklerini kaydetti.</p>\n\n<p>Fuar alanında yerli medikal cihaz üreticileriyle yabancı heyetler arasında ikili iş görüşmeleri (B2B) gerçekleştirildi.</p>\n\n<blockquote>\n  <strong>Editoryal Not:</strong> Sağlık turizmi sadece ameliyat ve otelcilik hizmetlerinden ibaret değildir; ileri teknoloji ve medikal cihaz üretimi destinasyonun güvenilirliğini pekiştirir. Ancak bir zirvenin düzenlenmiş olması doğrudan yeni yatırım anlaşmalarının imzalandığı anlamına gelmez; zirve sonrası oluşacak somut ihracat ve hasta rakamları izlenmelidir.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:40:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-azerbaycan-termal-saglik-turizminde-yatirimci-ariyor-turkiye-icin-rakip-mi-is-ortagi-mi",
+      "slug": "azerbaycan-termal-saglik-turizminde-yatirimci-ariyor-turkiye-icin-rakip-mi-is-ortagi-mi",
+      "title": "Azerbaycan Termal Sağlık Turizminde Yatırımcı Arıyor: Türkiye İçin Rakip mi, İş Ortağı mı?",
+      "spot": "Azerbaycan Devlet Turizm Ajansı, Samsun Sağlık Zirvesi'nde Naftalan, Kelbecer İstisu ve termal kaynaklarının sağlık turizmi potansiyelini uluslararası yatırımcılara anlattı.",
+      "category": "pazarlar",
+      "contentType": "haber",
+      "country": "Azerbaycan",
+      "region": "Asya",
+      "authorId": "dr-selim-yilmaz",
+      "publishedAt": "2026-10-19T08:35:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Termal ve doğal sağlık kaynakları rehabilitasyon merkezi.",
+      "imageSource": "Azerbaycan Devlet Turizm Ajansı",
+      "tags": [
+        "Azerbaycan",
+        "Naftalan",
+        "İstisu",
+        "Termal Turizm",
+        "Samsun",
+        "Bölgesel İş Birliği"
+      ],
+      "sources": [
+        {
+          "name": "Azerbaycan Devlet Turizm Ajansı Resmî Duyurusu",
+          "url": "https://www.tourism.gov.az/az/news/azerbaycanin-saglamliq-turizmi-potensiali-samsunda-teqdim-olunub",
+          "isOfficial": true
+        },
+        {
+          "name": "DailyBaku Haberi",
+          "url": "https://dailybaku.az/en/article/azerbaijan-presents-kalbajar-health-tourism-potential-at-samsun-summit",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Azerbaycan Termal Sağlık Turizmi Potansiyelini Samsun'da Tanıttı",
+      "seoDescription": "Azerbaycan Naftalan ve Kelbecer İstisu termal sağlık turizmi bölgeleri için Türk yatırımcılara çağrıda bulundu.",
+      "content": "\n<p>Azerbaycan Devlet Turizm Ajansı heyeti, Samsun'da düzenlenen uluslararası sağlık zirvesinde ülkenin zengin termal ve medikal turizm potansiyelini kapsayan geniş bir sunum gerçekleştirdi. Sunumda özellikle dünyaca ünlü şifalı petrolüyle bilinen <strong>Naftalan</strong> bölgesi ile Karabağ'ın yeniden imar süreci kapsamında ihya edilen <strong>Kelbecer İstisu</strong> termal kaynakları öne çıkarıldı.</p>\n\n<h2>Bölgesel rekabet ve ortak paket imkanları</h2>\n<p>Azerbaycanlı yetkililer, termal rehabilitasyon, spa ve sağlıklı yaşam tesisleri için uluslararası ve Türk yatırımcılara vergi kolaylıkları ve altyapı teşvikleri sunulduğunu belirtti. Kafkasya ve Hazar havzasında gelişen bu yeni destinasyonların Türkiye'deki termal merkezlerle hem rekabet edebileceği hem de ortak bölgesel tur rotaları ve kombine sağlık paketleri geliştirebileceği değerlendiriliyor.</p>\n\n<blockquote>\n  <strong>Analiz:</strong> Yakın coğrafyadaki sağlık yatırımları, Türkiye'nin özellikle Rusya ve Orta Asya kaynaklı termal hasta akışını uzun vadede etkileyebilir. Bu nedenle kurumsal ortaklıklar ve deneyim paylaşımı stratejik önem taşımaktadır.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:35:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-filipinler-saglik-turizmini-bolgesel-yatirim-merkezlerine-tasiyor",
+      "slug": "filipinler-saglik-turizmini-bolgesel-yatirim-merkezlerine-tasiyor",
+      "title": "Filipinler Sağlık Turizmini Bölgesel Yatırım Merkezlerine Taşıyor: Türkiye'nin Şehir Stratejisi Nasıl Olmalı?",
+      "spot": "Filipinler Turizm Bakanlığı (DOT), Cebu, Davao ve Iloilo gibi bölgesel merkezlerde sağlık, rehabilitasyon ve sağlıklı yaşlanma yatırımları için uluslararası sermayeye çağrı yaptı.",
+      "category": "dunya",
+      "contentType": "haber",
+      "country": "Filipinler",
+      "region": "Asya",
+      "authorId": "dr-selim-yilmaz",
+      "publishedAt": "2026-10-19T08:30:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Güneydoğu Asya bölgesinde sağlık ve wellness destinasyonları.",
+      "imageSource": "BusinessMirror / DOT",
+      "tags": [
+        "Filipinler",
+        "Bölgesel Sağlık",
+        "Yatırım Çağrısı",
+        "Wellness",
+        "Şehir Stratejisi"
+      ],
+      "sources": [
+        {
+          "name": "BusinessMirror — 14 Ekim",
+          "url": "https://businessmirror.com.ph/2026/10/14/dot-seeks-more-foreign-investments-in-health-tourism/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Filipinler Sağlık Turizmi İçin Yabancı Yatırım Çağrısı Yaptı",
+      "seoDescription": "Filipinler Turizm Bakanlığı, sağlık turizmini başkent Manila dışındaki bölgesel merkezlere yaymak için yatırımcı arıyor.",
+      "content": "\n<p>Filipinler Turizm Bakanlığı (DOT), medikal seyahat ve sağlıklı yaşam (wellness) sektörünü başkent Manila'nın ötesine taşımak amacıyla kapsamlı bir uluslararası yatırım davetinde bulundu. 14 Ekim'de yapılan açıklamada Cebu, Davao ve Iloilo gibi bölgesel merkezlerin sağlık turizmi ekosistemi için öncelikli geliştirme bölgeleri olarak belirlendiği kaydedildi.</p>\n\n<h2>Tekil hastaneden bölgesel sağlık ekosistemine</h2>\n<p>Bakanlık yetkilileri; klinik hizmetlerin konaklama, dijital tele-sağlık altyapısı ve geriatrik bakım köyleriyle entegre edildiği bölgesel sağlık ekosistemleri kurulması çağrısında bulundu. Bu model, yabancı hastanın yalnızca ameliyat olmasını değil, operasyon sonrası toparlanma ve sağlıklı yaşlanma sürecini o bölgede geçirmesini amaçlıyor.</p>\n\n<blockquote>\n  <strong>Türkiye İçin Çıkarım:</strong> Sağlık turizmini İstanbul ve Antalya dışındaki Anadolu şehirlerine (Bursa, Denizli, Samsun, Kayseri) yaymak isteyen Türkiye için Filipinler'in bölgesel teşvik ve ekosistem modeli dikkatle izlenmelidir. Ancak unutulmamalıdır ki Filipinler'in duyurusu bir yatırım çağrısıdır, henüz gerçekleşmiş sermaye girişi değildir.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:30:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-saglik-turizminde-tek-ulkeye-bagimlilik-riski-sarawakin-yuzde-70-endonezya-dersi",
+      "slug": "saglik-turizminde-tek-ulkeye-bagimlilik-riski-sarawakin-yuzde-70-endonezya-dersi",
+      "title": "Sağlık Turizminde Tek Ülkeye Bağımlılık Riski: Sarawak'ın %70 Endonezya Dersi",
+      "spot": "Borneo Global Meditourism Congress sırasında Malezya Sarawak eyaletinde sağlık turistlerinin %70'inin Endonezya'dan geldiği açıklandı; tek merkezli yönetim önerildi.",
+      "category": "dunya",
+      "contentType": "haber",
+      "country": "Malezya",
+      "region": "Asya",
+      "authorId": "kaan-karakas",
+      "publishedAt": "2026-10-19T08:25:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Malezya sağlık tesisleri ve medikal turizm koordinasyon süreçleri.",
+      "imageSource": "The Borneo Post",
+      "tags": [
+        "Sarawak",
+        "Malezya",
+        "Endonezya",
+        "Pazar Bağımlılığı",
+        "Veri Yönetimi",
+        "Koordinasyon"
+      ],
+      "sources": [
+        {
+          "name": "The Borneo Post — 14 Ekim",
+          "url": "https://www.theborneopost.com/2026/10/14/central-body-needed-to-coordinate-long-term-healthcare-tourism/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Sarawak Sağlık Turizminde Tek Ülkeye Bağımlılık Riski",
+      "seoDescription": "Sarawak'ta sağlık turistlerinin %70'i Endonezya'dan. Kaynak pazar bağımlılığı ve merkezî yönetim ihtiyacı.",
+      "content": "\n<p>Malezya'nın Sarawak eyaletinde düzenlenen <strong>Borneo Global Meditourism Congress</strong> kapsamında yapılan sunumlarda, bölgenin medikal turizm yapısına ilişkin dikkat çekici veriler paylaşıldı. Resmî ve sektörel yetkililer, eyalete gelen yabancı hastaların yaklaşık <strong>%70'inin tek bir ülkeden (Endonezya)</strong> kaynaklandığını belirtti.</p>\n\n<h2>Veri dağınıklığı ve tek koordinasyon merkezi ihtiyacı</h2>\n<p>Kongrede söz alan uzmanlar, özel hastanelerin birbirinden bağımsız yürüttüğü hasta kayıt sistemlerinin veri takibini zorlaştırdığını belirterek eyalet çapında tüm hastaneleri, sigorta şirketlerini ve acenteleri birbirine bağlayan merkezî bir koordinasyon organının kurulması gerektiğini savundu.</p>\n\n<blockquote>\n  <strong>Stratejik Uyarı:</strong> Bir destinasyonun hasta hacminin ezici çoğunlukla tek bir ülkeye bağımlı olması; ekonomik krizler, kur dalgalanmaları veya sınır politikası değişikliklerinde ani çöküş riskini beraberinde getirir. Türkiye'nin de belirli branşlarda (saç ekiminde Körfez ülkeleri, diş hekimliğinde İngiltere) yaşadığı yoğunlaşma riskine karşı pazar çeşitlendirmesi şarttır.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:25:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-ozel-hastaneler-2027ye-hangi-sorularla-giriyor-ruhsat-kadro-ve-kapasite-gundemi",
+      "slug": "ozel-hastaneler-2027ye-hangi-sorularla-giriyor-ruhsat-kadro-ve-kapasite-gundemi",
+      "title": "Özel Hastaneler 2027'ye Hangi Sorularla Giriyor? Ruhsat, Kadro ve Kapasite Gündemi",
+      "spot": "Özel Hastaneler Platformu Derneği'nin 13. Sağlık Zirvesi Ankara'da toplandı. Sağlık Bakanı ve sektör temsilcileri mevzuat, planlama ve kadro sorunlarını tartıştı.",
+      "category": "gundem",
+      "contentType": "haber",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "av-elif-demir",
+      "publishedAt": "2026-10-19T08:20:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "13. Sağlık Zirvesi Ankara oturumu.",
+      "imageSource": "Özel Hastaneler Platformu Derneği",
+      "tags": [
+        "Özel Hastaneler Platformu",
+        "Sağlık Zirvesi",
+        "Mevzuat",
+        "Sağlık Bakanlığı",
+        "Kapasite",
+        "Kadro"
+      ],
+      "sources": [
+        {
+          "name": "Sağlık Zirvesi Resmî Sayfası",
+          "url": "https://www.saglikzirvesi.net/",
+          "isOfficial": false
+        },
+        {
+          "name": "Sağlık Aktüel 16 Ekim Haberi",
+          "url": "https://www.saglikaktuel.com/saglik-sektoru-haberleri.htm",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Özel Hastaneler 13. Sağlık Zirvesi Ankara'da Gerçekleşti",
+      "seoDescription": "Özel hastaneler 2027 yılına ruhsat, hekim kadrosu ve kapasite planlama başlıklarıyla hazırlanıyor.",
+      "content": "\n<p>Özel Hastaneler Platformu Derneği tarafından her yıl düzenlenen ve sağlık sektörünün en geniş katılımlı buluşmalarından biri olan <strong>13. Sağlık Zirvesi</strong>, 15–16 Ekim 2026 tarihlerinde Ankara'da gerçekleştirildi. Zirveye Sağlık Bakanı, Sosyal Güvenlik Kurumu (SGK) yöneticileri, kamu bürokratları ve Türkiye'nin dört bir yanından özel hastane yöneticileri katıldı.</p>\n\n<h2>2027 planlamasında öne çıkan başlıklar</h2>\n<p>Zirvede özel sağlık kuruluşlarının hekim kadrosu devirleri, branş bazlı planlama kısıtlamaları, özel hastane ruhsatlandırma süreçleri ve uluslararası sağlık turizmi yetki belgelerine ilişkin güncel uygulama sorunları ele alındı. Özel sektör temsilcileri, planlama kurallarının yabancı hasta çeken merkezlerin dinamik ihtiyaçlarına uyarlanması gerektiğini dile getirdi.</p>\n\n<blockquote>\n  <strong>Mevzuat Notu:</strong> Zirvede yapılan görüşmeler sektörün talep ve değerlendirmelerini yansıtmaktadır. Toplantı yapılmış olması kendiliğinden yürürlükteki özel hastaneler yönetmeliğinin değiştiği anlamına gelmez. Olası mevzuat değişiklikleri Resmî Gazete üzerinden takip edilmelidir.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:20:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-mardin-saglik-turizmine-yoneliyor-destinasyonun-once-hangi-altyapiya-ihtiyaci-var",
+      "slug": "mardin-saglik-turizmine-yoneliyor-destinasyonun-once-hangi-altyapiya-ihtiyaci-var",
+      "title": "Mardin Sağlık Turizmine Yöneliyor: Destinasyonun Önce Hangi Altyapıya İhtiyacı Var?",
+      "spot": "Mardin turizmini 12 aya yaymak amacıyla sağlık ve kongre turizmi projeleri gündeme taşındı; Dicle Kalkınma Ajansı iş birliğiyle yeni modeller araştırılıyor.",
+      "category": "pazarlar",
+      "contentType": "haber",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "kaan-karakas",
+      "publishedAt": "2026-10-19T08:15:00.000Z",
+      "readingTime": 3,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Tarihi Mardin silueti ve turizm hareketliliği.",
+      "imageSource": "TurizmLOG",
+      "tags": [
+        "Mardin",
+        "Kış Turizmi",
+        "Kongre Turizmi",
+        "DİKA",
+        "Güneydoğu",
+        "Sağlık Turizmi"
+      ],
+      "sources": [
+        {
+          "name": "TurizmLOG — 18 Ekim",
+          "url": "https://www.turizmlog.com/haber/mardin-kis-turizmi-saglik-kongre-projeleri",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Mardin Sağlık ve Kongre Turizmiyle Sezonu 12 Aya Yaymak İstiyor",
+      "seoDescription": "Mardin turizm sektörü kış aylarında sağlık turizmi ve kongre projeleriyle yabancı ziyaretçi hedefliyor.",
+      "content": "\n<p>Kültür, inanç ve tarih turizminin önemli merkezlerinden Mardin'de sektör temsilcileri, turizm sezonunu ilkbahar ve sonbahar ayları dışındaki kış dönemine de yayabilmek adına sağlık turizmi ve kongre organizasyonlarına yöneliyor. Dicle Kalkınma Ajansı (DİKA) iş birliğiyle hazırlanan eylem planları yerel basına yansıdı.</p>\n\n<h2>Komşu ülkeler ve sınır ötesi hasta potansiyeli</h2>\n<p>Mardin'in Suriye ve Irak sınırına yakın konumu, bölgedeki hastaneler ve tıp merkezleri için özellikle göz, diş, fizik tedavi ve estetik cerrahi branşlarında önemli bir potansiyel sunuyor. Ancak sektör uzmanları, sağlık turizminin gelişmesi için öncelikle yetkili aracı kuruluş sayısının artırılması, çok dilli sağlık personeli istihdamı ve sınır kapılarında medikal geçiş kolaylıklarının sağlanması gerektiğine işaret ediyor.</p>\n\n<blockquote>\n  <strong>Doğrulama Notu:</strong> Açıklanan hedefler şu an için bir niyet ve proje taslağı niteliğindedir. Somut tesis yatırımı, onaylanmış bütçe veya açılış takvimi henüz doğrulanmamıştır.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:15:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-bankalar-saglik-hizmetinin-dagitim-kanalina-donusuyor-concierge-modeli",
+      "slug": "bankalar-saglik-hizmetinin-dagitim-kanalina-donusuyor-concierge-modeli",
+      "title": "Bankalar Sağlık Hizmetinin Dağıtım Kanalına Dönüşüyor: Concierge Modeli Sağlık Turizmine Uyarlanabilir mi?",
+      "spot": "Filipinler'de Security Bank ve St. Luke's Medical Center, varlık yönetimi müşterilerine özel kişiselleştirilmiş sağlık concierge hizmeti başlattı.",
+      "category": "dunya",
+      "contentType": "analiz",
+      "country": "Filipinler",
+      "region": "Asya",
+      "authorId": "dr-selim-yilmaz",
+      "publishedAt": "2026-10-19T08:10:00.000Z",
+      "readingTime": 4,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Finans ve sağlık hizmetleri entegrasyonu.",
+      "imageSource": "BusinessMirror",
+      "tags": [
+        "Concierge Sağlık",
+        "Özel Bankacılık",
+        "St Lukes",
+        "Filipinler",
+        "Finans ve Sağlık",
+        "İş Modeli"
+      ],
+      "sources": [
+        {
+          "name": "BusinessMirror — 19 Ekim",
+          "url": "https://businessmirror.com.ph/2026/10/19/lender-backs-concierge-services-for-saint-lukes-patients/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Bankalar Sağlık Concierge Hizmetlerine Giriyor: Sağlık Turizmine Etkisi",
+      "seoDescription": "Security Bank ve St. Luke's ortaklığı gösteriyor ki finans kurumları sağlık hizmetlerinin yeni dağıtım kanalı oluyor.",
+      "content": "\n<p>Özel bankacılık ve varlık yönetimi alanındaki finans devleri, üst segment müşterilerine sundukları ayrıcalıklar arasına üst düzey sağlık hizmetlerini ekliyor. Filipinler'in önde gelen finans kuruluşlarından Security Bank ile ülkenin tanınmış sağlık grubu St. Luke's Medical Center arasında 19 Ekim'de duyurulan ortaklık, bunun somut bir örneğini oluşturdu.</p>\n\n<h2>Varlık yönetiminden hastane kapısına: Kişiselleştirilmiş medikal asistanlık</h2>\n<p>Anlaşma kapsamında bankanın özel bankacılık müşterilerine St. Luke's hastanelerinde öncelikli randevu, özel uzman hekim yönlendirmesi, hızlı tetkik planlaması ve seçkin check-up paketleri sunulacak. Hasta için tüm bürokrasiyi tek bir \"sağlık concierge\" görevlisi yönetecek.</p>\n\n<blockquote>\n  <strong>Sağlık Turizmi İçin Ders:</strong> Bu iş birliği doğrudan bir uluslararası hasta yönlendirme protokolü olmasa da sağlık turizminin geleceğine ışık tutmaktadır. Yabancı yüksek gelirli hastaların kazanımında lüks turizm acentaları yerine yabancı özel bankalar, varlık yöneticileri ve aile ofisleri (family offices) ile kurulacak concierge modelleri Türkiye için yüksek katma değerli bir fırsat alanıdır.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:10:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-saglik-turizmi-yatirim-bulusmalari-somut-projeye-nasil-donusur-ankara",
+      "slug": "saglik-turizmi-yatirim-bulusmalari-somut-projeye-nasil-donusur-ankara",
+      "title": "Sağlık Turizmi Yatırım Buluşmaları Somut Projeye Nasıl Dönüşür?",
+      "spot": "Ankara'da SATKOF ve USTKON öncülüğünde uluslararası sağlık turizmi, sağlık teknolojileri ve yatırım fırsatlarını değerlendiren geniş katılımlı bir toplantı gerçekleştirildi.",
+      "category": "etkinlikler",
+      "contentType": "haber",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "kaan-karakas",
+      "publishedAt": "2026-10-19T08:05:00.000Z",
+      "readingTime": 3,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Ankara'da sağlık turizmi yatırım ve teknoloji buluşması.",
+      "imageSource": "Ege360 / SATKOF",
+      "tags": [
+        "Ankara",
+        "SATKOF",
+        "USTKON",
+        "Sağlık Yatırımı",
+        "Sağlık Teknolojileri",
+        "B2B"
+      ],
+      "sources": [
+        {
+          "name": "Ege360 — 18 Ekim Haber Metni",
+          "url": "https://www.ege360.com.tr/bilim-teknoloji/ankarada-uluslararasi-saglik-turizmi-ve-yatirim-bulusmasi-gerceklestirildi/74143",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Ankara'da Uluslararası Sağlık Turizmi ve Yatırım Buluşması Yapıldı",
+      "seoDescription": "SATKOF ve USTKON öncülüğünde sağlık turizmi ve sağlık teknolojileri yatırım toplantısı Ankara'da gerçekleşti.",
+      "content": "\n<p>Sağlık Turizmi Konfederasyonu (SATKOF) ile Uluslararası Sağlık Turizmi ve Ticaret Konfederasyonu (USTKON) iş birliğinde 17 Ekim'de Ankara'da düzenlenen toplantıda sağlık turizmi sektör temsilcileri, yabancı yatırım danışmanları ve sağlık bilişimi girişimcileri bir araya geldi. 18 Ekim'de kamuoyuna duyurulan toplantıda Türkiye'nin sağlık yatırımı çekme kapasitesi tartışıldı.</p>\n\n<h2>Proje ortaklıkları ve yatırım ilgisi</h2>\n<p>Toplantıda dijital sağlık çözümleri, sınır ötesi hasta koordinasyonu, wellness köyleri ve sağlık teknolojisi ihracatı gibi başlıklar ele alındı. Temsilciler, Türkiye'nin coğrafi avantajını nitelikli teknoloji yatırımlarıyla birleştirmesi gerektiğini ifade etti.</p>\n\n<blockquote>\n  <strong>Editoryal Not:</strong> Uluslararası yatırım buluşmaları sektör diplomasisi açısından değerlidir. Ancak toplantılarda dile getirilen yatırım niyetleri ya da proje hedefleri, bağlayıcı sözleşme veya kesinleşmiş sermaye girişi olarak değerlendirilmemelidir.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:05:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-tip-dunyasi-kurultayi-oncesi-turkiyenin-saglik-teknolojisi-ihracati",
+      "slug": "tip-dunyasi-kurultayi-oncesi-turkiyenin-saglik-teknolojisi-ihracati",
+      "title": "Tıp Dünyası Kurultayı Öncesi: Türkiye'nin Sağlık Teknolojisi İhracatında Hangi Alanlar Öne Çıkıyor?",
+      "spot": "TÜSEB, 12. Türk Tıp Dünyası Kurultayı'nın 29–31 Ekim 2026 tarihlerinde İstanbul'da gerçekleştirileceğini duyurdu.",
+      "category": "etkinlikler",
+      "contentType": "haber",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "dr-selim-yilmaz",
+      "publishedAt": "2026-10-19T08:00:00.000Z",
+      "readingTime": 3,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": false,
+      "featuredImage": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "TÜSEB Türk Tıp Dünyası Kurultayı hazırlıkları.",
+      "imageSource": "TÜSEB",
+      "tags": [
+        "TÜSEB",
+        "Türk Tıp Dünyası Kurultayı",
+        "İstanbul",
+        "Sağlık Teknolojisi",
+        "İhracat",
+        "Biyoteknoloji"
+      ],
+      "sources": [
+        {
+          "name": "TÜSEB Resmî Duyurusu",
+          "url": "https://tuseb.gov.tr/public/index.php/news/the-12th-turkish-medical-world-congress-to-be-held-in-istanbul-on-october-29-31-2026-20261014",
+          "isOfficial": true
+        }
+      ],
+      "seoTitle": "12. Türk Tıp Dünyası Kurultayı İstanbul'da Yapılacak: TÜSEB Duyurusu",
+      "seoDescription": "TÜSEB, 12. Türk Tıp Dünyası Kurultayı'nın 29–31 Ekim tarihlerinde İstanbul'da toplanacağını açıkladı.",
+      "content": "\n<p>Türkiye Sağlık Enstitüleri Başkanlığı (TÜSEB), tıp dünyasının küresel Türk hekim ve bilim insanlarını bir araya getiren en köklü organizasyonlarından <strong>12. Türk Tıp Dünyası Kurultayı</strong>nın 29–31 Ekim 2026 tarihlerinde İstanbul'da yapılacağını 14 Ekim'de duyurdu.</p>\n\n<h2>Bilimsel araştırma, biyoteknoloji ve uluslararası iş birlikleri</h2>\n<p>Kurultayda genom projeleri, biyoteknoloji, aşı ve ilaç AR-GE çalışmaları, yapay zekâ tabanlı klinik tanı sistemleri ve Türk diasporasındaki hekimlerin Türkiye ile bilimsel köprüleri ele alınacak. Kurultay, sağlık teknolojisi ihracatı ve yüksek nitelikli uluslararası tedavi protokollerinin geliştirilmesi açısından sektörün ileriye dönük en önemli bilimsel takvim maddesi konumunda.</p>\n\n<blockquote>\n  <strong>Takvim Notu:</strong> Bu duyuru ileriye dönük bir bilimsel kongre takvimidir; bu haftanın gerçekleşmiş bir ticari yatırım veya hasta sonucu haberi değildir.\n</blockquote>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T08:00:00.000Z"
+    },
+    {
+      "id": "art-radar-2026-10-19-saglik-turizmi-radari-12-19-ekim-2026",
+      "slug": "saglik-turizmi-radari-12-19-ekim-2026",
+      "title": "Sağlık Turizmi Radarı | 12–19 Ekim 2026",
+      "spot": "Pamukkale'nin İskandinav tanıtımı, telepatoloji yönergesi, özel hastane lisansları, CureMeAbroad ve dünyadan tüm gelişmeler: haftanın kaynaklı editoryal özeti.",
+      "category": "analiz",
+      "contentType": "analiz",
+      "country": "Türkiye",
+      "region": "Orta Doğu",
+      "authorId": "editorial",
+      "publishedAt": "2026-10-19T07:55:00.000Z",
+      "readingTime": 9,
+      "isHeadline": false,
+      "isSecondaryHeadline": false,
+      "isEditorPick": true,
+      "featuredImage": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+      "imageCaption": "Sağlık Turizmi Radarı haftalık editoryal değerlendirme masası.",
+      "imageSource": "Sağlık Turizmi Radarı",
+      "tags": [
+        "Sağlık Turizmi",
+        "Haftalık Radar",
+        "12–19 Ekim 2026",
+        "Editoryal Radar",
+        "Türkiye"
+      ],
+      "sources": [
+        {
+          "name": "Pamukkale Üniversitesi resmî açıklaması",
+          "url": "https://haber.pau.edu.tr/Haber/pamukkale-termal-rehabilitasyon-merkezi-pautermnin-saglik-turizmi-potansiyeli-iskandinav-basin-heyetine-tanitildi",
+          "isOfficial": true
+        },
+        {
+          "name": "SHGM resmî duyuru ve yönerge bağlantıları",
+          "url": "https://shgm.saglik.gov.tr/TR-121585/dijital-patoloji-ve-telepatoloji-uygulamalari-hakkinda-yonerge.html",
+          "isOfficial": true
+        },
+        {
+          "name": "Sağlık Bakanlığı duyurular arşivi",
+          "url": "https://www.saglik.gov.tr/TR,11693/duyurular.html",
+          "isOfficial": true
+        },
+        {
+          "name": "Ondokuz Mayıs Üniversitesi resmî haberi",
+          "url": "https://www.omu.edu.tr/tr/icerik/rektorluk/rektor-aydin-uluslararasi-3-samsun-ikiztepe-saglik-zirvesi-ve-medikal-fuarinin",
+          "isOfficial": true
+        },
+        {
+          "name": "Azerbaycan Devlet Turizm Ajansı resmî duyurusu",
+          "url": "https://www.tourism.gov.az/az/news/azerbaycanin-saglamliq-turizmi-potensiali-samsunda-teqdim-olunub",
+          "isOfficial": true
+        },
+        {
+          "name": "Zirve resmî sayfası",
+          "url": "https://www.saglikzirvesi.net/",
+          "isOfficial": false
+        },
+        {
+          "name": "TurizmLOG, 18 Ekim",
+          "url": "https://www.turizmlog.com/haber/mardin-kis-turizmi-saglik-kongre-projeleri",
+          "isOfficial": false
+        },
+        {
+          "name": "TÜSEB duyurusu, 14 Ekim",
+          "url": "https://tuseb.gov.tr/public/index.php/news/the-12th-turkish-medical-world-congress-to-be-held-in-istanbul-on-october-29-31-2026-20261014",
+          "isOfficial": true
+        },
+        {
+          "name": "The Borneo Post, 14 Ekim",
+          "url": "https://www.theborneopost.com/2026/10/14/central-body-needed-to-coordinate-long-term-healthcare-tourism/",
+          "isOfficial": false
+        },
+        {
+          "name": "BusinessMirror, 14 Ekim",
+          "url": "https://businessmirror.com.ph/2026/10/14/dot-seeks-more-foreign-investments-in-health-tourism/",
+          "isOfficial": false
+        },
+        {
+          "name": "BusinessMirror, 19 Ekim",
+          "url": "https://businessmirror.com.ph/2026/10/19/lender-backs-concierge-services-for-saint-lukes-patients/",
+          "isOfficial": false
+        }
+      ],
+      "seoTitle": "Sağlık Turizmi Radarı | 12–19 Ekim 2026 Haftalık Bülten",
+      "seoDescription": "Haftalık editoryal radar: Pamukkale İskandinav atağı, telepatoloji yönergesi, lisanslar ve küresel sağlık turizmi.",
+      "content": "\n<h2>Sağlık Turizmi Radarı — 12–19 Ekim 2026</h2>\n<p><strong>Tarama kesiti:</strong> 19 Ekim 2026 sabahı, Türkiye saati. <strong>Editoryal yaklaşım:</strong> Haber, proje, açıklama, düzenleme ve henüz gerçekleşmemiş hedef birbirinden ayrılmıştır. Her haber için özgün yayın açısı ve kaynak verilmiştir. Bu dosya haber metinlerinin kopyası değildir.</p>\n\n<h2>Haftanın genel görünümü</h2>\n<p>Bu haftanın Türkiye gündeminde üç gelişme öne çıktı: Pamukkale'nin İskandinav basınına termal rehabilitasyon üzerinden tanıtılması, Sağlık Bakanlığının dijital patoloji/telepatoloji yönergesi ve Samsun'da sağlık teknolojileriyle sağlık turizmini birleştiren uluslararası zirve. Küresel gündemde ise Hindistan merkezli bir sağlık turizmi girişiminin kaynak ülkelerde fiziksel danışma noktaları kurma planı, Filipinler'in sağlık ve wellness yatırımı çağrısı ve Malezya Sarawak'ta merkezî koordinasyon ihtiyacı öne çıktı.</p>\n\n<h2>Haftanın öncelikli 9 gelişmesi</h2>\n<div class=\"overflow-x-auto my-6\">\n  <table class=\"w-full text-left border-collapse border border-slate-200 text-sm\">\n    <thead>\n      <tr class=\"bg-slate-100 text-slate-800\">\n        <th class=\"p-3 border border-slate-200\">Sıra</th>\n        <th class=\"p-3 border border-slate-200\">Gelişme</th>\n        <th class=\"p-3 border border-slate-200\">Editoryal Değer</th>\n        <th class=\"p-3 border border-slate-200\">Durum</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr><td class=\"p-2 border border-slate-200\">1</td><td class=\"p-2 border border-slate-200\">Pamukkale'nin İskandinav basınına tanıtımı</td><td class=\"p-2 border border-slate-200\">Doğrudan kaynak pazar stratejisi</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-xs font-semibold\">Gerçekleşti</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">2</td><td class=\"p-2 border border-slate-200\">Dijital patoloji/telepatoloji yönergesi</td><td class=\"p-2 border border-slate-200\">Somut resmî düzenleme</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-xs font-semibold\">Yayımlandı</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">3</td><td class=\"p-2 border border-slate-200\">CureMeAbroad 40+ merkez planı</td><td class=\"p-2 border border-slate-200\">Yeni uluslararası hasta kazanım kanalı</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-semibold\">Mutabakat / Hedef</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">4</td><td class=\"p-2 border border-slate-200\">34 özel hastane lisansı</td><td class=\"p-2 border border-slate-200\">Türkiye özel sağlık yatırımları</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-semibold\">Sonuç doğrulanamadı</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">5</td><td class=\"p-2 border border-slate-200\">Filipinler sağlık turizmi yatırım çağrısı</td><td class=\"p-2 border border-slate-200\">Bölgesel sağlık ekonomisi</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 text-xs font-semibold\">Politika çağrısı</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">6</td><td class=\"p-2 border border-slate-200\">Sarawak tek merkez önerisi</td><td class=\"p-2 border border-slate-200\">Veri ve yönetişim modeli</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-purple-100 text-purple-800 text-xs font-semibold\">Öneri</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">7</td><td class=\"p-2 border border-slate-200\">Samsun sağlık zirvesi</td><td class=\"p-2 border border-slate-200\">Medikal cihaz + sağlık hizmetleri</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-xs font-semibold\">Gerçekleşti</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">8</td><td class=\"p-2 border border-slate-200\">Azerbaycan termal turizm sunumu</td><td class=\"p-2 border border-slate-200\">Yakın pazar ve rekabet</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-xs font-semibold\">Gerçekleşti</span></td></tr>\n      <tr><td class=\"p-2 border border-slate-200\">9</td><td class=\"p-2 border border-slate-200\">Banka–hastane concierge iş birliği</td><td class=\"p-2 border border-slate-200\">Finans + sağlık dağıtımı</td><td class=\"p-2 border border-slate-200\"><span class=\"px-2 py-0.5 rounded bg-teal-100 text-teal-800 text-xs font-semibold\">Ortaklık açıklandı</span></td></tr>\n    </tbody>\n  </table>\n</div>\n\n<h2>Türkiye: haberler, yatırımlar, ortaklıklar ve kamu gündemi</h2>\n<ul>\n  <li><strong>Pamukkale'den İskandinav pazarına termal rehabilitasyon tanıtımı (16 Ekim):</strong> TGA koordinasyonunda İsveç, Norveç, Danimarka ve Finlandiya'dan sekiz basın mensubu PAÜTERM'i ziyaret etti. Robotik rehabilitasyon ve hidroterapi tanıtıldı.</li>\n  <li><strong>Dijital Patoloji ve Telepatoloji Yönergesi yayımlandı (16 Ekim):</strong> Sağlık Bakanlığı telepatoloji standartlarını belirledi; uluslararası ikinci görüş altyapısı için izlenecek somut düzenleme.</li>\n  <li><strong>34 özel hastane lisansının artırma tarihi geldi (13 Ekim):</strong> 11 ilde 34 lisansa ilişkin takvim geride kaldı; resmî sonuç listesi bekleniyor.</li>\n  <li><strong>Samsun İkiztepe Sağlık Zirvesi ve Medikal Fuarı (15–18 Ekim):</strong> Medikal cihaz üretimi ile sağlık turizmini buluşturan bölgesel inovasyon zirvesi gerçekleşti.</li>\n  <li><strong>Azerbaycan Samsun'da termal potansiyelini tanıttı (16 Ekim):</strong> Naftalan ve İstisu bölgeleri için Türk yatırımcılara çağrı yapıldı.</li>\n  <li><strong>Özel sağlık sektörü Ankara'da buluştu (15–16 Ekim):</strong> 13. Sağlık Zirvesi'nde Sağlık Bakanı ve sektör temsilcileri 2027 planlama gündemini değerlendirdi.</li>\n  <li><strong>Mardin sağlık ve kongre projelerini değerlendiriyor (18 Ekim):</strong> Kış aylarında turizmi 12 aya yaymak için DİKA iş birliğiyle sağlık turizmi odağa alındı.</li>\n  <li><strong>Ankara'da uluslararası sağlık ve yatırım buluşması (17 Ekim):</strong> SATKOF ve USTKON öncülüğünde yeni proje modelleri tartışıldı.</li>\n  <li><strong>TÜSEB 12. Türk Tıp Dünyası Kurultayı'nı duyurdu (14 Ekim):</strong> 29–31 Ekim tarihlerinde İstanbul'da biyoteknoloji ve tıp kongresi düzenlenecek.</li>\n</ul>\n\n<h2>Dünya gündemi</h2>\n<ul>\n  <li><strong>CureMeAbroad 40+ fiziksel merkez planlıyor:</strong> Hindistan merkezli medikal seyahat şirketi Avustralya, ABD ve İngiltere'de fiziksel danışma noktaları kurma hedefi açıkladı.</li>\n  <li><strong>Filipinler bölgesel yatırım çağrısı:</strong> Cebu, Davao ve Iloilo'da sağlık ve wellness yatırımı için yabancı sermaye davet edildi.</li>\n  <li><strong>Sarawak'ta tek koordinasyon merkezi ihtiyacı:</strong> Sağlık turistlerinin %70'inin Endonezya'dan geldiği eyalette dağınık veriye karşı tek merkez önerildi.</li>\n  <li><strong>Banka-hastane concierge ortaklığı:</strong> Filipinler'de Security Bank ile St. Luke's lüks sağlık concierge hizmetinde anlaştı.</li>\n</ul>\n\n<h2>Mevzuat ve kamu kurumu izleme sonucu</h2>\n<ul>\n  <li><strong>SHGM:</strong> 16 Ekim'de Dijital Patoloji ve Telepatoloji Uygulamaları Hakkında Yönerge yayımlandı.</li>\n  <li><strong>Sağlık Turizmi Daire Başkanlığı:</strong> Görüntülenen en güncel yetki listesi ilanı 5 Ekim tarihlidir; bu hafta yeni liste yayımlanmadı.</li>\n  <li><strong>Resmî Gazete:</strong> 17 Ekim'de 2027 sözleşmeli sağlık personeli kararı yer aldı; sağlık turizmi yetki düzenlemesi değildir.</li>\n  <li><strong>USHAŞ / HealthTürkiye / Ticaret Bakanlığı:</strong> 12–19 Ekim aralığında sağlık turizmi teşvik/yetki rejimini doğrudan değiştiren yeni duyuru saptanmadı.</li>\n</ul>\n\n<h2>Editoryal güvenlik notları</h2>\n<ul>\n  <li><strong>Haber ile niyet ayrımı:</strong> Mutabakat, yatırım hedefi ve tanıtım toplantısı gerçekleşmiş yatırım olarak sunulmamalıdır.</li>\n  <li><strong>Klinik iddia ayrımı:</strong> Termal ve geleneksel uygulamalarda klinik kanıt olmaksızın kesin tedavi vaatleri kurulmamalıdır.</li>\n  <li><strong>Mevzuat ayrımı:</strong> Telepatoloji yönergesi yeni bir sağlık turizmi yönetmeliği değildir.</li>\n  <li><strong>Veri ayrımı:</strong> Kaynak ülke ve hasta sayıları farklı tanımlarla üretilmiş olabilir.</li>\n</ul>\n",
+      "status": "yayimlandi",
+      "updatedAt": "2026-10-19T07:55:00.000Z"
     }
   ],
   "authors": [

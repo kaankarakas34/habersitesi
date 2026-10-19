@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const canonicalUrl = `${SITE_URL}/yazar/${slug}`;
 
   return {
-    title: `${author.name} — Sağlık Turizmi Radarı`,
+    title: `${author.name}`,
     description: author.bio,
     alternates: {
       canonical: canonicalUrl,
@@ -222,3 +222,4 @@ export default async function AuthorProfilePage({ params }: PageProps) {
     </div>
   );
 }
+

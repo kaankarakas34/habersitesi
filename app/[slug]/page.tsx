@@ -58,7 +58,7 @@ export async function generateMetadata({
   const canonicalUrl = `${SITE_URL}/${slug}`;
 
   return {
-    title: `${titles[slug]} — Sağlık Turizmi Radarı`,
+    title: `${titles[slug]}`,
     description: `${titles[slug]} — Sağlık Turizmi Radarı yayın, kurumsal ve hukuki ilkeleri.`,
     alternates: {
       canonical: canonicalUrl,
@@ -355,3 +355,4 @@ export default async function PolicyDynamicPage({
     </PolicyPage>
   );
 }
+

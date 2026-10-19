@@ -33,6 +33,7 @@ import QuickNewsletterBox from '@/components/home/QuickNewsletterBox';
 export const dynamic = 'force-dynamic';
 
 import { SITE_URL } from '@/lib/constants';
+import { categoryHref } from '@/lib/editorial';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -135,7 +136,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
           { name: 'Ana Sayfa', url: SITE_URL },
           {
             name: categoryLabels[article.category] || article.category,
-            url: `${SITE_URL}/kategori/${article.category}`,
+            url: `${SITE_URL}${categoryHref(article.category)}`,
           },
           {
             name: article.title,
@@ -153,7 +154,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
           </Link>
           <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
           <Link
-            href={`/kategori/${article.category}`}
+            href={categoryHref(article.category)}
             className="hover:text-[#00A6A6] font-semibold text-[#102A43]"
           >
             {categoryLabels[article.category] || article.category}
@@ -171,7 +172,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
             {/* Category Pill & Sponsored indicator */}
             <div className="flex flex-wrap items-center gap-2 mb-3">
               <Link
-                href={`/kategori/${article.category}`}
+                href={categoryHref(article.category)}
                 className="px-3 py-1 bg-[#102A43] text-[#00A6A6] text-xs font-black uppercase tracking-wider rounded"
               >
                 {categoryLabels[article.category] || article.category}

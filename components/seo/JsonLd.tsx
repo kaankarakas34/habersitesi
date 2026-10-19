@@ -13,7 +13,7 @@ export function ArticleJsonLd({
   author,
   baseUrl = SITE_URL,
 }: ArticleJsonLdProps) {
-  const schema: Record<string, any> = {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     mainEntityOfPage: {
@@ -42,7 +42,7 @@ export function ArticleJsonLd({
       url: baseUrl,
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/icon.png`,
+        url: `${baseUrl}/radar-logo.svg`,
       },
     },
   };
@@ -50,7 +50,7 @@ export function ArticleJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\u003c') }}
     />
   );
 }
@@ -76,7 +76,7 @@ export function WebsiteJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\u003c') }}
     />
   );
 }
@@ -102,7 +102,7 @@ export function BreadcrumbJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\u003c') }}
     />
   );
 }
@@ -122,7 +122,7 @@ export function FAQPageJsonLd({
     const answer = match[2].replace(/<[^>]+>/g, '').trim();
 
     // Check if it's really an FAQ question
-    if (question.includes('?') || question.length > 10) {
+    if (question.endsWith('?')) {
       faqItems.push({ question, answer });
     }
   }
@@ -145,7 +145,7 @@ export function FAQPageJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\u003c') }}
     />
   );
 }
@@ -160,7 +160,7 @@ export function OrganizationJsonLd({
     '@type': 'NewsMediaOrganization',
     name: 'Sağlık Turizmi Radarı',
     url: baseUrl,
-    logo: `${baseUrl}/icon.png`,
+    logo: `${baseUrl}/radar-logo.svg`,
     description:
       'Türkiye ve dünyadan sağlık turizmi haberleri, mevzuat analizleri ve sektörel araştırmalar.',
     sameAs: [
@@ -172,7 +172,8 @@ export function OrganizationJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\u003c') }}
     />
   );
 }
+

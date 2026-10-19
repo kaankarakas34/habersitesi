@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { Shield, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Hakkımızda — Sağlık Turizmi Radarı',
+  title: 'Hakkımızda',
+  alternates: { canonical: '/hakkimizda' },
   description:
     'Sağlık Turizmi Radarı, Türkiye ve dünyadan sağlık turizmi haberleri, mevzuat analizleri ve pazar araştırmaları yayımlayan bağımsız B2B sektörel medya platformudur.',
 };

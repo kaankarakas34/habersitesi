@@ -8,12 +8,13 @@ import QuickNewsletterBox from '@/components/home/QuickNewsletterBox';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Haber ve Mevzuat Arama — Sağlık Turizmi Radarı',
+  title: 'Haber ve Mevzuat Arama',
   description:
     'Sağlık turizmi mevzuatı, pazar analizleri, resmi veriler ve araştırma raporlarında arama yapın.',
   robots: {
     index: false,
     follow: true,
+    googleBot: { index: false, follow: true },
   },
 };
 

@@ -1,26 +1,21 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { Calendar, Globe, MapPin, Mail, PenTool } from 'lucide-react';
 
-export default function TopBar() {
-  const [formattedDate, setFormattedDate] = useState('17 Eylül 2026, Perşembe');
+const dateFormatter = new Intl.DateTimeFormat('tr-TR', {
+  day: 'numeric', month: 'long', year: 'numeric', weekday: 'long', timeZone: 'Europe/Istanbul',
+});
+const subscribeToDate = (notify: () => void) => {
+  const timer = setInterval(notify, 60_000);
+  return () => clearInterval(timer);
+};
+const getDateSnapshot = () => dateFormatter.format(new Date());
+const getServerDateSnapshot = () => 'Sağlık turizminin gündemi';
 
-  useEffect(() => {
-    try {
-      const now = new Date();
-      const str = new Intl.DateTimeFormat('tr-TR', {
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric',
-        weekday: 'long',
-      }).format(now);
-      setFormattedDate(str);
-    } catch {
-      // Fallback
-    }
-  }, []);
+export default function TopBar() {
+  const formattedDate = useSyncExternalStore(subscribeToDate, getDateSnapshot, getServerDateSnapshot);
 
   return (
     <div className="bg-[#102A43] text-[#EAF6F8] text-xs border-b border-[#1D3D5E] no-print">
@@ -57,7 +52,7 @@ export default function TopBar() {
         {/* Right: Newsletter, Write For Us, LinkedIn */}
         <div className="flex items-center gap-4">
           <Link
-            href="#bulten"
+            href="/#bulten"
             className="flex items-center gap-1.5 text-[#00A6A6] hover:text-white transition-colors font-semibold"
           >
             <Mail className="w-3.5 h-3.5" />
