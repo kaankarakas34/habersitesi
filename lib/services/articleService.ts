@@ -24,15 +24,12 @@ export function getHeadlineArticle(): Article | undefined {
 
 export function getSecondaryHeadlines(): Article[] {
   const articles = getAllArticles();
-  const headline = getHeadlineArticle();
-  return articles
-    .filter((a) => a.id !== headline?.id)
-    .slice(0, 4);
+  return articles.slice(1, 5);
 }
 
 export function getBreakingArticles(): Article[] {
   const articles = getAllArticles();
-  return articles.filter((a) => a.isBreaking).slice(0, 5);
+  return articles.slice(0, 6);
 }
 
 export function getTrendingArticles(limit = 4): Article[] {
@@ -44,9 +41,7 @@ export function getTrendingArticles(limit = 4): Article[] {
 
 export function getLatestArticles(limit = 10): Article[] {
   const articles = getAllArticles();
-  return [...articles]
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, limit);
+  return articles.slice(5, 5 + limit);
 }
 
 export function getArticlesByCategory(category: Category): Article[] {

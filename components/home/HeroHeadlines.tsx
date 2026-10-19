@@ -42,7 +42,10 @@ export default function HeroHeadlines({
     analiz: 'ANALİZ',
     roportaj: 'RÖPORTAJ',
     arastirma: 'ARAŞTIRMA',
+    etkinlikler: 'ETKİNLİKLER',
   };
+
+  const defaultImage = 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80';
 
   return (
     <section className="py-6 sm:py-8 border-b border-[#DDE3E8] bg-white">
@@ -54,7 +57,7 @@ export default function HeroHeadlines({
               {/* Image Container with 16:9 aspect */}
               <div className="relative aspect-16/10 w-full overflow-hidden bg-slate-900">
                 <Image
-                  src={headlineArticle.featuredImage}
+                  src={headlineArticle.featuredImage || defaultImage}
                   alt={headlineArticle.title}
                   fill
                   priority
@@ -118,7 +121,7 @@ export default function HeroHeadlines({
                     {/* Small thumbnail */}
                     <div className="relative aspect-16/9 w-full rounded-md overflow-hidden bg-slate-900 mb-3.5">
                       <Image
-                        src={art.featuredImage}
+                        src={art.featuredImage || defaultImage}
                         alt={art.title}
                         fill
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 250px"
