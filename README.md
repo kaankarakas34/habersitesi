@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Haberlerin canlı yayına yansıması
+
+Vercel projesi `habersitesi`, üretim dalı `master` olarak ayarlanmıştır. İçerik ve kod değişikliklerinin bu dala gönderilmesi üretim dağıtımını başlatır. Önizleme dağıtımının hazır olması, özel alan adının güncellendiği anlamına gelmez; dağıtımın Production ortamında olduğunu ve `www.saglikturizmiradari.com` adresine atandığını kontrol edin.
+
+Anasayfa her istekte yayımlanmış haberleri `publishedAt` tarihine göre yeniden sıralar. En yeni haber manşette, sonraki dört haber yan manşetlerde gösterilir. Son Haberler listesi de en yeni haberle başlar. Eski `isHeadline` işareti yeni haberin önüne geçmez. Açık anasayfa haftada bir otomatik güncellenir. Sekmeye geri dönmek, bir hafta dolmadan yenilemeyi tetiklemez; haftalık süre sekme gizliyken dolmuşsa sekme yeniden görünür olduğunda güncellenir.
+
+Sıralama regresyon kontrolü: `node --test tests/homepage-freshness.test.mjs`.

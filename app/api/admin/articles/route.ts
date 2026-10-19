@@ -1,6 +1,15 @@
 import { NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { readStorage, writeStorage } from '@/lib/services/storage';
 import { Article } from '@/lib/types';
+
+function revalidateArticlePages(article: Article) {
+  revalidatePath('/');
+  revalidatePath(`/haber/${article.slug}`);
+  revalidatePath(`/kategori/${article.category}`);
+  revalidatePath('/arama');
+  revalidatePath('/sitemap.xml');
+}
 
 export async function GET() {
   const data = readStorage();
@@ -96,6 +105,7 @@ export async function POST(request: Request) {
 
     data.articles.unshift(newArticle);
     writeStorage(data);
+    revalidateArticlePages(newArticle);
 
     return NextResponse.json({ success: true, article: newArticle });
   } catch (error) {
@@ -144,6 +154,7 @@ export async function PUT(request: Request) {
 
     article.updatedAt = new Date().toISOString();
     writeStorage(data);
+    revalidateArticlePages(article);
 
     return NextResponse.json({ success: true, article });
   } catch (error) {

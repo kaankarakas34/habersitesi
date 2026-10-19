@@ -2,10 +2,6 @@ import React from 'react';
 import type { Metadata } from 'next';
 import {
   getAllArticles,
-  getHeadlineArticle,
-  getSecondaryHeadlines,
-  getBreakingArticles,
-  getLatestArticles,
   getTrendingArticles,
   getEditorPicks,
   getAllAuthors,
@@ -26,6 +22,7 @@ import ResearchReportsSection from '@/components/home/ResearchReportsSection';
 import EventsCalendarSection from '@/components/home/EventsCalendarSection';
 import AuthorsSection from '@/components/home/AuthorsSection';
 import WeeklyNewsletterCTA from '@/components/home/WeeklyNewsletterCTA';
+import HomepageLiveRefresh from '@/components/home/HomepageLiveRefresh';
 
 export const dynamic = 'force-dynamic';
 
@@ -47,10 +44,10 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const allArticles = getAllArticles();
-  const headlineArticle = getHeadlineArticle();
-  const secondaryHeadlines = getSecondaryHeadlines();
-  const breakingArticles = getBreakingArticles();
-  const latestArticles = getLatestArticles(10);
+  const headlineArticle = allArticles[0];
+  const secondaryHeadlines = allArticles.slice(1, 5);
+  const breakingArticles = allArticles.slice(0, 6);
+  const latestArticles = allArticles.slice(0, 10);
   const trendingArticles = getTrendingArticles(4);
   const editorPicks = getEditorPicks(4);
   const authors = getAllAuthors();
@@ -76,6 +73,7 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <HomepageLiveRefresh />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(latestSchema).replace(/</g, '\\u003c') }}

@@ -41,7 +41,7 @@ export function getTrendingArticles(limit = 4): Article[] {
 
 export function getLatestArticles(limit = 10): Article[] {
   const articles = getAllArticles();
-  return articles.slice(5, 5 + limit);
+  return articles.slice(0, limit);
 }
 
 export function getArticlesByCategory(category: Category): Article[] {
